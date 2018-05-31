@@ -18,8 +18,8 @@ class Newsletter extends Component {
 
   render() {
     return (
-      <div className='wrapper newsletter-container'>
-        <h4 className="section-title">Subscribe To Our Newsletter</h4>
+      <div className='section newsletter-container'>
+        <h2 className="section-title">Subscribe To Our Newsletter</h2>
 
         <div className='newsletter-wrapper'>
           <input 

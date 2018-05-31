@@ -6,11 +6,11 @@ class Footer extends Component {
     return (
       <footer>
         <div className="footer">
-          <div className="social wrapper">
+          <div className="social section">
             Social
           </div>
           
-          <div className="copyright wrapper">
+          <div className="copyright section">
             <small>Copyright &copy; Suites By JK 2018</small>
           </div>
 

@@ -16,7 +16,7 @@ const images = [
 class Landing extends Component {
   render() {
     return (
-      <div>
+      <div className='wrapper'>
         <Fade
           images={images}
           duration={5000}
@@ -27,8 +27,8 @@ class Landing extends Component {
           <p className='quote'>Enjoy the ultimate experience at your front door</p>
         </section>
 
-        <section className="wrapper">
-          <h4 className="section-title">Services</h4>
+        <section className="section">
+          <h2 className="section-title">Services</h2>
 
           <div className="services-wrapper">
             <div className="left-service">
