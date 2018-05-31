@@ -1,0 +1,25 @@
+.newsletter-container {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.newsletter-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.newsletter-input {
+  width: 100%;
+  padding: 15px 90px 15px 10px;
+  border-radius: 100px;
+  box-shadow: var(--shadow);
+  border: none;
+}
+.newsletter-btn {
+  margin-left: -90px;
+  width: 90px;
+  background: blue;
+  color: white;
+  border-radius: 100px;
+  border: none;
+}

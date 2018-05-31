@@ -1,0 +1,32 @@
+.react-slideshow-container {
+  margin-bottom: 30px;
+}
+
+.quote-wrapper {
+  background: lightgray;
+  padding: 10px 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.quote {
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.left-service ul, .right-service ul {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.left-service ul li, .right-service ul li {
+  list-style-type: none;
+  margin: 5px 0;
+}

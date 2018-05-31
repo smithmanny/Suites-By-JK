@@ -1,0 +1,22 @@
+:root {
+  --shadow: -5px 5px 7px 0px rgba(0, 0, 0, 0.28);
+  --pink: #F00058;
+  --yellow: #E39E40;
+  --black: #000;
+  --gray: #BCC6CC;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+}
+
+.wrapper {
+  padding: 30px;
+}
+
+.wrapper .section-title {
+  text-align: center;
+  font-size: 20px;
+}
