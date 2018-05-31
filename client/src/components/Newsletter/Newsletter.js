@@ -31,7 +31,7 @@ class Newsletter extends Component {
             value={this.state.newsletterInput}
             />
 
-            <button className='newsletter-btn'>Click Me</button>
+            <button className='newsletter-btn'>Subscribe</button>
         </div>
       </div>
     )

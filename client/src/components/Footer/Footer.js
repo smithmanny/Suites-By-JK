@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Newsletter from '../Newsletter/Newsletter'
 import './Footer.css'
 
 class Footer extends Component {

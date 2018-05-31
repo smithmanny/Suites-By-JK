@@ -3,7 +3,7 @@
 }
 
 .quote-wrapper {
-  background: lightgray;
+  /* background: lightgray; */
   padding: 10px 30px;
   height: 100px;
   display: flex;
@@ -13,6 +13,9 @@
   text-align: center;
   font-style: italic;
   width: 100%;
+  color: var(--gray);
+  text-transform: capitalize;
+  font-size: 25px;
 }
 
 .services-wrapper {
@@ -28,5 +31,5 @@
 }
 .left-service ul li, .right-service ul li {
   list-style-type: none;
-  margin: 5px 0;
+  margin: 10px 0;
 }

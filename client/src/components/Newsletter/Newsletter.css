@@ -18,7 +18,7 @@
 .newsletter-btn {
   margin-left: -90px;
   width: 90px;
-  background: blue;
+  background: var(--pink);
   color: white;
   border-radius: 100px;
   border: none;
