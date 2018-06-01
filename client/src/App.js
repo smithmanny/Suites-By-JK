@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Landing from './components/Landing/Landing';
 import Header from './components/Header/Header';
 import About from './components/About/About';
+import Packages from './components/Packages/Packages';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -16,6 +17,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Landing} />
               <Route path="/about" component={About} />
+              <Route path="/packages" component={Packages} />
             </Switch>
           <Footer />
         </div>

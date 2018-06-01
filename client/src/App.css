@@ -3,7 +3,17 @@
   --pink: #F00058;
   --yellow: #E39E40;
   --black: #000;
-  --gray: #BCC6CC;
+  --p: #3d3c3c;
+  --lightgray: #BCC6CC;
+  --gray: #707070;
+}
+
+.btn {
+  color: var(--black);
+  border-radius: 100px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  box-shadow: var(--shadow);
 }
 
 .container {
@@ -25,4 +35,5 @@
 }
 .section p {
   line-height: 25px;
+  color: var(--p);
 }

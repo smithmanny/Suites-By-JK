@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Newsletter from '../Newsletter/Newsletter'
 // Assets
 import Owners from '../../img/pic1.jpg';
 import './About.css';
@@ -22,6 +23,8 @@ class About extends Component {
           <h2 className="section-title">About Us</h2>
           <p>Suites By JK allows you to turn our party bus into your own unique venue. Our goal is to provide you with the ultimate experience right at your front door. Suites By JK provides you with a mobile party service for all ages.</p>
         </section>
+
+        <Newsletter />
         
       </div>
     );

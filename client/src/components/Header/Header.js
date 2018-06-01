@@ -13,7 +13,11 @@ class Header extends Component {
               Meet The Owners
             </Link>
           </li>
-          <li>Packages</li>
+          <li>
+            <Link to='/packages'>
+              Packages
+            </Link>
+          </li>
           <li>Contact</li>
         </ul>
       </nav>
