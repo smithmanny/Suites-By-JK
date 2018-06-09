@@ -50,13 +50,6 @@
   display: none;
 }
 
-.divider {
-  color: var(--gray);
-}
-.package-type {
-  color: var(--pink);
-}
-
 .packages__guest {
   color: var(--p);
 }

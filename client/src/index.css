@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+:root {
+  --shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  --pink: #F00058;
+  --yellow: #E39E40;
+  --black: #000;
+  --p: #3d3c3c;
+  --lightgray: #BCC6CC;
+  --gray: #707070;
+}
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -14,6 +26,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: 'Sunflower', sans-serif;
 }
 
 /* Sections
@@ -72,6 +85,8 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: var(--yellow);
 }
 
 /**
@@ -345,4 +360,9 @@ template {
 
 [hidden] {
   display: none;
+}
+
+p {
+  line-height: 35px;
+  color: var(--p);
 }
