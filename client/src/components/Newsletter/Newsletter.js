@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import PropTypes from 'prop-types';
 import './Newsletter.css';
 
@@ -7,14 +8,23 @@ class Newsletter extends Component {
     super();
 
     this.state = {
-      newsletterInput: '',
+      email: '',
     };
 
     this.handleChange = this.handleChange.bind(this);
+    this.addPerson = this.addPerson.bind(this);
   }
 
   handleChange(e) {
-    this.setState({ newsletterInput: e.target.value });
+    this.setState({ email: e.target.value });
+  }
+
+  addPerson() {
+    const { email } = this.state;
+
+    axios.post('/api/newsletter', {
+      email,
+    });
   }
 
   render() {
@@ -29,10 +39,12 @@ class Newsletter extends Component {
             name="email"
             placeholder="Enter your email"
             onChange={this.handleChange}
-            value={this.state.newsletterInput}
+            value={this.state.email}
           />
 
-          <button className="newsletter-btn">Subscribe</button>
+          <button className="newsletter-btn" onClick={this.addPerson}>
+            Subscribe
+          </button>
         </div>
       </div>
     );
@@ -45,7 +57,7 @@ Newsletter.defaultProps = {
 };
 
 Newsletter.propTypes = {
-  padding: PropTypes.number,
+  padding: PropTypes.string,
   text: PropTypes.string,
 };
 
