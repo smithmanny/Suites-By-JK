@@ -3,6 +3,7 @@
   border-radius: 100px;
   padding: 10px 20px;
   box-shadow: var(--shadow);
+  min-width: 100px;
 }
 
 .container {

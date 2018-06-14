@@ -18,7 +18,11 @@ class Header extends Component {
               Packages
             </Link>
           </li>
-          <li>Contact</li>
+          <li>
+            <Link to='/contact'>
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     );

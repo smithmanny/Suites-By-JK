@@ -1,0 +1,16 @@
+.input-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  margin-bottom: 5px;
+}
+
+.input-wrapper input, .input-wrapper textarea {
+  box-shadow: var(--shadow);
+  padding: 10px 5px;
+  border: none;
+  text-indent: 5px;
+}
