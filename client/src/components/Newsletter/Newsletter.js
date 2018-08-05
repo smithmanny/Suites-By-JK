@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
+import NotificationSystem from 'react-notification-system';
+import isEmail from 'validator/lib/isEmail';
+
 import './Newsletter.css';
 
 class Newsletter extends Component {
@@ -13,6 +16,8 @@ class Newsletter extends Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.addPerson = this.addPerson.bind(this);
+
+    this.notificationSystem = React.createRef();
   }
 
   handleChange(e) {
@@ -22,9 +27,32 @@ class Newsletter extends Component {
   addPerson() {
     const { email } = this.state;
 
-    axios.post('/api/newsletter', {
-      email,
-    });
+    if (isEmail(email)) {
+      axios.post('/api/newsletter', {
+        email,
+      });
+  
+      this.showNotification();
+    } else {
+      this.notificationSystem.current.addNotification({
+        title: 'Error',
+        message: 'Please enter an email address',
+        level: 'error',
+        position: 'bc',
+      })
+    }
+
+  }
+
+  showNotification() {
+    this.notificationSystem.current.addNotification({
+      title: 'Welcome',
+      message: 'Thanks, you have been added to our list!',
+      level: 'success',
+      position: 'bc',
+    })
+
+    this.setState({ email: '' })
   }
 
   render() {
@@ -45,6 +73,7 @@ class Newsletter extends Component {
           <button className="newsletter-btn" onClick={this.addPerson}>
             Subscribe
           </button>
+          <NotificationSystem ref={this.notificationSystem} />
         </div>
       </div>
     );
