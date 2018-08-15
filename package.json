@@ -1,6 +1,6 @@
 {
-  "name": "Legion-Logistics-LTD",
-  "description": "Legion Logistics LTD",
+  "name": "Suites-By-JK",
+  "description": "Suites By JK",
   "version": "1.0.0",
   "author": "Shakhor Smith <contact@shakhorsmith.com>",
   "dependencies": {
@@ -12,6 +12,7 @@
     "gatsby-plugin-sitemap": "^1.2.25",
     "prop-types": "^15.6.2",
     "react-helmet": "^5.2.0",
+    "react-modal": "^3.5.1",
     "react-notification-system": "^0.2.17",
     "react-slideshow-image": "^0.2.2",
     "validator": "^10.5.0"

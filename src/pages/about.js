@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Newsletter from '../components/newsletter';
-import Owners from '../imgs/pic1.jpg';
+import Owners from '../imgs/pic2.jpg';
 
 const About = () => (
   <div className="wrapper">

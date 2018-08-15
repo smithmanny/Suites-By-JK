@@ -2,11 +2,10 @@ import React from 'react';
 import { Fade } from 'react-slideshow-image';
 
 import Newsletter from '../components/newsletter';
-import Slide1 from '../imgs/pic1.jpg';
 import Slide2 from '../imgs/pic2.jpg';
 import Slide3 from '../imgs/pic3.jpg';
 
-const images = [Slide1, Slide2, Slide3];
+const images = [Slide2, Slide3];
 
 const IndexPage = () => (
   <div className="wrapper">

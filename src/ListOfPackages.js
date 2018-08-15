@@ -25,14 +25,14 @@ export const packageContent = {
       services: ['Bagels / Lite Appetizers', 'Fruit', 'Mimosas', 'Water', 'BYOB'],
       info: [
         {
-          price: '150 and hour',
+          price: '150/hour',
           guest: `Up to ${8}`,
         },
       ],
     },
     {
       name: 'All Access',
-      subName: '',
+      subName: 'VIP Kids',
       services: [
         '3-hour time limit',
         '$75.00 in décor of your choice',
@@ -58,7 +58,7 @@ export const packageContent = {
     },
     {
       name: 'The Glow Up',
-      subName: '',
+      subName: 'Kids Glow Party',
       services: [
         '2 hour time limit',
         'Karaoke',
@@ -82,7 +82,7 @@ export const packageContent = {
     },
     {
       name: 'Sip & Dip',
-      subName: '',
+      subName: 'Paint Party',
       services: [
         '2 hour time limit',
         'Milk',

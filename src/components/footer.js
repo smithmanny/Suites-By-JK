@@ -30,6 +30,7 @@ const Footer = () => (
       </section>
 
       <section className="footer-copyright">&copy; 2018 Suites By JK</section>
+      <small className="footer-credit">Developed by Shakhor Smith</small>
     </div>
   </footer>
 );
