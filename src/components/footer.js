@@ -20,10 +20,14 @@ const Footer = () => (
               <img src={Twitter} alt="Twitter" />
             </li>
             <li>
-              <img src={Facebook} alt="Facebook" />
+              <a href="https://www.facebook.com/byJKllc/?ref=search" rel="noopener noreferrer" target="_blank">
+                <img src={Facebook} alt="Facebook" />
+              </a>
             </li>
             <li>
-              <img src={Instagram} alt="Instagram" />
+              <a href="https://www.instagram.com/byjk_llc/" rel="noopener noreferrer" target="_blank">
+                <img src={Instagram} alt="Instagram" />
+              </a>
             </li>
           </ul>
         </div>

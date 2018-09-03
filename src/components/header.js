@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
-import Logo from '../imgs/logo.gif';
+import Logo from '../imgs/logo.png';
 
 class Header extends Component {
   render() {
@@ -14,13 +14,19 @@ class Header extends Component {
         </div>
         <ul>
           <li>
-            <Link to="/about">Meet The Owners</Link>
+            <Link to="/about" className="blue">
+              Meet The Owners
+            </Link>
           </li>
           <li>
-            <Link to="/packages">Packages</Link>
+            <Link to="/packages" className="purple">
+              Packages
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" className="green">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

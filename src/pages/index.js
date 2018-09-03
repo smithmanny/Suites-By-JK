@@ -1,7 +1,9 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import { Fade } from 'react-slideshow-image';
 
 import Newsletter from '../components/newsletter';
+import Slide1 from '../imgs/kid.jpg';
 import Slide2 from '../imgs/pic2.jpg';
 import Slide3 from '../imgs/pic3.jpg';
 
@@ -22,30 +24,49 @@ const IndexPage = () => (
         <div className="left-service">
           <ul>
             <li>
-              So You Think You Can Sing <span className="divider">|</span>
-              <span className="package-type"> Karaoke</span>
+              <Link to="/packages/so-you-think-you-can-sing">
+                So You Think You Can Sing <span className="divider">|</span>
+                <span className="package-type"> Karaoke</span>
+              </Link>
             </li>
             <li>
-              All Access <span className="divider">|</span>
-              <span className="package-type"> VIP Kids</span>
+              <Link to="/packages/all-access">
+                All Access <span className="divider">|</span>
+                <span className="package-type"> VIP Kids</span>
+              </Link>
             </li>
-            <li>The Day Camp</li>
-            <li>Pampered Princess</li>
+            <li>
+              <Link to="/packages/the-day-camp">The Day Camp</Link>
+            </li>
+            <li>
+              <Link to="/packages/pampered-princess">Pampered Princess</Link>
+            </li>
           </ul>
         </div>
 
         <div className="right-service">
           <ul>
-            <li>Bridal Transportation</li>
             <li>
-              The Glow Up <span className="divider">|</span>
-              <span className="package-type"> Kids Glow Party</span>{' '}
+              <Link to="/packages/bridal-transportation">Bridal Transportation</Link>
             </li>
             <li>
-              Sip and Dip <span className="divider">|</span>
-              <span className="package-type"> Paint Party</span>
+              <Link to="/packages/the-glow-up">
+                The Glow Up <span className="divider">|</span>
+                <span className="package-type"> Kids Glow Party</span>{' '}
+              </Link>
             </li>
-            <li>Stylist Buyout</li>
+            <li>
+              <Link to="/packages/sip-and-dip">
+                Sip and Dip <span className="divider">|</span>
+                <span className="package-type"> Paint Party</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/packages/grown-ish">
+                Grown-ish<span className="divider">|</span>
+                <span className="package-type"> 21 and older</span>{' '}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

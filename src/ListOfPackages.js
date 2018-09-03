@@ -145,5 +145,25 @@ export const packageContent = {
         },
       ],
     },
+    {
+      name: 'Grown-ish',
+      subName: '21 and older',
+      services: [
+        '2 hour min',
+        '1 case of Adult-ish drink',
+        'Karoake',
+        'BYOB (will supply to cups, ice and cooler',
+        'Lite snacks',
+        'Party picture',
+        'Strobe Lights',
+        'Complete setup and breakdown',
+      ],
+      info: [
+        {
+          price: '350 for first 2 hours',
+          addPrice: '$100 per additional hour',
+        },
+      ],
+    },
   ],
 };

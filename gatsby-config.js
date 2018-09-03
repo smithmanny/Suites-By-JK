@@ -9,5 +9,22 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
     },
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `packages`,
+        path: `${__dirname}/src/pages/packages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `package images`,
+        path: `${__dirname}/src/imgs/packages`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 };

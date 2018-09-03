@@ -7,6 +7,7 @@ exports.layouts = {
 }
 
 exports.components = {
+  "component---src-templates-package-js": preferDefault(require("/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js")),
   "component---cache-dev-404-page-js": preferDefault(require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/about.js")),
@@ -18,6 +19,14 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/layout-index.json"),
+  "packages-all-access.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-all-access.json"),
+  "packages-so-you-think-you-can-sing.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-so-you-think-you-can-sing.json"),
+  "packages-sip-and-dip.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-sip-and-dip.json"),
+  "packages-bridal-transportation.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-bridal-transportation.json"),
+  "packages-grown-ish.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-grown-ish.json"),
+  "packages-pampered-princess.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-pampered-princess.json"),
+  "packages-the-glow-up.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-the-glow-up.json"),
+  "packages-the-day-camp.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/packages-the-day-camp.json"),
   "dev-404-page.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/404.json"),
   "about.json": require("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/json/about.json"),
