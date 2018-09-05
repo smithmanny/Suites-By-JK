@@ -17,15 +17,11 @@ const Contact = () => (
 );
 
 class Form extends React.Component {
-  constructor() {
-    super();
-
-    this.state = {
-      name: '',
-      email: '',
-      message: '',
-    };
-  }
+  state = {
+    name: '',
+    email: '',
+    message: '',
+  };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 

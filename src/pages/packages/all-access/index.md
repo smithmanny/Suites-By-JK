@@ -1,7 +1,7 @@
 ---
 path: '/packages/all-access'
 title: 'All Access'
-image: '../../../imgs/packages/all_access.png'
+image: 'all_access.png'
 ---
 
 * 3-hour time limit
@@ -18,4 +18,5 @@ image: '../../../imgs/packages/all_access.png'
 * Birthday Girl Sash
 * Party bag for the birthday girl
 * Complete setup and breakdown
+* 
 ### $575 - Up to 8 Guests

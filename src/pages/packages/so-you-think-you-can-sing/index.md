@@ -1,7 +1,7 @@
 ---
 path: '/packages/so-you-think-you-can-sing'
 title: 'So You Think You Can Sing?'
-image: '../../../imgs/packages/sip_and_dip.jpg'
+image: 'sip_and_dip.jpg'
 ---
 
 * 2 hour time limit
@@ -11,4 +11,5 @@ image: '../../../imgs/packages/sip_and_dip.jpg'
 * Party pictures
 * Strobe lights
 * Complete setup and cleanup
+* 
 ### $550 - Up to 8 Guests

@@ -3,29 +3,15 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-all-access.json",
-        "path": "/packages/all-access"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-so-you-think-you-can-sing.json",
-        "path": "/packages/so-you-think-you-can-sing"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-sip-and-dip.json",
-        "path": "/packages/sip-and-dip"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "packages-bridal-transportation.json",
         "path": "/packages/bridal-transportation"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-all-access.json",
+        "path": "/packages/all-access"
     },
     {
         "componentChunkName": "component---src-templates-package-js",
@@ -38,8 +24,15 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-pampered-princess.json",
-        "path": "/packages/pampered-princess"
+        "jsonName": "packages-the-day-camp.json",
+        "path": "/packages/the-day-camp"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-sip-and-dip.json",
+        "path": "/packages/sip-and-dip"
     },
     {
         "componentChunkName": "component---src-templates-package-js",
@@ -52,8 +45,15 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-the-day-camp.json",
-        "path": "/packages/the-day-camp"
+        "jsonName": "packages-pampered-princess.json",
+        "path": "/packages/pampered-princess"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-so-you-think-you-can-sing.json",
+        "path": "/packages/so-you-think-you-can-sing"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",

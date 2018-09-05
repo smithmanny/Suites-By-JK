@@ -1,7 +1,7 @@
 ---
 path: '/packages/pampered-princess'
 title: 'Pampered Princess'
-image: '../../../imgs/packages/pampered_princess.jpg'
+image: 'pampered_princess.jpg'
 ---
 
 * 2 hour time limit
@@ -15,4 +15,5 @@ image: '../../../imgs/packages/pampered_princess.jpg'
 * Mini face bat including eye shadow and lip gloss
 * Sash for the birthday girl
 * Complete setup and breakdown
+* 
 ### $525 - Up to 8 Guests

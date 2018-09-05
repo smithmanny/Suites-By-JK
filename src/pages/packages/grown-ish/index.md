@@ -1,7 +1,7 @@
 ---
 path: '/packages/grown-ish'
 title: 'Grown-ish'
-image: '../../../imgs/packages/grown_ish.jpg'
+image: 'grown_ish.jpg'
 ---
 
 * 2 hour min
@@ -12,4 +12,5 @@ image: '../../../imgs/packages/grown_ish.jpg'
 * Party picture
 * Strobe Lights
 * Complete setup and breakdown
+* 
 ### $350 for first 2 hours - Guests

@@ -1,7 +1,7 @@
 ---
 path: '/packages/bridal-transportation'
 title: 'Bridal Transportation'
-image: '../../../imgs/packages/bridal.png'
+image: 'bridal_transportation.png'
 ---
 
 * Bagels / Lite Appetizers
@@ -9,4 +9,5 @@ image: '../../../imgs/packages/bridal.png'
 * Mimosas
 * Water
 * BYOB
+* 
 ### $150/hour - Up to 8 Guests

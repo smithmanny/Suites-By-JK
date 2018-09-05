@@ -1,7 +1,7 @@
 ---
 path: '/packages/the-glow-up'
 title: 'The Glow Up'
-image: '../../../imgs/packages/glow_up.png'
+image: 'the_glow_up.png'
 ---
 
 * 2 hour time limit
@@ -16,4 +16,5 @@ image: '../../../imgs/packages/glow_up.png'
 * Mini waters and Coke products
 * Party picture
 * Complete setup and breakdown
+* 
 ### $475 - Up to 8 Guests

@@ -1,5 +1,12 @@
 import React from 'react';
+import { navigateTo } from 'gatsby-link';
 import Modal from 'react-modal';
+
+function encode(data) {
+  return Object.keys(data)
+    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+    .join('&');
+}
 
 Modal.setAppElement('#___gatsby');
 
@@ -24,10 +31,25 @@ class BookModal extends React.Component {
     modalIsOpen: false,
   };
 
-  onChange = e => this.setState({ [e.target.name]: e.target.value });
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   openModal = () => {
     this.setState({ modalIsOpen: true });
+  };
+
+  handleSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then(() => navigateTo(form.getAttribute('action')))
+      .catch(error => alert(error));
   };
 
   afterOpenModal = () => {
@@ -54,23 +76,38 @@ class BookModal extends React.Component {
           contentLabel="Example Modal"
         >
           <h2 ref={subtitle => (this.subtitle = subtitle)}>{title}</h2>
-          <form>
+          <form
+            name="package"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit={this.handleSubmit}
+          >
+            <input type="hidden" name="form-name" value="package" />
+            <p hidden>
+              <label>
+                Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
+              </label>
+            </p>
             <div className="form-content">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" onChange={this.onChange} value={this.state.name} />
+              <input type="text" name="name" id="name" onChange={this.handleChange} value={this.state.name} required />
             </div>
             <div className="form-content">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" onChange={this.onChange} value={this.state.email} />
+              <input type="email" name="email" onChange={this.handleChange} value={this.state.email} required />
             </div>
             <div className="form-content">
               <label htmlFor="number">Number</label>
-              <input type="number" name="number" id="number" onChange={this.onChange} value={this.state.number} />
+              <input type="number" name="number" onChange={this.handleChange} value={this.state.number} required />
             </div>
             <div className="form-content">
               <label htmlFor="message">Message</label>
-              <input type="text" name="message" id="message" onChange={this.onChange} value={this.state.message} />
+              <textarea name="message" onChange={this.handleChange} value={this.state.message} required />
             </div>
+            <button className="btn" type="submit">
+              Submit
+            </button>
           </form>
         </Modal>
       </div>

@@ -15,9 +15,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             frontmatter {
               path
               title
-              image {
-                publicURL
-              }
+              image
             }
           }
         }
@@ -31,8 +29,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     res.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        image: node.frontmatter.image,
         component: packageTemplate,
+        context: {
+          image: node.frontmatter.image,
+        },
       });
     });
   });

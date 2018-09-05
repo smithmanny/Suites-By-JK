@@ -1,7 +1,7 @@
 ---
 path: '/packages/sip-and-dip'
 title: 'Sip and Dip'
-image: '../../../imgs/packages/sip_and_dip.jpg'
+image: 'sip_and_dip.jpg'
 ---
 
 * 2 hour time limit
@@ -13,4 +13,5 @@ image: '../../../imgs/packages/sip_and_dip.jpg'
 * You have a choice between decorating cookies or painting a canvas
 * Party bag for the guest of honor
 * Back Drop
+* 
 ### $455 - Up to 8 Guests
