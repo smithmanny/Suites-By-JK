@@ -1893,7 +1893,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "177ba16a2a97b6799d20d41965ce5700",
+        "contentDigest": "40b51a167677a820db8037f74d8901d3",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src/pages/packages/so-you-think-you-can-sing/index.md\"",
@@ -1903,11 +1903,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md",
       "relativePath": "so-you-think-you-can-sing/index.md",
       "extension": "md",
-      "size": 282,
-      "prettySize": "282 B",
-      "modifiedTime": "2018-09-03T02:03:08.969Z",
-      "accessTime": "2018-09-05T00:42:38.652Z",
-      "changeTime": "2018-09-03T02:03:08.969Z",
+      "size": 296,
+      "prettySize": "296 B",
+      "modifiedTime": "2018-09-05T03:34:03.985Z",
+      "accessTime": "2018-09-05T03:34:04.273Z",
+      "changeTime": "2018-09-05T03:34:03.985Z",
       "birthTime": "2018-08-27T07:38:39.388Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing",
@@ -1924,13 +1924,13 @@
       "blksize": 4194304,
       "ino": 12391948,
       "blocks": 8,
-      "atimeMs": 1536108158651.857,
-      "mtimeMs": 1535940188968.8354,
-      "ctimeMs": 1535940188968.8354,
+      "atimeMs": 1536118444273.1465,
+      "mtimeMs": 1536118443985.421,
+      "ctimeMs": 1536118443985.421,
       "birthtimeMs": 1535355519388.2468,
-      "atime": "2018-09-05T00:42:38.652Z",
-      "mtime": "2018-09-03T02:03:08.969Z",
-      "ctime": "2018-09-03T02:03:08.969Z",
+      "atime": "2018-09-05T03:34:04.273Z",
+      "mtime": "2018-09-05T03:34:03.985Z",
+      "ctime": "2018-09-05T03:34:03.985Z",
       "birthtime": "2018-08-27T07:38:39.388Z"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark": {
@@ -1953,27 +1953,6 @@
       "excerpt": "",
       "rawMarkdownBody": "\n* 2 hour time limit\n* Tranquil Spa Music\n* Runway Show\n* Back Drop\n* Dress up clothes\n* Robes\n* Mini Manis\n* All natural facials including cucumbers for the eyes\n* Mini face bat including eye shadow and lip gloss\n* Sash for the birthday girl\n* Complete setup and breakdown\n* \n### $525 - Up to 8 Guests",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: '/packages/so-you-think-you-can-sing'\ntitle: 'So You Think You Can Sing?'\nimage: 'sip_and_dip.jpg'\n---\n\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
-        "type": "MarkdownRemark",
-        "contentDigest": "73f4c01bba99bc026806a36d0f807b66",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "So You Think You Can Sing?",
-        "path": "/packages/so-you-think-you-can-sing",
-        "image": "sip_and_dip.jpg",
-        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
-        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/home absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/home absPath of file",
@@ -2291,63 +2270,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png absPath of file": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png absPath of file",
-      "children": [
-        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5e8061deeeac2dbb11ed2e2341c3bf60",
-        "mediaType": "image/png",
-        "type": "File",
-        "description": "File \"src/imgs/packages/karaoke.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "package images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png",
-      "relativePath": "karaoke.png",
-      "extension": "png",
-      "size": 383520,
-      "prettySize": "384 kB",
-      "modifiedTime": "2018-09-02T23:39:09.173Z",
-      "accessTime": "2018-09-05T00:42:38.804Z",
-      "changeTime": "2018-09-02T23:39:09.173Z",
-      "birthTime": "2018-08-19T17:09:40.317Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
-      "base": "karaoke.png",
-      "ext": ".png",
-      "name": "karaoke",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 11858893,
-      "blocks": 752,
-      "atimeMs": 1536108158803.9807,
-      "mtimeMs": 1535931549173,
-      "ctimeMs": 1535931549173.2495,
-      "birthtimeMs": 1534698580317.3997,
-      "atime": "2018-09-05T00:42:38.804Z",
-      "mtime": "2018-09-02T23:39:09.173Z",
-      "ctime": "2018-09-02T23:39:09.173Z",
-      "birthtime": "2018-08-19T17:09:40.317Z"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png absPath of file >> ImageSharp": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/karaoke.png absPath of file",
-      "internal": {
-        "contentDigest": "5e8061deeeac2dbb11ed2e2341c3bf60",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/all_access.png absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/all_access.png absPath of file",
       "children": [
@@ -2651,7 +2573,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5878d0aab1b8dc169a070c184d912ba",
+        "contentDigest": "af9e0d1643f97eb9dd7ce48274ab86be",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2674,7 +2596,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5341f5ae96c70418ff733c464e95c065",
+        "contentDigest": "9cf748d09ba2f96a891ec01c0ab7b12c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2697,7 +2619,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "769e017adf2e1663617d1d46592296f5",
+        "contentDigest": "2dbd5776f8c87c9befdd95291ae08288",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2720,7 +2642,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bf385176175643704752997e37410370",
+        "contentDigest": "7582786e6efcd1a559a2d30a59d20096",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2743,7 +2665,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b6c0e852ea87a5f0a9359f9ea648ea09",
+        "contentDigest": "4bfc65a9a49ba617fbfa818d5ce7439c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2766,7 +2688,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "da55592fefe2c08652b7a5279ac28c28",
+        "contentDigest": "11742d2314f6b094ec6917a5e7bfd361",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2789,7 +2711,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "722024de4a96182c88774c94a4c612e1",
+        "contentDigest": "4575f0cf94d49f1f69d3c9929eac590f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2802,7 +2724,7 @@
       "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
       "componentChunkName": "component---src-templates-package-js",
       "context": {
-        "image": "sip_and_dip.jpg"
+        "image": "so_you_think_you_can_sing.jpg"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -2812,7 +2734,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ab832d4cd31a2d037228098c4f15fe99",
+        "contentDigest": "c9e9fdf3c1f52d64980ea1c09623a1d8",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2963,6 +2885,84 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file",
+      "children": [
+        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5e8061deeeac2dbb11ed2e2341c3bf60",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/imgs/packages/so_you_think_you_can_sing.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "package images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png",
+      "relativePath": "so_you_think_you_can_sing.png",
+      "extension": "png",
+      "size": 383520,
+      "prettySize": "384 kB",
+      "modifiedTime": "2018-09-05T03:31:52.658Z",
+      "accessTime": "2018-09-05T03:31:52.770Z",
+      "changeTime": "2018-09-05T03:31:52.659Z",
+      "birthTime": "2018-08-19T17:09:40.317Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
+      "base": "so_you_think_you_can_sing.png",
+      "ext": ".png",
+      "name": "so_you_think_you_can_sing",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 11858893,
+      "blocks": 752,
+      "atimeMs": 1536118312770.1956,
+      "mtimeMs": 1536118312658,
+      "ctimeMs": 1536118312659.1765,
+      "birthtimeMs": 1534698580317.3997,
+      "atime": "2018-09-05T03:31:52.770Z",
+      "mtime": "2018-09-05T03:31:52.658Z",
+      "ctime": "2018-09-05T03:31:52.659Z",
+      "birthtime": "2018-08-19T17:09:40.317Z"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file >> ImageSharp": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file",
+      "internal": {
+        "contentDigest": "5e8061deeeac2dbb11ed2e2341c3bf60",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/packages/so-you-think-you-can-sing'\ntitle: 'So You Think You Can Sing?'\nimage: 'so_you_think_you_can_sing.jpg'\n---\n\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "54e8bd8b412d5205d152335d9a038546",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "So You Think You Can Sing?",
+        "path": "/packages/so-you-think-you-can-sing",
+        "image": "so_you_think_you_can_sing.jpg",
+        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
+        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md"
     }
   },
   "status": {
@@ -3073,6 +3073,12 @@
       ],
       "Site": [
         "LAYOUT___index"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file >> ImageSharp": [
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.png absPath of file": [
+        "/packages/"
       ]
     },
     "connections": {
