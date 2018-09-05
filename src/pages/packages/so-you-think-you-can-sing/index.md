@@ -1,7 +1,7 @@
 ---
 path: '/packages/so-you-think-you-can-sing'
 title: 'So You Think You Can Sing?'
-image: 'so_you_think_you_can_sing.jpg'
+image: 'so_you_think_you_can_sing.png'
 ---
 
 * 2 hour time limit
