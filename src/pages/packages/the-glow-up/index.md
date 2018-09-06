@@ -1,7 +1,7 @@
 ---
 path: '/packages/the-glow-up'
 title: 'The Glow Up'
-image: 'the_glow_up.png'
+image: 'the_glow_up.jpg'
 ---
 
 * 2 hour time limit

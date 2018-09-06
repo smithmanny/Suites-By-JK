@@ -1,7 +1,7 @@
 ---
 path: '/packages/all-access'
 title: 'All Access'
-image: 'all_access.png'
+image: 'all_access.jpg'
 ---
 
 * 3-hour time limit

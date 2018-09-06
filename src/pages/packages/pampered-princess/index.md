@@ -12,8 +12,8 @@ image: 'pampered_princess.jpg'
 * Robes
 * Mini Manis
 * All natural facials including cucumbers for the eyes
-* Mini face bat including eye shadow and lip gloss
-* Sash for the birthday girl
+* Mini face beats including eye shadow and lip gloss
+* A sash for the birthday girl
 * Complete setup and breakdown
 * 
 ### $525 - Up to 8 Guests

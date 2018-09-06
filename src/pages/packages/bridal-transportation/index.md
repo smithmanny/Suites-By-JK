@@ -1,7 +1,7 @@
 ---
 path: '/packages/bridal-transportation'
 title: 'Bridal Transportation'
-image: 'bridal_transportation.png'
+image: 'bridal_transportation.jpg'
 ---
 
 * Bagels / Lite Appetizers

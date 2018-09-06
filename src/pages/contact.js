@@ -1,5 +1,6 @@
 import React from 'react';
 import { navigateTo } from 'gatsby-link';
+import NotificationSystem from 'react-notification-system';
 
 function encode(data) {
   return Object.keys(data)
@@ -36,9 +37,31 @@ class Form extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigateTo(form.getAttribute('action')))
-      .catch(error => alert(error));
+      .then(() => {
+        navigateTo(form.getAttribute('action'));
+
+        this.showNotification();
+      })
+      .catch(() => {
+        this.notificationSystem.addNotification({
+          title: 'Error',
+          message: 'Sorry, there was a problem',
+          level: 'error',
+          position: 'bc',
+        });
+      });
   };
+
+  showNotification() {
+    this.notificationSystem.addNotification({
+      title: 'Sent',
+      message: 'Thanks, your message has been sent',
+      level: 'success',
+      position: 'bc',
+    });
+
+    this.setState({ email: '' });
+  }
 
   render() {
     return (
@@ -71,6 +94,7 @@ class Form extends React.Component {
         <button className="btn" type="submit">
           Submit
         </button>
+        <NotificationSystem ref={el => (this.notificationSystem = el)} />
       </form>
     );
   }

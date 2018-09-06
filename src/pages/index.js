@@ -8,7 +8,6 @@ import Newsletter from '../components/newsletter';
 
 const IndexPage = ({ data }) => {
   const images = data.allFile.edges.map(image => image.node.childImageSharp.sizes);
-  console.log(images);
   const fadeProperties = {
     duration: 5000,
     transitionDuration: 1000,

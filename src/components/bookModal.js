@@ -39,6 +39,7 @@ class BookModal extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault();
+    console.log(e);
     const form = e.target;
     fetch('/', {
       method: 'POST',
@@ -77,7 +78,7 @@ class BookModal extends React.Component {
         >
           <h2 ref={subtitle => (this.subtitle = subtitle)}>{title}</h2>
           <form
-            name="package"
+            name="clients"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
