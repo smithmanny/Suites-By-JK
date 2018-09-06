@@ -4,23 +4,18 @@ import PropTypes from 'prop-types';
 import NotificationSystem from 'react-notification-system';
 import isEmail from 'validator/lib/isEmail';
 
+import styles from '../stylesheets/global/index.module.scss';
+
 class Newsletter extends Component {
-  constructor() {
-    super();
+  state = {
+    email: '',
+  };
 
-    this.state = {
-      email: '',
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.addPerson = this.addPerson.bind(this);
-  }
-
-  handleChange(e) {
+  handleChange = e => {
     this.setState({ email: e.target.value });
-  }
+  };
 
-  addPerson() {
+  addPerson = () => {
     const { email } = this.state;
 
     if (isEmail(email)) {
@@ -37,7 +32,7 @@ class Newsletter extends Component {
         position: 'bc',
       });
     }
-  }
+  };
 
   showNotification() {
     this.notificationSystem.addNotification({
@@ -52,12 +47,11 @@ class Newsletter extends Component {
 
   render() {
     return (
-      <div className="newsletter-container" style={{ padding: this.props.padding }}>
-        <h2 className="section-title">{this.props.text}</h2>
+      <div className="newsletterContainer" style={{ padding: this.props.padding }}>
+        <h2>{this.props.text}</h2>
 
-        <div className="newsletter-wrapper">
+        <div className="newsletterWrapper">
           <input
-            className="newsletter-input"
             type="email"
             name="email"
             placeholder="Enter your email"
@@ -65,9 +59,7 @@ class Newsletter extends Component {
             value={this.state.email}
           />
 
-          <button className="newsletter-btn" onClick={this.addPerson}>
-            Subscribe
-          </button>
+          <button onClick={this.addPerson}>Subscribe</button>
           <NotificationSystem ref={el => (this.notificationSystem = el)} />
         </div>
       </div>

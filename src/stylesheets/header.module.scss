@@ -1,0 +1,40 @@
+@import '/global/colors';
+
+.nav {
+  .logo {
+    margin: auto;
+    text-align: center;
+
+    a > img {
+      width: 300px;
+      height: 300px;
+      padding: 10px 0;
+      margin-bottom: 30px;
+    }
+  }
+
+
+  ul {
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+
+    li {
+      margin: 0 auto;
+      list-style: none;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  /* Nav link colors */
+  .blue {
+    color: $blue;
+  }
+  .purple {
+    color: $purple;
+  }
+  .green {
+    color: $green;
+  }
+}

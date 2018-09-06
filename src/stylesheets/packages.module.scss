@@ -1,0 +1,49 @@
+@import '/global/colors';
+
+.packagesTravelFee {
+  color: $gray;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  font-style: italic;
+}
+
+.packagesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.packagesContent {
+  margin: 15px auto;
+}
+
+/* Single package section */
+.packageTitle {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.packageLogo {
+  margin: auto;
+  max-width: 350px;
+}
+
+.packageContent ul {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+h3 {
+  text-align: center;
+}

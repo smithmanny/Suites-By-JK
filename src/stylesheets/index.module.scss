@@ -1,0 +1,56 @@
+@import '/global/colors';
+
+.quoteWrapper {
+  padding: 10px 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #F0F3F4;
+  margin-top: -4px;
+
+  p {
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    color: $orange;
+    text-transform: capitalize;
+    margin: 0;
+  }
+}
+
+
+.servicesWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .rightService, .leftService {
+    flex: 1;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+
+      li {
+        list-style-type: none;
+        margin: 10px 0;
+
+        a {
+          font-size: 20px;
+
+          /* Divider and Package Type */
+          .divider {
+            color: $gray;
+          }
+
+          .packageType {
+            color: $pink;
+          }
+        }
+      }
+
+    }
+  }
+}
+

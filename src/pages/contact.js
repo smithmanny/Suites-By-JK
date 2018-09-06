@@ -11,7 +11,7 @@ function encode(data) {
 const Contact = () => (
   <div className="wrapper">
     <div className="section">
-      <h2 className="section-title">Get In Touch</h2>
+      <h1 className="sectionTitle">Get In Touch</h1>
       <Form />
     </div>
   </div>
@@ -60,7 +60,11 @@ class Form extends React.Component {
       position: 'bc',
     });
 
-    this.setState({ email: '' });
+    this.setState({
+      email: '',
+      name: '',
+      message: '',
+    });
   }
 
   render() {
@@ -72,22 +76,22 @@ class Form extends React.Component {
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="formName" value="contact" />
         <p hidden>
           <label>
             Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
           </label>
         </p>
 
-        <div className="form-content">
+        <div className="formContent">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" onChange={this.handleChange} value={this.state.name} />
         </div>
-        <div className="form-content">
+        <div className="formContent">
           <label htmlFor="email">Email</label>
           <input type="email" name="email" onChange={this.handleChange} value={this.state.email} />
         </div>
-        <div className="form-content">
+        <div className="formContent">
           <label htmlFor="message">Message</label>
           <textarea type="text" name="message" onChange={this.handleChange} value={this.state.message} />
         </div>

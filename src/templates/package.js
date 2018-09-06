@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
+import styles from '../stylesheets/packages.module.scss';
 import BookModal from '../components/bookModal';
 
 export default function Template({ data }) {
@@ -10,11 +11,11 @@ export default function Template({ data }) {
   return (
     <div className="wrapper">
       <section className="section">
-        <h1 className="package-title">{post.frontmatter.title}</h1>
-        <div className="package-logo">
+        <h1 className={styles.packageTitle}>{post.frontmatter.title}</h1>
+        <div className={styles.packageLogo}>
           <Img sizes={data.file.childImageSharp.sizes} />
         </div>
-        <div className="package-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className={styles.packageContent} dangerouslySetInnerHTML={{ __html: post.html }} />
         <BookModal title={post.frontmatter.title} />
       </section>
     </div>

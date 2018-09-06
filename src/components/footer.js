@@ -1,5 +1,6 @@
 import React from 'react';
 
+import styles from '../stylesheets/footer.module.scss';
 import Newsletter from './newsletter';
 import Twitter from '../imgs/twitter.png';
 import Facebook from '../imgs/facebook.png';
@@ -7,14 +8,14 @@ import Instagram from '../imgs/instagram.png';
 
 const Footer = () => (
   <footer>
-    <div className="footer">
-      <section className="footer-content">
-        <div className="footer-newsletter">
+    <div className={styles.footer}>
+      <section>
+        <div>
           <Newsletter text="Get Rewards" padding="0 30px" />
         </div>
-        <div className="footer-social">
-          <h2 className="section-title">Social</h2>
 
+        <div className={styles.footerSocial}>
+          <h2>Social</h2>
           <ul>
             <li>
               <img src={Twitter} alt="Twitter" />
@@ -33,8 +34,10 @@ const Footer = () => (
         </div>
       </section>
 
-      <section className="footer-copyright">&copy; 2018 Suites By JK</section>
-      <small className="footer-credit">Developed by Shakhor Smith</small>
+      <section className={styles.footerCopyright}>&copy; 2018 Suites By JK</section>
+      <small className={styles.footerCredit}>
+        Developed by <a href="https://shakhorsmith.com">Shakhor Smith</a>
+      </small>
     </div>
   </footer>
 );

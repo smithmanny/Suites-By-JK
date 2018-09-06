@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 import Link from 'gatsby-link';
 import { Fade } from 'react-slideshow-image';
 
+import styles from '../stylesheets/index.module.scss';
 import Newsletter from '../components/newsletter';
 
 const IndexPage = ({ data }) => {
@@ -23,26 +24,26 @@ const IndexPage = ({ data }) => {
         ))}
       </Fade>
 
-      <section className="quote-wrapper">
-        <p className="quote">Enjoy the ultimate experience at your front door</p>
+      <section className={styles.quoteWrapper}>
+        <p>Enjoy the ultimate experience at your front door</p>
       </section>
 
       <section className="section">
-        <h2 className="section-title">Services</h2>
+        <h2 className="sectionTitle">Services</h2>
 
-        <div className="services-wrapper">
-          <div className="left-service">
+        <div className={styles.servicesWrapper}>
+          <div className={styles.leftService}>
             <ul>
               <li>
                 <Link to="/packages/so-you-think-you-can-sing">
-                  So You Think You Can Sing <span className="divider">|</span>
-                  <span className="package-type"> Karaoke</span>
+                  So You Think You Can Sing <span className={styles.divider}>|</span>
+                  <span className={styles.packageType}> Karaoke</span>
                 </Link>
               </li>
               <li>
                 <Link to="/packages/all-access">
-                  All Access <span className="divider">|</span>
-                  <span className="package-type"> VIP Kids</span>
+                  All Access <span className={styles.divider}>|</span>
+                  <span className={styles.packageType}> VIP Kids</span>
                 </Link>
               </li>
               <li>
@@ -54,27 +55,27 @@ const IndexPage = ({ data }) => {
             </ul>
           </div>
 
-          <div className="right-service">
+          <div className={styles.rightService}>
             <ul>
               <li>
                 <Link to="/packages/bridal-transportation">Bridal Transportation</Link>
               </li>
               <li>
                 <Link to="/packages/the-glow-up">
-                  The Glow Up <span className="divider">|</span>
-                  <span className="package-type"> Kids Glow Party</span>{' '}
+                  The Glow Up <span className={styles.divider}>|</span>
+                  <span className={styles.packageType}> Kids Glow Party</span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to="/packages/sip-and-dip">
-                  Sip and Dip <span className="divider">|</span>
-                  <span className="package-type"> Paint Party</span>
+                  Sip and Dip <span className={styles.divider}>|</span>
+                  <span className={styles.packageType}> Paint Party</span>
                 </Link>
               </li>
               <li>
                 <Link to="/packages/grown-ish">
-                  Grown-ish<span className="divider">|</span>
-                  <span className="package-type"> 21 and older</span>{' '}
+                  Grown-ish<span className={styles.divider}>|</span>
+                  <span className={styles.packageType}> 21 and older</span>{' '}
                 </Link>
               </li>
             </ul>
