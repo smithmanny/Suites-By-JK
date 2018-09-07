@@ -21,12 +21,12 @@ const Packages = ({ data }) => (
       </small>
       <div className={styles.packagesWrapper}>
         {data.allFile.edges.map(image => (
-            <div className={styles.packagesContent} key={image.node.name}>
-              <Link to={`packages/${convertLink(image.node.relativePath)}`}>
-                <Img resolutions={image.node.childImageSharp.resolutions} />
-              </Link>
-            </div>
-          ))}
+          <div className={styles.packagesContent} key={image.node.name}>
+            <Link to={`packages/${convertLink(image.node.relativePath)}`}>
+              <Img resolutions={image.node.childImageSharp.resolutions} />
+            </Link>
+          </div>
+        ))}
       </div>
     </div>
   </div>

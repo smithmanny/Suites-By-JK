@@ -40,9 +40,6 @@ class BookModal extends React.Component {
   };
 
   handleSubmit = e => {
-    e.preventDefault();
-
-    const form = e.target;
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -62,6 +59,8 @@ class BookModal extends React.Component {
           position: 'bc',
         });
       });
+
+    e.preventDefault();
   };
 
   showNotification() {
@@ -96,7 +95,6 @@ class BookModal extends React.Component {
         <button className="btn" onClick={this.openModal}>
           Book Now
         </button>
-        <input type="hidden" name="formName" value="clients" />
 
         <Modal
           isOpen={this.state.modalIsOpen}
@@ -113,7 +111,7 @@ class BookModal extends React.Component {
             data-netlify-honeypot="bot-field"
             onSubmit={this.handleSubmit}
           >
-            <input type="hidden" name="formName" value="clients" />
+            <input type="hidden" name="form-name" value="clients" />
             <p hidden>
               <label>
                 Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
