@@ -96,6 +96,8 @@ class BookModal extends React.Component {
         <button className="btn" onClick={this.openModal}>
           Book Now
         </button>
+        <input type="hidden" name="formName" value="clients" />
+
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
