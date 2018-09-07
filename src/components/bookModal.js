@@ -40,7 +40,7 @@ class BookModal extends React.Component {
   };
 
   handleSubmit = e => {
-    e.preventDefault();
+    e.stopPropagation();
 
     const form = e.target;
     fetch('/', {
