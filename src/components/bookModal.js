@@ -40,20 +40,18 @@ class BookModal extends React.Component {
   };
 
   handleSubmit = e => {
-    e.stopPropagation();
+    e.preventDefault();
 
     const form = e.target;
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
-        'form-name': form.getAttribute('name'),
+        'form-name': 'clients',
         ...this.state,
       }),
     })
       .then(() => {
-        navigateTo(form.getAttribute('action'));
-
         this.showNotification();
       })
       .catch(() => {
