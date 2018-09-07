@@ -2,28 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import Link from 'gatsby-link';
-import { Fade } from 'react-slideshow-image';
+import Slider from 'react-slick';
 
 import styles from '../stylesheets/index.module.scss';
 import Newsletter from '../components/newsletter';
 
 const IndexPage = ({ data }) => {
-  const images = data.allFile.edges.map(image => image.node.childImageSharp.sizes);
-  const fadeProperties = {
-    duration: 5000,
-    transitionDuration: 1000,
+  const images = data.allFile.edges.map(image => image.node.childImageSharp.sizes.src);
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   return (
     <div className="wrapper">
-      <Fade {...fadeProperties}>
-        {images.map(image => (
-          <div className="home-image" key={image.src}>
-            <Img sizes={image} />
-          </div>
-        ))}
-      </Fade>
-
       <section className={styles.quoteWrapper}>
         <p>Enjoy the ultimate experience at your front door</p>
       </section>

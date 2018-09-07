@@ -15,6 +15,7 @@
     color: $orange;
     text-transform: capitalize;
     margin: 0;
+    font-size: 25px;
   }
 }
 
@@ -26,6 +27,7 @@
 
   .rightService, .leftService {
     flex: 1;
+    text-align: center;
 
     ul {
       display: flex;
