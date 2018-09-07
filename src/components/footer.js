@@ -36,7 +36,10 @@ const Footer = () => (
 
       <section className={styles.footerCopyright}>&copy; 2018 Suites By JK</section>
       <small className={styles.footerCredit}>
-        Developed by <a href="https://shakhorsmith.com">Shakhor Smith</a>
+        Developed by{' '}
+        <a href="https://shakhorsmith.com" target="_blank" rel="noopener noreferrer">
+          Shakhor Smith
+        </a>
       </small>
     </div>
   </footer>

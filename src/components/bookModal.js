@@ -113,8 +113,7 @@ class BookModal extends React.Component {
             data-netlify-honeypot="bot-field"
             onSubmit={this.handleSubmit}
           >
-            <input type="hidden" name="formName" value="package" />
-            <input type="hidden" name="title" value={title} />
+            <input type="hidden" name="formName" value="clients" />
             <p hidden>
               <label>
                 Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />

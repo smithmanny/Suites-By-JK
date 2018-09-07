@@ -23,7 +23,13 @@ const Packages = ({ data }) => (
         {data.allFile.edges.map(image => (
           <div className={styles.packagesContent} key={image.node.name}>
             <Link to={`packages/${convertLink(image.node.relativePath)}`}>
-              <Img resolutions={image.node.childImageSharp.resolutions} />
+              <Img
+                resolutions={image.node.childImageSharp.resolutions}
+                style={{
+                  backgroundSize: 'contain',
+                  objectFit: 'contain',
+                }}
+              />
             </Link>
           </div>
         ))}

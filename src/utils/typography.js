@@ -15,7 +15,11 @@ const typography = new Typography({
       styles: [400],
     },
   ],
-  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({}),
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    p: {
+      lineHeight: '45px',
+    },
+  }),
 });
 
 export default typography;
