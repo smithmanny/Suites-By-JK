@@ -9,12 +9,6 @@ function encode(data) {
     .join('&');
 }
 
-const modalStyles = {
-  modal: {
-    width: '400px',
-  },
-};
-
 class BookModal extends React.Component {
   state = {
     name: '',
@@ -82,13 +76,7 @@ class BookModal extends React.Component {
           Book Now
         </button>
 
-        <Modal
-          open={this.state.modalIsOpen}
-          onClose={this.closeModal}
-          center
-          showCloseIcon={false}
-          styles={modalStyles}
-        >
+        <Modal open={this.state.modalIsOpen} onClose={this.closeModal} center showCloseIcon={false}>
           <h2>{title}</h2>
           <form
             name="clients"

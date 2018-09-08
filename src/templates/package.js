@@ -17,6 +17,7 @@ export default function Template({ data }) {
         </div>
         <div className={styles.packageContent} dangerouslySetInnerHTML={{ __html: post.html }} />
         <BookModal title={post.frontmatter.title} />
+        <input type="hidden" name="form-name" value="clients" />
       </section>
     </div>
   );
