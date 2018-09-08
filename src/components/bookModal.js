@@ -76,7 +76,17 @@ class BookModal extends React.Component {
           Book Now
         </button>
 
-        <Modal open={this.state.modalIsOpen} onClose={this.closeModal} center showCloseIcon={false}>
+        <Modal
+          open={this.state.modalIsOpen}
+          onClose={this.closeModal}
+          center
+          showCloseIcon={false}
+          styles={{
+            modal: {
+              width: '100%',
+            },
+          }}
+        >
           <h2>{title}</h2>
           <form
             name="clients"
