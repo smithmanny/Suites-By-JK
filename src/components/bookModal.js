@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { navigateTo } from 'gatsby-link';
-import Modal from 'react-modal';
+import Modal from 'react-responsive-modal';
 import NotificationSystem from 'react-notification-system';
 
 function encode(data) {
@@ -10,17 +9,9 @@ function encode(data) {
     .join('&');
 }
 
-Modal.setAppElement('#___gatsby');
-
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    width: '500px',
-    transform: 'translate(-50%, -50%)',
+const modalStyles = {
+  modal: {
+    width: '400px',
   },
 };
 
@@ -79,11 +70,6 @@ class BookModal extends React.Component {
     });
   }
 
-  afterOpenModal = () => {
-    // references are now sync'd and can be accessed.
-    this.subtitle.style.color = '#ED6EAE';
-  };
-
   closeModal = () => {
     this.setState({ modalIsOpen: false });
   };
@@ -97,13 +83,13 @@ class BookModal extends React.Component {
         </button>
 
         <Modal
-          isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          style={customStyles}
-          contentLabel={title}
+          open={this.state.modalIsOpen}
+          onClose={this.closeModal}
+          center
+          showCloseIcon={false}
+          styles={modalStyles}
         >
-          <h2 ref={subtitle => (this.subtitle = subtitle)}>{title}</h2>
+          <h2>{title}</h2>
           <form
             name="clients"
             method="post"

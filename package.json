@@ -21,8 +21,8 @@
     "postcss-scss": "^2.0.0",
     "prop-types": "^15.6.2",
     "react-helmet": "^5.2.0",
-    "react-modal": "^3.5.1",
     "react-notification-system": "^0.2.17",
+    "react-responsive-modal": "^3.3.0",
     "react-slick": "^0.23.1",
     "validator": "^10.7.1"
   },

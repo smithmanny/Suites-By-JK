@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "88e6b8d2f78b10c843c09b61924d7ca2",
+        "contentDigest": "dd036cc6814a488d1f850ee48da61cb4",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1146,12 +1146,12 @@
             "version": "^5.2.0"
           },
           {
-            "name": "react-modal",
-            "version": "^3.5.1"
-          },
-          {
             "name": "react-notification-system",
             "version": "^0.2.17"
+          },
+          {
+            "name": "react-responsive-modal",
+            "version": "^3.3.0"
           },
           {
             "name": "react-slick",
@@ -1268,12 +1268,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-07T00:07:00.030Z",
+      "buildTime": "2018-09-08T02:22:14.587Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b66d9782cc7d49ce602eae3538375690",
+        "contentDigest": "1fbf0547073d41b74b66a5b6d087de0e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1283,7 +1283,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b010d7edbf4114dcc58bf6565a23315c",
+        "contentDigest": "84f961f2e203bf94283f879a99dc1c44",
         "type": "Directory",
         "description": "Directory \"src/pages/packages\"",
         "owner": "gatsby-source-filesystem"
@@ -1295,7 +1295,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-09-03T01:26:07.697Z",
-      "accessTime": "2018-09-07T00:07:04.293Z",
+      "accessTime": "2018-09-08T02:22:19.437Z",
       "changeTime": "2018-09-03T01:26:07.697Z",
       "birthTime": "2018-08-27T05:41:13.908Z",
       "root": "/",
@@ -1313,11 +1313,11 @@
       "blksize": 4194304,
       "ino": 12359876,
       "blocks": 0,
-      "atimeMs": 1536278824292.7224,
+      "atimeMs": 1536373339436.8604,
       "mtimeMs": 1535937967696.8953,
       "ctimeMs": 1535937967696.8953,
       "birthtimeMs": 1535348473907.5469,
-      "atime": "2018-09-07T00:07:04.293Z",
+      "atime": "2018-09-08T02:22:19.437Z",
       "mtime": "2018-09-03T01:26:07.697Z",
       "ctime": "2018-09-03T01:26:07.697Z",
       "birthtime": "2018-08-27T05:41:13.908Z"
@@ -1327,7 +1327,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "60aa11463d755b82d0ab3fd534cf45b9",
+        "contentDigest": "91a658594c843e664eaa45d247f29947",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/all-access\"",
         "owner": "gatsby-source-filesystem"
@@ -1339,7 +1339,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:29:38.485Z",
-      "accessTime": "2018-09-07T00:07:04.295Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-01T20:29:47.243Z",
       "birthTime": "2018-09-01T20:29:38.484Z",
       "root": "/",
@@ -1357,11 +1357,11 @@
       "blksize": 4194304,
       "ino": 12946520,
       "blocks": 0,
-      "atimeMs": 1536278824295.3943,
+      "atimeMs": 1536373339440.9329,
       "mtimeMs": 1535833778485.1528,
       "ctimeMs": 1535833787243.3293,
       "birthtimeMs": 1535833778483.9321,
-      "atime": "2018-09-07T00:07:04.295Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:29:38.485Z",
       "ctime": "2018-09-01T20:29:47.243Z",
       "birthtime": "2018-09-01T20:29:38.484Z"
@@ -1371,7 +1371,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "248e4dcbf63d2fee949d173349f12442",
+        "contentDigest": "a0cef349c9c1fb238d2fb0727afa8b0f",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/bridal-transportation\"",
         "owner": "gatsby-source-filesystem"
@@ -1383,7 +1383,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:33:08.407Z",
-      "accessTime": "2018-09-07T00:07:04.295Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-01T20:34:35.790Z",
       "birthTime": "2018-09-01T20:33:08.406Z",
       "root": "/",
@@ -1401,11 +1401,11 @@
       "blksize": 4194304,
       "ino": 12946685,
       "blocks": 0,
-      "atimeMs": 1536278824295.415,
+      "atimeMs": 1536373339440.9573,
       "mtimeMs": 1535833988406.8599,
       "ctimeMs": 1535834075789.719,
       "birthtimeMs": 1535833988405.6199,
-      "atime": "2018-09-07T00:07:04.295Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:33:08.407Z",
       "ctime": "2018-09-01T20:34:35.790Z",
       "birthtime": "2018-09-01T20:33:08.406Z"
@@ -1415,7 +1415,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "732088f53bc87bc1e20f0c86219f1b64",
+        "contentDigest": "954bc1dc91e04b047519b9ccfb4b7e2e",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/day-camp\"",
         "owner": "gatsby-source-filesystem"
@@ -1427,7 +1427,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:32:42.725Z",
-      "accessTime": "2018-09-07T00:07:04.295Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-03T01:26:07.697Z",
       "birthTime": "2018-09-01T20:32:42.724Z",
       "root": "/",
@@ -1445,11 +1445,11 @@
       "blksize": 4194304,
       "ino": 12946663,
       "blocks": 0,
-      "atimeMs": 1536278824295.4556,
+      "atimeMs": 1536373339440.9814,
       "mtimeMs": 1535833962724.787,
       "ctimeMs": 1535937967696.8948,
       "birthtimeMs": 1535833962724.1497,
-      "atime": "2018-09-07T00:07:04.295Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:32:42.725Z",
       "ctime": "2018-09-03T01:26:07.697Z",
       "birthtime": "2018-09-01T20:32:42.724Z"
@@ -1459,7 +1459,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "30f4c9f7481c12a60d3868ff5029b614",
+        "contentDigest": "c363ce9f876844303a48f356d1c19c7f",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/grown-ish\"",
         "owner": "gatsby-source-filesystem"
@@ -1471,7 +1471,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:59:21.934Z",
-      "accessTime": "2018-09-07T00:07:04.295Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-01T20:59:30.541Z",
       "birthTime": "2018-09-01T20:59:21.933Z",
       "root": "/",
@@ -1489,11 +1489,11 @@
       "blksize": 4194304,
       "ino": 12947288,
       "blocks": 0,
-      "atimeMs": 1536278824295.4355,
+      "atimeMs": 1536373339441.0051,
       "mtimeMs": 1535835561933.5688,
       "ctimeMs": 1535835570540.971,
       "birthtimeMs": 1535835561932.9094,
-      "atime": "2018-09-07T00:07:04.295Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:59:21.934Z",
       "ctime": "2018-09-01T20:59:30.541Z",
       "birthtime": "2018-09-01T20:59:21.933Z"
@@ -1503,7 +1503,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c6d6863ae36b561b76f22ff6bab9fb9f",
+        "contentDigest": "2db5f3cb612680df5a7c9cd09f191fdb",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/pampered-princess\"",
         "owner": "gatsby-source-filesystem"
@@ -1515,7 +1515,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:32:52.540Z",
-      "accessTime": "2018-09-07T00:07:04.295Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-01T20:34:18.118Z",
       "birthTime": "2018-09-01T20:32:52.540Z",
       "root": "/",
@@ -1533,11 +1533,11 @@
       "blksize": 4194304,
       "ino": 12946673,
       "blocks": 0,
-      "atimeMs": 1536278824295.4814,
+      "atimeMs": 1536373339441.0288,
       "mtimeMs": 1535833972540.338,
       "ctimeMs": 1535834058117.528,
       "birthtimeMs": 1535833972539.7456,
-      "atime": "2018-09-07T00:07:04.295Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:32:52.540Z",
       "ctime": "2018-09-01T20:34:18.118Z",
       "birthtime": "2018-09-01T20:32:52.540Z"
@@ -1547,7 +1547,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7d6a6b41f48a530e621b5bc8f07f0c37",
+        "contentDigest": "67fdbf70c36c0836cee6e1645069cfd6",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/sip-and-dip\"",
         "owner": "gatsby-source-filesystem"
@@ -1559,7 +1559,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:33:18.659Z",
-      "accessTime": "2018-09-07T00:07:04.296Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-01T20:34:54.316Z",
       "birthTime": "2018-09-01T20:33:18.659Z",
       "root": "/",
@@ -1577,11 +1577,11 @@
       "blksize": 4194304,
       "ino": 12946702,
       "blocks": 0,
-      "atimeMs": 1536278824295.5012,
+      "atimeMs": 1536373339441.0588,
       "mtimeMs": 1535833998659.1165,
       "ctimeMs": 1535834094316.1545,
       "birthtimeMs": 1535833998658.6897,
-      "atime": "2018-09-07T00:07:04.296Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:33:18.659Z",
       "ctime": "2018-09-01T20:34:54.316Z",
       "birthtime": "2018-09-01T20:33:18.659Z"
@@ -1591,7 +1591,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "797573cd052ac806a304f662bc5f5855",
+        "contentDigest": "3c78dfaa055146435774c820318c8f7e",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/so-you-think-you-can-sing\"",
         "owner": "gatsby-source-filesystem"
@@ -1603,7 +1603,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-27T07:38:39.388Z",
-      "accessTime": "2018-09-07T00:07:04.296Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-08-27T07:38:39.388Z",
       "birthTime": "2018-08-27T07:38:33.228Z",
       "root": "/",
@@ -1621,11 +1621,11 @@
       "blksize": 4194304,
       "ino": 12391943,
       "blocks": 0,
-      "atimeMs": 1536278824295.522,
+      "atimeMs": 1536373339441.082,
       "mtimeMs": 1535355519388.2559,
       "ctimeMs": 1535355519388.2559,
       "birthtimeMs": 1535355513227.5981,
-      "atime": "2018-09-07T00:07:04.296Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-08-27T07:38:39.388Z",
       "ctime": "2018-08-27T07:38:39.388Z",
       "birthtime": "2018-08-27T07:38:33.228Z"
@@ -1635,7 +1635,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3494c800b4c3d1139fe2df3a2073fb06",
+        "contentDigest": "90a4bd446f7c3cc8701d1e2ada9739c0",
         "type": "Directory",
         "description": "Directory \"src/pages/packages/the-glow-up\"",
         "owner": "gatsby-source-filesystem"
@@ -1647,7 +1647,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-01T20:33:14.528Z",
-      "accessTime": "2018-09-07T00:07:04.296Z",
+      "accessTime": "2018-09-08T02:22:19.441Z",
       "changeTime": "2018-09-01T20:34:44.994Z",
       "birthTime": "2018-09-01T20:33:14.527Z",
       "root": "/",
@@ -1665,11 +1665,11 @@
       "blksize": 4194304,
       "ino": 12946694,
       "blocks": 0,
-      "atimeMs": 1536278824295.541,
+      "atimeMs": 1536373339441.299,
       "mtimeMs": 1535833994528.0693,
       "ctimeMs": 1535834084993.5063,
       "birthtimeMs": 1535833994527.3955,
-      "atime": "2018-09-07T00:07:04.296Z",
+      "atime": "2018-09-08T02:22:19.441Z",
       "mtime": "2018-09-01T20:33:14.528Z",
       "ctime": "2018-09-01T20:34:44.994Z",
       "birthtime": "2018-09-01T20:33:14.527Z"
@@ -1694,7 +1694,7 @@
       "size": 538,
       "prettySize": "538 B",
       "modifiedTime": "2018-09-06T02:01:28.604Z",
-      "accessTime": "2018-09-06T23:47:59.934Z",
+      "accessTime": "2018-09-06T02:02:54.547Z",
       "changeTime": "2018-09-06T02:01:28.604Z",
       "birthTime": "2018-09-01T20:29:38.485Z",
       "root": "/",
@@ -1712,11 +1712,11 @@
       "blksize": 4194304,
       "ino": 12946521,
       "blocks": 8,
-      "atimeMs": 1536277679934.4087,
+      "atimeMs": 1536199374547.0251,
       "mtimeMs": 1536199288603.8728,
       "ctimeMs": 1536199288603.8728,
       "birthtimeMs": 1535833778485.141,
-      "atime": "2018-09-06T23:47:59.934Z",
+      "atime": "2018-09-06T02:02:54.547Z",
       "mtime": "2018-09-06T02:01:28.604Z",
       "ctime": "2018-09-06T02:01:28.604Z",
       "birthtime": "2018-09-01T20:29:38.485Z"
@@ -1741,7 +1741,7 @@
       "size": 290,
       "prettySize": "290 B",
       "modifiedTime": "2018-09-03T02:02:51.182Z",
-      "accessTime": "2018-09-06T23:47:59.935Z",
+      "accessTime": "2018-09-05T02:03:43.969Z",
       "changeTime": "2018-09-03T02:02:51.182Z",
       "birthTime": "2018-09-01T20:59:21.934Z",
       "root": "/",
@@ -1759,61 +1759,14 @@
       "blksize": 4194304,
       "ino": 12947289,
       "blocks": 8,
-      "atimeMs": 1536277679934.6523,
+      "atimeMs": 1536113023968.765,
       "mtimeMs": 1535940171182.3105,
       "ctimeMs": 1535940171182.3105,
       "birthtimeMs": 1535835561933.559,
-      "atime": "2018-09-06T23:47:59.935Z",
+      "atime": "2018-09-05T02:03:43.969Z",
       "mtime": "2018-09-03T02:02:51.182Z",
       "ctime": "2018-09-03T02:02:51.182Z",
       "birthtime": "2018-09-01T20:59:21.934Z"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file",
-      "children": [
-        "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "eb832e4415f1ef80b2f6771e41ff2708",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/packages/bridal-transportation/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "packages",
-      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md",
-      "relativePath": "bridal-transportation/index.md",
-      "extension": "md",
-      "size": 208,
-      "prettySize": "208 B",
-      "modifiedTime": "2018-09-06T02:01:35.220Z",
-      "accessTime": "2018-09-06T23:47:59.934Z",
-      "changeTime": "2018-09-06T02:01:35.220Z",
-      "birthTime": "2018-09-01T20:33:08.407Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "bridal-transportation",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12946686,
-      "blocks": 8,
-      "atimeMs": 1536277679934.4863,
-      "mtimeMs": 1536199295220.105,
-      "ctimeMs": 1536199295220.105,
-      "birthtimeMs": 1535833988406.8433,
-      "atime": "2018-09-06T23:47:59.934Z",
-      "mtime": "2018-09-06T02:01:35.220Z",
-      "ctime": "2018-09-06T02:01:35.220Z",
-      "birthtime": "2018-09-01T20:33:08.407Z"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/day-camp/index.md absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/day-camp/index.md absPath of file",
@@ -1835,7 +1788,7 @@
       "size": 323,
       "prettySize": "323 B",
       "modifiedTime": "2018-09-03T01:55:42.967Z",
-      "accessTime": "2018-09-06T23:47:59.935Z",
+      "accessTime": "2018-09-05T02:03:44.057Z",
       "changeTime": "2018-09-03T01:55:42.967Z",
       "birthTime": "2018-09-01T20:32:42.725Z",
       "root": "/",
@@ -1853,14 +1806,61 @@
       "blksize": 4194304,
       "ino": 12946664,
       "blocks": 8,
-      "atimeMs": 1536277679934.5754,
+      "atimeMs": 1536113024056.5815,
       "mtimeMs": 1535939742967.3845,
       "ctimeMs": 1535939742967.3845,
       "birthtimeMs": 1535833962724.7793,
-      "atime": "2018-09-06T23:47:59.935Z",
+      "atime": "2018-09-05T02:03:44.057Z",
       "mtime": "2018-09-03T01:55:42.967Z",
       "ctime": "2018-09-03T01:55:42.967Z",
       "birthtime": "2018-09-01T20:32:42.725Z"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file",
+      "children": [
+        "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2f94a6cf5a112ecece3224580e37ab2b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/packages/pampered-princess/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md",
+      "relativePath": "pampered-princess/index.md",
+      "extension": "md",
+      "size": 408,
+      "prettySize": "408 B",
+      "modifiedTime": "2018-09-06T01:46:07.613Z",
+      "accessTime": "2018-09-06T02:02:54.548Z",
+      "changeTime": "2018-09-06T01:46:07.613Z",
+      "birthTime": "2018-09-01T20:32:52.540Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "pampered-princess",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12946674,
+      "blocks": 8,
+      "atimeMs": 1536199374547.833,
+      "mtimeMs": 1536198367613.4,
+      "ctimeMs": 1536198367613.4,
+      "birthtimeMs": 1535833972540.3164,
+      "atime": "2018-09-06T02:02:54.548Z",
+      "mtime": "2018-09-06T01:46:07.613Z",
+      "ctime": "2018-09-06T01:46:07.613Z",
+      "birthtime": "2018-09-01T20:32:52.540Z"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
@@ -1882,7 +1882,7 @@
       "size": 297,
       "prettySize": "297 B",
       "modifiedTime": "2018-09-06T02:01:55.784Z",
-      "accessTime": "2018-09-06T23:47:59.935Z",
+      "accessTime": "2018-09-07T00:07:04.643Z",
       "changeTime": "2018-09-06T02:01:55.784Z",
       "birthTime": "2018-08-27T07:38:39.388Z",
       "root": "/",
@@ -1900,11 +1900,11 @@
       "blksize": 4194304,
       "ino": 12391948,
       "blocks": 8,
-      "atimeMs": 1536277679934.897,
+      "atimeMs": 1536278824642.7356,
       "mtimeMs": 1536199315783.9553,
       "ctimeMs": 1536199315783.9553,
       "birthtimeMs": 1535355519388.2468,
-      "atime": "2018-09-06T23:47:59.935Z",
+      "atime": "2018-09-07T00:07:04.643Z",
       "mtime": "2018-09-06T02:01:55.784Z",
       "ctime": "2018-09-06T02:01:55.784Z",
       "birthtime": "2018-08-27T07:38:39.388Z"
@@ -1929,7 +1929,7 @@
       "size": 290,
       "prettySize": "290 B",
       "modifiedTime": "2018-09-03T02:03:03.041Z",
-      "accessTime": "2018-09-06T23:47:59.935Z",
+      "accessTime": "2018-09-05T02:03:43.970Z",
       "changeTime": "2018-09-03T02:03:03.041Z",
       "birthTime": "2018-09-01T20:33:18.659Z",
       "root": "/",
@@ -1947,61 +1947,14 @@
       "blksize": 4194304,
       "ino": 12946703,
       "blocks": 8,
-      "atimeMs": 1536277679934.8108,
+      "atimeMs": 1536113023969.9436,
       "mtimeMs": 1535940183040.5015,
       "ctimeMs": 1535940183040.5015,
       "birthtimeMs": 1535833998659.1072,
-      "atime": "2018-09-06T23:47:59.935Z",
+      "atime": "2018-09-05T02:03:43.970Z",
       "mtime": "2018-09-03T02:03:03.041Z",
       "ctime": "2018-09-03T02:03:03.041Z",
       "birthtime": "2018-09-01T20:33:18.659Z"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file",
-      "children": [
-        "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2f94a6cf5a112ecece3224580e37ab2b",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/pages/packages/pampered-princess/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "packages",
-      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md",
-      "relativePath": "pampered-princess/index.md",
-      "extension": "md",
-      "size": 408,
-      "prettySize": "408 B",
-      "modifiedTime": "2018-09-06T01:46:07.613Z",
-      "accessTime": "2018-09-06T23:47:59.935Z",
-      "changeTime": "2018-09-06T01:46:07.613Z",
-      "birthTime": "2018-09-01T20:32:52.540Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "pampered-princess",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12946674,
-      "blocks": 8,
-      "atimeMs": 1536277679934.7354,
-      "mtimeMs": 1536198367613.4,
-      "ctimeMs": 1536198367613.4,
-      "birthtimeMs": 1535833972540.3164,
-      "atime": "2018-09-06T23:47:59.935Z",
-      "mtime": "2018-09-06T01:46:07.613Z",
-      "ctime": "2018-09-06T01:46:07.613Z",
-      "birthtime": "2018-09-01T20:32:52.540Z"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/the-glow-up/index.md absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/the-glow-up/index.md absPath of file",
@@ -2023,7 +1976,7 @@
       "size": 313,
       "prettySize": "313 B",
       "modifiedTime": "2018-09-06T02:02:03.305Z",
-      "accessTime": "2018-09-06T23:47:59.935Z",
+      "accessTime": "2018-09-06T02:02:54.549Z",
       "changeTime": "2018-09-06T02:02:03.305Z",
       "birthTime": "2018-09-01T20:33:14.528Z",
       "root": "/",
@@ -2041,14 +1994,61 @@
       "blksize": 4194304,
       "ino": 12946695,
       "blocks": 8,
-      "atimeMs": 1536277679934.9727,
+      "atimeMs": 1536199374548.836,
       "mtimeMs": 1536199323304.764,
       "ctimeMs": 1536199323304.764,
       "birthtimeMs": 1535833994528.056,
-      "atime": "2018-09-06T23:47:59.935Z",
+      "atime": "2018-09-06T02:02:54.549Z",
       "mtime": "2018-09-06T02:02:03.305Z",
       "ctime": "2018-09-06T02:02:03.305Z",
       "birthtime": "2018-09-01T20:33:14.528Z"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file",
+      "children": [
+        "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eb832e4415f1ef80b2f6771e41ff2708",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/packages/bridal-transportation/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md",
+      "relativePath": "bridal-transportation/index.md",
+      "extension": "md",
+      "size": 208,
+      "prettySize": "208 B",
+      "modifiedTime": "2018-09-06T02:01:35.220Z",
+      "accessTime": "2018-09-06T02:02:54.547Z",
+      "changeTime": "2018-09-06T02:01:35.220Z",
+      "birthTime": "2018-09-01T20:33:08.407Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "bridal-transportation",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12946686,
+      "blocks": 8,
+      "atimeMs": 1536199374547.4622,
+      "mtimeMs": 1536199295220.105,
+      "ctimeMs": 1536199295220.105,
+      "birthtimeMs": 1535833988406.8433,
+      "atime": "2018-09-06T02:02:54.547Z",
+      "mtime": "2018-09-06T02:01:35.220Z",
+      "ctime": "2018-09-06T02:01:35.220Z",
+      "birthtime": "2018-09-01T20:33:08.407Z"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/all-access/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/all-access/index.md absPath of file >>> MarkdownRemark",
@@ -2092,27 +2092,6 @@
       "rawMarkdownBody": "\n* 2 hour min\n* 1 case of Adult-ish drink\n* Karoake\n* BYOB (will supply to cups, ice and cooler)\n* Lite snacks\n* Party picture\n* Strobe Lights\n* Complete setup and breakdown\n* \n### $350 for first 2 hours - Guests",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/grown-ish/index.md"
     },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: '/packages/bridal-transportation'\ntitle: 'Bridal Transportation'\nimage: 'bridal_transportation.jpg'\n---\n\n* Bagels / Lite Appetizers\n* Fruit\n* Mimosas\n* Water\n* BYOB\n* \n### $150/hour - Up to 8 Guests",
-        "type": "MarkdownRemark",
-        "contentDigest": "3b5ed0f0756bb822d6a028a5a6943dec",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Bridal Transportation",
-        "path": "/packages/bridal-transportation",
-        "image": "bridal_transportation.jpg",
-        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file",
-        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n* Bagels / Lite Appetizers\n* Fruit\n* Mimosas\n* Water\n* BYOB\n* \n### $150/hour - Up to 8 Guests",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md"
-    },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/day-camp/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/day-camp/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -2133,48 +2112,6 @@
       "excerpt": "",
       "rawMarkdownBody": "\n* 1 hour daycare party\n* Cupcakes and Ice cream\n* Games\n* Ballons\n* Kids Bop or music of your choice\n* Water tattoos\n* Sash or Crown for the birthday girl/boy\n* Party picture\n* Complete setup and breakdown\n* \n### $175 - Up to 12 Guests",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/day-camp/index.md"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: '/packages/so-you-think-you-can-sing'\ntitle: 'So You Think You Can Sing?'\nimage: 'so_you_think_you_can_sing.jpg'\n---\n\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water)\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
-        "type": "MarkdownRemark",
-        "contentDigest": "c12a39517574ccc248d273f0e5fcedfd",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "So You Think You Can Sing?",
-        "path": "/packages/so-you-think-you-can-sing",
-        "image": "so_you_think_you_can_sing.jpg",
-        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
-        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water)\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: '/packages/sip-and-dip'\ntitle: 'Sip and Dip'\nimage: 'sip_and_dip.jpg'\n---\n\n* 2 hour time limit\n* Milk\n* Juice\n* Cookies\n* Music\n* Aprons\n* You have a choice between decorating cookies or painting a canvas\n* Party bag for the guest of honor\n* Back Drop\n* \n### $455 - Up to 8 Guests",
-        "type": "MarkdownRemark",
-        "contentDigest": "7d839a18595d72b5055ad4f8b11b1197",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Sip and Dip",
-        "path": "/packages/sip-and-dip",
-        "image": "sip_and_dip.jpg",
-        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file",
-        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n* 2 hour time limit\n* Milk\n* Juice\n* Cookies\n* Music\n* Aprons\n* You have a choice between decorating cookies or painting a canvas\n* Party bag for the guest of honor\n* Back Drop\n* \n### $455 - Up to 8 Guests",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark",
@@ -2197,6 +2134,27 @@
       "rawMarkdownBody": "\n* 2 hour time limit\n* Tranquil Spa Music\n* Runway Show\n* Back Drop\n* Dress up clothes\n* Robes\n* Mini Manis\n* All natural facials including cucumbers for the eyes\n* Mini face beats including eye shadow and lip gloss\n* A sash for the birthday girl\n* Complete setup and breakdown\n* \n### $525 - Up to 8 Guests",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md"
     },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/packages/so-you-think-you-can-sing'\ntitle: 'So You Think You Can Sing?'\nimage: 'so_you_think_you_can_sing.jpg'\n---\n\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water)\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "c12a39517574ccc248d273f0e5fcedfd",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "So You Think You Can Sing?",
+        "path": "/packages/so-you-think-you-can-sing",
+        "image": "so_you_think_you_can_sing.jpg",
+        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file",
+        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water)\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n* \n### $550 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md"
+    },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/the-glow-up/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/the-glow-up/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -2218,12 +2176,54 @@
       "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Music\n* Spotlights\n* Glow Cups\n* Glow Sticks\n* Glow Necklaces\n* Back Drop\n* Velvet Ropes\n* Mini waters and Coke products\n* Party picture\n* Complete setup and breakdown\n* \n### $475 - Up to 8 Guests",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/the-glow-up/index.md"
     },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/packages/sip-and-dip'\ntitle: 'Sip and Dip'\nimage: 'sip_and_dip.jpg'\n---\n\n* 2 hour time limit\n* Milk\n* Juice\n* Cookies\n* Music\n* Aprons\n* You have a choice between decorating cookies or painting a canvas\n* Party bag for the guest of honor\n* Back Drop\n* \n### $455 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "7d839a18595d72b5055ad4f8b11b1197",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Sip and Dip",
+        "path": "/packages/sip-and-dip",
+        "image": "sip_and_dip.jpg",
+        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file",
+        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Milk\n* Juice\n* Cookies\n* Music\n* Aprons\n* You have a choice between decorating cookies or painting a canvas\n* Party bag for the guest of honor\n* Back Drop\n* \n### $455 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/packages/bridal-transportation'\ntitle: 'Bridal Transportation'\nimage: 'bridal_transportation.jpg'\n---\n\n* Bagels / Lite Appetizers\n* Fruit\n* Mimosas\n* Water\n* BYOB\n* \n### $150/hour - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "3b5ed0f0756bb822d6a028a5a6943dec",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Bridal Transportation",
+        "path": "/packages/bridal-transportation",
+        "image": "bridal_transportation.jpg",
+        "_PARENT": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file",
+        "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* Bagels / Lite Appetizers\n* Fruit\n* Mimosas\n* Water\n* BYOB\n* \n### $150/hour - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md"
+    },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/home absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/home absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c077e2221f2c856c8ecaa97baa219545",
+        "contentDigest": "9b4370bb6fbc24077d55f2f2f2dedcb9",
         "type": "Directory",
         "description": "Directory \"src/imgs/home\"",
         "owner": "gatsby-source-filesystem"
@@ -2235,7 +2235,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-09-06T23:34:59.446Z",
-      "accessTime": "2018-09-07T00:07:04.347Z",
+      "accessTime": "2018-09-08T02:22:19.503Z",
       "changeTime": "2018-09-06T23:34:59.446Z",
       "birthTime": "2018-09-03T22:19:52.538Z",
       "root": "/",
@@ -2253,11 +2253,11 @@
       "blksize": 4194304,
       "ino": 13078786,
       "blocks": 0,
-      "atimeMs": 1536278824347.4258,
+      "atimeMs": 1536373339502.8472,
       "mtimeMs": 1536276899445.8738,
       "ctimeMs": 1536276899445.8738,
       "birthtimeMs": 1536013192538.3281,
-      "atime": "2018-09-07T00:07:04.347Z",
+      "atime": "2018-09-08T02:22:19.503Z",
       "mtime": "2018-09-06T23:34:59.446Z",
       "ctime": "2018-09-06T23:34:59.446Z",
       "birthtime": "2018-09-03T22:19:52.538Z"
@@ -2282,7 +2282,7 @@
       "size": 86491,
       "prettySize": "86.5 kB",
       "modifiedTime": "2018-09-07T03:15:22.000Z",
-      "accessTime": "2018-09-07T00:07:00.937Z",
+      "accessTime": "2018-09-07T13:44:43.905Z",
       "changeTime": "2018-09-06T23:16:12.145Z",
       "birthTime": "2018-09-06T23:15:41.268Z",
       "root": "/",
@@ -2300,11 +2300,11 @@
       "blksize": 4194304,
       "ino": 13325598,
       "blocks": 176,
-      "atimeMs": 1536278820936.831,
+      "atimeMs": 1536327883905.403,
       "mtimeMs": 1536290122000,
       "ctimeMs": 1536275772145.45,
       "birthtimeMs": 1536275741268.351,
-      "atime": "2018-09-07T00:07:00.937Z",
+      "atime": "2018-09-07T13:44:43.905Z",
       "mtime": "2018-09-07T03:15:22.000Z",
       "ctime": "2018-09-06T23:16:12.145Z",
       "birthtime": "2018-09-06T23:15:41.268Z"
@@ -2324,7 +2324,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5554e3caae75a2eef4f19a881c652da6",
+        "contentDigest": "c7922a333d028bac91e53dd6899fe8a6",
         "type": "Directory",
         "description": "Directory \"src/imgs/packages\"",
         "owner": "gatsby-source-filesystem"
@@ -2336,7 +2336,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-09-06T23:34:37.224Z",
-      "accessTime": "2018-09-07T00:07:04.352Z",
+      "accessTime": "2018-09-08T02:22:19.508Z",
       "changeTime": "2018-09-06T23:34:37.224Z",
       "birthTime": "2018-09-02T23:38:51.808Z",
       "root": "/",
@@ -2354,11 +2354,11 @@
       "blksize": 4194304,
       "ino": 13038371,
       "blocks": 0,
-      "atimeMs": 1536278824352.1636,
+      "atimeMs": 1536373339507.647,
       "mtimeMs": 1536276877223.6729,
       "ctimeMs": 1536276877223.6729,
       "birthtimeMs": 1535931531808.269,
-      "atime": "2018-09-07T00:07:04.352Z",
+      "atime": "2018-09-08T02:22:19.508Z",
       "mtime": "2018-09-06T23:34:37.224Z",
       "ctime": "2018-09-06T23:34:37.224Z",
       "birthtime": "2018-09-02T23:38:51.808Z"
@@ -2383,7 +2383,7 @@
       "size": 85732,
       "prettySize": "85.7 kB",
       "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.937Z",
+      "accessTime": "2018-09-07T13:44:43.907Z",
       "changeTime": "2018-09-06T23:17:23.988Z",
       "birthTime": "2018-09-06T23:16:57.530Z",
       "root": "/",
@@ -2401,155 +2401,14 @@
       "blksize": 4194304,
       "ino": 13325723,
       "blocks": 168,
-      "atimeMs": 1536278820937.2522,
+      "atimeMs": 1536327883906.614,
       "mtimeMs": 1536290208000,
       "ctimeMs": 1536275843988.27,
       "birthtimeMs": 1536275817530.3235,
-      "atime": "2018-09-07T00:07:00.937Z",
+      "atime": "2018-09-07T13:44:43.907Z",
       "mtime": "2018-09-07T03:16:48.000Z",
       "ctime": "2018-09-06T23:17:23.988Z",
       "birthtime": "2018-09-06T23:16:57.530Z"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file",
-      "children": [
-        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "91a39dc91c2316d067b95d71601e0dbc",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/imgs/packages/bridal_transportation.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "package images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg",
-      "relativePath": "bridal_transportation.jpg",
-      "extension": "jpg",
-      "size": 78406,
-      "prettySize": "78.4 kB",
-      "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.938Z",
-      "changeTime": "2018-09-06T23:17:23.992Z",
-      "birthTime": "2018-09-06T23:16:57.531Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
-      "base": "bridal_transportation.jpg",
-      "ext": ".jpg",
-      "name": "bridal_transportation",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 13325724,
-      "blocks": 160,
-      "atimeMs": 1536278820937.5608,
-      "mtimeMs": 1536290208000,
-      "ctimeMs": 1536275843991.8286,
-      "birthtimeMs": 1536275817530.9692,
-      "atime": "2018-09-07T00:07:00.938Z",
-      "mtime": "2018-09-07T03:16:48.000Z",
-      "ctime": "2018-09-06T23:17:23.992Z",
-      "birthtime": "2018-09-06T23:16:57.531Z"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file",
-      "children": [
-        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2be32be2ac96cd3b1fd5d048dc3bfc26",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/imgs/packages/grown_ish.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "package images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg",
-      "relativePath": "grown_ish.jpg",
-      "extension": "jpg",
-      "size": 120242,
-      "prettySize": "120 kB",
-      "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.938Z",
-      "changeTime": "2018-09-06T23:17:23.994Z",
-      "birthTime": "2018-09-06T23:16:57.531Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
-      "base": "grown_ish.jpg",
-      "ext": ".jpg",
-      "name": "grown_ish",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 13325725,
-      "blocks": 240,
-      "atimeMs": 1536278820937.8545,
-      "mtimeMs": 1536290208000,
-      "ctimeMs": 1536275843994.4795,
-      "birthtimeMs": 1536275817531.4143,
-      "atime": "2018-09-07T00:07:00.938Z",
-      "mtime": "2018-09-07T03:16:48.000Z",
-      "ctime": "2018-09-06T23:17:23.994Z",
-      "birthtime": "2018-09-06T23:16:57.531Z"
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file",
-      "children": [
-        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "00c2582c0f61d8589f47024091770308",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/imgs/packages/pampered_princess.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "package images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg",
-      "relativePath": "pampered_princess.jpg",
-      "extension": "jpg",
-      "size": 114794,
-      "prettySize": "115 kB",
-      "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.938Z",
-      "changeTime": "2018-09-06T23:17:24.001Z",
-      "birthTime": "2018-09-06T23:16:57.532Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
-      "base": "pampered_princess.jpg",
-      "ext": ".jpg",
-      "name": "pampered_princess",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 13325726,
-      "blocks": 232,
-      "atimeMs": 1536278820938.2842,
-      "mtimeMs": 1536290208000,
-      "ctimeMs": 1536275844000.7156,
-      "birthtimeMs": 1536275817532.2112,
-      "atime": "2018-09-07T00:07:00.938Z",
-      "mtime": "2018-09-07T03:16:48.000Z",
-      "ctime": "2018-09-06T23:17:24.001Z",
-      "birthtime": "2018-09-06T23:16:57.532Z"
     },
     "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/sip_and_dip.jpg absPath of file": {
       "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/sip_and_dip.jpg absPath of file",
@@ -2571,7 +2430,7 @@
       "size": 98075,
       "prettySize": "98.1 kB",
       "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.939Z",
+      "accessTime": "2018-09-07T13:44:43.957Z",
       "changeTime": "2018-09-06T23:17:24.004Z",
       "birthTime": "2018-09-06T23:16:57.533Z",
       "root": "/",
@@ -2589,11 +2448,11 @@
       "blksize": 4194304,
       "ino": 13325727,
       "blocks": 192,
-      "atimeMs": 1536278820938.711,
+      "atimeMs": 1536327883957.4033,
       "mtimeMs": 1536290208000,
       "ctimeMs": 1536275844004.1401,
       "birthtimeMs": 1536275817532.6338,
-      "atime": "2018-09-07T00:07:00.939Z",
+      "atime": "2018-09-07T13:44:43.957Z",
       "mtime": "2018-09-07T03:16:48.000Z",
       "ctime": "2018-09-06T23:17:24.004Z",
       "birthtime": "2018-09-06T23:16:57.533Z"
@@ -2618,7 +2477,7 @@
       "size": 123813,
       "prettySize": "124 kB",
       "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.939Z",
+      "accessTime": "2018-09-07T13:44:43.915Z",
       "changeTime": "2018-09-06T23:17:24.007Z",
       "birthTime": "2018-09-06T23:16:57.533Z",
       "root": "/",
@@ -2636,11 +2495,11 @@
       "blksize": 4194304,
       "ino": 13325728,
       "blocks": 248,
-      "atimeMs": 1536278820939.0466,
+      "atimeMs": 1536327883914.6587,
       "mtimeMs": 1536290208000,
       "ctimeMs": 1536275844007.0188,
       "birthtimeMs": 1536275817533.1653,
-      "atime": "2018-09-07T00:07:00.939Z",
+      "atime": "2018-09-07T13:44:43.915Z",
       "mtime": "2018-09-07T03:16:48.000Z",
       "ctime": "2018-09-06T23:17:24.007Z",
       "birthtime": "2018-09-06T23:16:57.533Z"
@@ -2665,7 +2524,7 @@
       "size": 119278,
       "prettySize": "119 kB",
       "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.939Z",
+      "accessTime": "2018-09-07T13:44:43.957Z",
       "changeTime": "2018-09-06T23:17:24.010Z",
       "birthTime": "2018-09-06T23:16:57.534Z",
       "root": "/",
@@ -2683,11 +2542,11 @@
       "blksize": 4194304,
       "ino": 13325729,
       "blocks": 240,
-      "atimeMs": 1536278820939.4363,
+      "atimeMs": 1536327883957.4106,
       "mtimeMs": 1536290208000,
       "ctimeMs": 1536275844009.8657,
       "birthtimeMs": 1536275817533.771,
-      "atime": "2018-09-07T00:07:00.939Z",
+      "atime": "2018-09-07T13:44:43.957Z",
       "mtime": "2018-09-07T03:16:48.000Z",
       "ctime": "2018-09-06T23:17:24.010Z",
       "birthtime": "2018-09-06T23:16:57.534Z"
@@ -2712,7 +2571,7 @@
       "size": 115674,
       "prettySize": "116 kB",
       "modifiedTime": "2018-09-07T03:16:48.000Z",
-      "accessTime": "2018-09-07T00:07:00.940Z",
+      "accessTime": "2018-09-07T13:44:43.957Z",
       "changeTime": "2018-09-06T23:17:24.022Z",
       "birthTime": "2018-09-06T23:16:57.534Z",
       "root": "/",
@@ -2730,11 +2589,11 @@
       "blksize": 4194304,
       "ino": 13325730,
       "blocks": 232,
-      "atimeMs": 1536278820939.8945,
+      "atimeMs": 1536327883957.4143,
       "mtimeMs": 1536290208000,
       "ctimeMs": 1536275844022.4104,
       "birthtimeMs": 1536275817534.305,
-      "atime": "2018-09-07T00:07:00.940Z",
+      "atime": "2018-09-07T13:44:43.957Z",
       "mtime": "2018-09-07T03:16:48.000Z",
       "ctime": "2018-09-06T23:17:24.022Z",
       "birthtime": "2018-09-06T23:16:57.534Z"
@@ -2745,36 +2604,6 @@
       "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/all_access.jpg absPath of file",
       "internal": {
         "contentDigest": "86898a617a247ae02afe5e2151f82b7e",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file",
-      "internal": {
-        "contentDigest": "91a39dc91c2316d067b95d71601e0dbc",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file",
-      "internal": {
-        "contentDigest": "2be32be2ac96cd3b1fd5d048dc3bfc26",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file",
-      "internal": {
-        "contentDigest": "00c2582c0f61d8589f47024091770308",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2819,6 +2648,177 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file",
+      "children": [
+        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "00c2582c0f61d8589f47024091770308",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/imgs/packages/pampered_princess.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "package images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg",
+      "relativePath": "pampered_princess.jpg",
+      "extension": "jpg",
+      "size": 114794,
+      "prettySize": "115 kB",
+      "modifiedTime": "2018-09-07T03:16:48.000Z",
+      "accessTime": "2018-09-07T13:44:43.957Z",
+      "changeTime": "2018-09-06T23:17:24.001Z",
+      "birthTime": "2018-09-06T23:16:57.532Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
+      "base": "pampered_princess.jpg",
+      "ext": ".jpg",
+      "name": "pampered_princess",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 13325726,
+      "blocks": 232,
+      "atimeMs": 1536327883957.4,
+      "mtimeMs": 1536290208000,
+      "ctimeMs": 1536275844000.7156,
+      "birthtimeMs": 1536275817532.2112,
+      "atime": "2018-09-07T13:44:43.957Z",
+      "mtime": "2018-09-07T03:16:48.000Z",
+      "ctime": "2018-09-06T23:17:24.001Z",
+      "birthtime": "2018-09-06T23:16:57.532Z"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file",
+      "children": [
+        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2be32be2ac96cd3b1fd5d048dc3bfc26",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/imgs/packages/grown_ish.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "package images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg",
+      "relativePath": "grown_ish.jpg",
+      "extension": "jpg",
+      "size": 120242,
+      "prettySize": "120 kB",
+      "modifiedTime": "2018-09-07T03:16:48.000Z",
+      "accessTime": "2018-09-07T13:44:43.957Z",
+      "changeTime": "2018-09-06T23:17:23.994Z",
+      "birthTime": "2018-09-06T23:16:57.531Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
+      "base": "grown_ish.jpg",
+      "ext": ".jpg",
+      "name": "grown_ish",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 13325725,
+      "blocks": 240,
+      "atimeMs": 1536327883957.3965,
+      "mtimeMs": 1536290208000,
+      "ctimeMs": 1536275843994.4795,
+      "birthtimeMs": 1536275817531.4143,
+      "atime": "2018-09-07T13:44:43.957Z",
+      "mtime": "2018-09-07T03:16:48.000Z",
+      "ctime": "2018-09-06T23:17:23.994Z",
+      "birthtime": "2018-09-06T23:16:57.531Z"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file",
+      "internal": {
+        "contentDigest": "00c2582c0f61d8589f47024091770308",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/grown_ish.jpg absPath of file",
+      "internal": {
+        "contentDigest": "2be32be2ac96cd3b1fd5d048dc3bfc26",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file",
+      "children": [
+        "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "91a39dc91c2316d067b95d71601e0dbc",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/imgs/packages/bridal_transportation.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "package images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg",
+      "relativePath": "bridal_transportation.jpg",
+      "extension": "jpg",
+      "size": 78406,
+      "prettySize": "78.4 kB",
+      "modifiedTime": "2018-09-07T03:16:48.000Z",
+      "accessTime": "2018-09-07T13:44:43.957Z",
+      "changeTime": "2018-09-06T23:17:23.992Z",
+      "birthTime": "2018-09-06T23:16:57.531Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages",
+      "base": "bridal_transportation.jpg",
+      "ext": ".jpg",
+      "name": "bridal_transportation",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 13325724,
+      "blocks": 160,
+      "atimeMs": 1536327883957.3928,
+      "mtimeMs": 1536290208000,
+      "ctimeMs": 1536275843991.8286,
+      "birthtimeMs": 1536275817530.9692,
+      "atime": "2018-09-07T13:44:43.957Z",
+      "mtime": "2018-09-07T03:16:48.000Z",
+      "ctime": "2018-09-06T23:17:23.992Z",
+      "birthtime": "2018-09-06T23:16:57.531Z"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file",
+      "internal": {
+        "contentDigest": "91a39dc91c2316d067b95d71601e0dbc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /packages/all-access": {
       "layout": "index",
       "jsonName": "packages-all-access.json",
@@ -2837,7 +2837,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "20bc50a4634690918bee162c9b2347c7",
+        "contentDigest": "6d7629e45e3bad71fb46f22fe1786b1f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2860,30 +2860,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "80bee5b2e98f8c833127e7ae9cbfc9e0",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /packages/bridal-transportation": {
-      "layout": "index",
-      "jsonName": "packages-bridal-transportation.json",
-      "internalComponentName": "ComponentPackagesBridalTransportation",
-      "path": "/packages/bridal-transportation",
-      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
-      "componentChunkName": "component---src-templates-package-js",
-      "context": {
-        "image": "bridal_transportation.jpg"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
-      "id": "SitePage /packages/bridal-transportation",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "67517666415964fe0afde59e76acb2e1",
+        "contentDigest": "985db766e9e1f3a59bdac46f12304de0",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2906,53 +2883,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9032e65d1702919bf5d1484db2e6918e",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /packages/so-you-think-you-can-sing": {
-      "layout": "index",
-      "jsonName": "packages-so-you-think-you-can-sing.json",
-      "internalComponentName": "ComponentPackagesSoYouThinkYouCanSing",
-      "path": "/packages/so-you-think-you-can-sing",
-      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
-      "componentChunkName": "component---src-templates-package-js",
-      "context": {
-        "image": "so_you_think_you_can_sing.jpg"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
-      "id": "SitePage /packages/so-you-think-you-can-sing",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f715ebd54f9e86ae7131266a95fd704d",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /packages/sip-and-dip": {
-      "layout": "index",
-      "jsonName": "packages-sip-and-dip.json",
-      "internalComponentName": "ComponentPackagesSipAndDip",
-      "path": "/packages/sip-and-dip",
-      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
-      "componentChunkName": "component---src-templates-package-js",
-      "context": {
-        "image": "sip_and_dip.jpg"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
-      "id": "SitePage /packages/sip-and-dip",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f7a40efa4694fbc779530dcb7ff346bc",
+        "contentDigest": "6aa271c9bc305f223d75c238ea654946",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2975,7 +2906,30 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f714ff670295f4609d912457d5aace88",
+        "contentDigest": "df039f1393fcdf65063c9a1988644ad1",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/so-you-think-you-can-sing": {
+      "layout": "index",
+      "jsonName": "packages-so-you-think-you-can-sing.json",
+      "internalComponentName": "ComponentPackagesSoYouThinkYouCanSing",
+      "path": "/packages/so-you-think-you-can-sing",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "image": "so_you_think_you_can_sing.jpg"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/so-you-think-you-can-sing",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d6cb0d0c65d10fd70afab02199f43079",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2998,7 +2952,53 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6f11033aa32caaadca8420ea27c7cfbd",
+        "contentDigest": "882db995d1a9c6d6cc2fbfeda4d02522",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/sip-and-dip": {
+      "layout": "index",
+      "jsonName": "packages-sip-and-dip.json",
+      "internalComponentName": "ComponentPackagesSipAndDip",
+      "path": "/packages/sip-and-dip",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "image": "sip_and_dip.jpg"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/sip-and-dip",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "077a663420f4c41771a6708b3f9f1dd4",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/bridal-transportation": {
+      "layout": "index",
+      "jsonName": "packages-bridal-transportation.json",
+      "internalComponentName": "ComponentPackagesBridalTransportation",
+      "path": "/packages/bridal-transportation",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "image": "bridal_transportation.jpg"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/bridal-transportation",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1aafa8820c845ca0666ef095518b2d6a",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3019,7 +3019,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0ebaa3d60e4cd2e0b07dc999df7debbd",
+        "contentDigest": "fe258f135e452ff79f5e3058bbf411ff",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3040,7 +3040,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "171c28fa30b903a24066b5ed8fb30e13",
+        "contentDigest": "89a846f59f809f2ffe2eeabc4d87b00a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3061,7 +3061,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "319e6efbad081418e2e86655ffc62715",
+        "contentDigest": "f74b9dd10b118f6079b34cb1c0fcf5f0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3082,7 +3082,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0b5f370f40cee14b3f625473564c955a",
+        "contentDigest": "c6950111c757c093b46752f75b7f21aa",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3103,7 +3103,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ffa79506d31efe52b77b814ec9aac112",
+        "contentDigest": "e893e37ef2d5b95ca4b74ecbd9c865f7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3124,7 +3124,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "43d3d839e23d09a36c71fbbc337f1460",
+        "contentDigest": "8fe7e6d035c612cec2e368535213eb7a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -3145,7 +3145,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "221f732d1936a5055aae57ab9c1dcfd5",
+        "contentDigest": "733e272bfdde2fd9374f3c25d15bd53f",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -3153,7 +3153,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "48c8e85715e90329f3214cda00ee18a3"
+    "PLUGINS_HASH": "54ec6134d007c50253d2347605182ca5"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -3173,33 +3173,33 @@
         "/packages/grown-ish",
         "/packages/"
       ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/the_day_camp.jpg absPath of file": [
+        "/packages/the-day-camp",
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/the_day_camp.jpg absPath of file >> ImageSharp": [
+        "/packages/the-day-camp",
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file": [
+        "/packages/pampered-princess",
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp": [
+        "/packages/pampered-princess",
+        "/packages/"
+      ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/all-access/index.md absPath of file >>> MarkdownRemark": [
         "/packages/all-access"
       ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/grown-ish/index.md absPath of file >>> MarkdownRemark": [
         "/packages/grown-ish"
       ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark": [
-        "/packages/bridal-transportation"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file": [
-        "/packages/bridal-transportation",
-        "/packages/"
-      ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/day-camp/index.md absPath of file >>> MarkdownRemark": [
         "/packages/the-day-camp"
       ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/the_day_camp.jpg absPath of file": [
-        "/packages/the-day-camp",
-        "/packages/"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp": [
-        "/packages/bridal-transportation",
-        "/packages/"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/the_day_camp.jpg absPath of file >> ImageSharp": [
-        "/packages/the-day-camp",
-        "/packages/"
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark": [
+        "/packages/pampered-princess"
       ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/so-you-think-you-can-sing/index.md absPath of file >>> MarkdownRemark": [
         "/packages/so-you-think-you-can-sing"
@@ -3208,26 +3208,8 @@
         "/packages/so-you-think-you-can-sing",
         "/packages/"
       ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file >>> MarkdownRemark": [
-        "/packages/sip-and-dip"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/sip_and_dip.jpg absPath of file": [
-        "/packages/sip-and-dip",
-        "/packages/"
-      ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/so_you_think_you_can_sing.jpg absPath of file >> ImageSharp": [
         "/packages/so-you-think-you-can-sing",
-        "/packages/"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/sip_and_dip.jpg absPath of file >> ImageSharp": [
-        "/packages/sip-and-dip",
-        "/packages/"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/pampered-princess/index.md absPath of file >>> MarkdownRemark": [
-        "/packages/pampered-princess"
-      ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file": [
-        "/packages/pampered-princess",
         "/packages/"
       ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/the-glow-up/index.md absPath of file >>> MarkdownRemark": [
@@ -3237,12 +3219,30 @@
         "/packages/the-glow-up",
         "/packages/"
       ],
-      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/pampered_princess.jpg absPath of file >> ImageSharp": [
-        "/packages/pampered-princess",
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/sip-and-dip/index.md absPath of file >>> MarkdownRemark": [
+        "/packages/sip-and-dip"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/sip_and_dip.jpg absPath of file": [
+        "/packages/sip-and-dip",
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages/bridal-transportation/index.md absPath of file >>> MarkdownRemark": [
+        "/packages/bridal-transportation"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file": [
+        "/packages/bridal-transportation",
         "/packages/"
       ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/the_glow_up.jpg absPath of file >> ImageSharp": [
         "/packages/the-glow-up",
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/sip_and_dip.jpg absPath of file >> ImageSharp": [
+        "/packages/sip-and-dip",
+        "/packages/"
+      ],
+      "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/packages/bridal_transportation.jpg absPath of file >> ImageSharp": [
+        "/packages/bridal-transportation",
         "/packages/"
       ],
       "/Users/shakhor/Projects/Web/Suites-By-JK/src/imgs/home/kid.jpg absPath of file >> ImageSharp": [
