@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import axios from 'axios';
 import Modal from 'react-responsive-modal';
 import NotificationSystem from 'react-notification-system';
 
@@ -33,16 +34,11 @@ class BookModal extends React.Component {
       email: this.state.email,
       number: this.state.number,
       message: this.state.message,
+      package: this.props.title,
     });
 
-    fetch('/.netlify/sendEmail', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': 'clients',
-        ...this.state,
-      }),
-    })
+    axios
+      .post('/.netlify/functions/sendEmail', quote)
       .then(() => {
         this.showNotification();
       })
