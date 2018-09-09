@@ -90,7 +90,6 @@ class BookModal extends React.Component {
           <h2>{title}</h2>
           <form
             name="clients"
-            action="https://formspree.io/shakhorsmith@gmail.com"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
