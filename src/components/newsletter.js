@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 import NotificationSystem from 'react-notification-system';
 import isEmail from 'validator/lib/isEmail';
 
-import styles from '../stylesheets/global/index.module.scss';
-
 class Newsletter extends Component {
   state = {
     email: '',

@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 import styles from '../stylesheets/packages.module.scss';
 import BookModal from '../components/bookModal';
 
-export default function Template({ data }) {
+const Package = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
@@ -20,18 +20,20 @@ export default function Template({ data }) {
       </section>
     </div>
   );
-}
+};
 
-Template.defaultProps = {
+export default Package;
+
+Package.defaultProps = {
   data: null,
 };
 
-Template.propTypes = {
+Package.propTypes = {
   data: PropTypes.shape(),
 };
 
 export const query = graphql`
-  query PackageDetailQuery($path: String!, $image: String) {
+  query PackageBySlug($path: String!, $image: String) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
