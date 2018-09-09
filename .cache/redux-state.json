@@ -1278,14 +1278,16 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
+      "proxy": {
+        "prefix": "/.netlify",
+        "url": "https://suitesbyjk.com"
+      },
       "buildTime": "2018-09-09T17:32:23.539Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "acc5f52ebd0bd0d179706220d72d14fa",
+        "contentDigest": "1bd01734c36661c9ffc993bdc7921df3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2850,7 +2852,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc2a6f09b0a33817cb8a51c4432337e4",
+        "contentDigest": "03d11a3fa6231fb2d56e2d03bf21597c",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2874,7 +2876,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fa3708ffb2ef123774d4f251b97f9eef",
+        "contentDigest": "b070632dd4c62c1f08f8b902d0182bf5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2898,7 +2900,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "37251ec473d43ce93e002a0ff2d47a41",
+        "contentDigest": "0bc2b62b9cdd13e1742bfd9424295ee4",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2922,7 +2924,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "df5eb272fd581fe41514db1fbbb90721",
+        "contentDigest": "3a0751b4b6df4d7cca8f27577b840972",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2946,7 +2948,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "111a38e17066cead7b062c186f6b1431",
+        "contentDigest": "08c8b835b2e957b1b438585bea583d72",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2970,7 +2972,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cf88a75b8080091b898b8c82538d7410",
+        "contentDigest": "90a298e1aee76785cdfa0998396bdb99",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2994,7 +2996,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2b23fb738fbf1a8b7a5a0ab1da127652",
+        "contentDigest": "61ed4989af094fb37ef58322007e478d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -3018,7 +3020,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3e92526688cc35fa16fbd71b58e66260",
+        "contentDigest": "34f2923f548a7ebead0046c090d5fd52",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }

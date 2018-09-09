@@ -3,6 +3,10 @@ module.exports = {
     title: 'Suites By JK',
     siteUrl: 'https://suitesbyjk.com',
   },
+  proxy: {
+    prefix: '/.netlify',
+    url: 'https://suitesbyjk.com',
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-netlify`,
