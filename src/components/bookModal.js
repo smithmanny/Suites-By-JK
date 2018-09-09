@@ -15,6 +15,7 @@ class BookModal extends React.Component {
     email: '',
     message: '',
     number: '',
+    package: this.props.title,
     modalIsOpen: false,
   };
 
@@ -25,7 +26,16 @@ class BookModal extends React.Component {
   };
 
   handleSubmit = e => {
-    fetch('/', {
+    e.preventDefault();
+
+    const quote = JSON.stringify({
+      name: this.state.name,
+      email: this.state.email,
+      number: this.state.number,
+      message: this.state.message,
+    });
+
+    fetch('/.netlify/sendEmail', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
@@ -44,8 +54,6 @@ class BookModal extends React.Component {
           position: 'bc',
         });
       });
-
-    e.preventDefault();
   };
 
   showNotification() {

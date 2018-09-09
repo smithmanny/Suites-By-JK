@@ -17,6 +17,13 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-pampered-princess.json",
+        "path": "/packages/pampered-princess"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "packages-the-day-camp.json",
         "path": "/packages/the-day-camp"
     },
@@ -24,8 +31,8 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-pampered-princess.json",
-        "path": "/packages/pampered-princess"
+        "jsonName": "packages-sip-and-dip.json",
+        "path": "/packages/sip-and-dip"
     },
     {
         "componentChunkName": "component---src-templates-package-js",
@@ -40,13 +47,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "packages-the-glow-up.json",
         "path": "/packages/the-glow-up"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-sip-and-dip.json",
-        "path": "/packages/sip-and-dip"
     },
     {
         "componentChunkName": "component---src-templates-package-js",
