@@ -4,12 +4,6 @@ import axios from 'axios';
 import Modal from 'react-responsive-modal';
 import NotificationSystem from 'react-notification-system';
 
-function encode(data) {
-  return Object.keys(data)
-    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
-    .join('&');
-}
-
 class BookModal extends React.Component {
   state = {
     name: '',
@@ -92,19 +86,7 @@ class BookModal extends React.Component {
           }}
         >
           <h2>{title}</h2>
-          <form
-            name="clients"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            onSubmit={this.handleSubmit}
-          >
-            <input type="hidden" name="form-name" value="clients" />
-            <p hidden>
-              <label>
-                Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
-              </label>
-            </p>
+          <form name="clients" method="post" onSubmit={this.handleSubmit}>
             <div className="formContent">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" onChange={this.handleChange} value={this.state.name} required />

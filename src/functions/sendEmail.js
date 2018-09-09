@@ -7577,11 +7577,18 @@ exports.handler = function (event, context, callback) {
     }
   }));
 
+  const html = `
+  <h1>${requestBody.package}</h1>
+  <b>Phone: </b> ${requestBody.number} <br />
+  <b>Message: </b> ${requestBody.message} <br />
+  `;
+
   const mailOptions = {
     from: requestBody.email,
     to: 'shakhorsmith@gmail.com',
     subject: requestBody.package,
-    text: requestBody.message
+    text: requestBody.message,
+    html
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
