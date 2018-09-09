@@ -94,7 +94,7 @@ class BookModal extends React.Component {
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            // onSubmit={this.handleSubmit}
+            onSubmit={this.handleSubmit}
           >
             <input type="hidden" name="form-name" value="clients" />
             <p hidden>

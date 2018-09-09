@@ -17,6 +17,12 @@ const Package = ({ data }) => {
         </div>
         <div className={styles.packageContent} dangerouslySetInnerHTML={{ __html: post.html }} />
         <BookModal title={post.frontmatter.title} />
+        <form name="clients" netlify netlify-honeypot="bot-field" hidden>
+          <input type="text" name="name" />
+          <input type="email" name="email" />
+          <input type="number" name="number" />
+          <textarea name="message" />
+        </form>
       </section>
     </div>
   );
