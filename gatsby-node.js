@@ -31,6 +31,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         path: node.frontmatter.path,
         component: packageTemplate,
         context: {
+          path: node.frontmatter.path,
           image: node.frontmatter.image,
         },
       });
