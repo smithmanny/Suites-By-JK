@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const sesAccessKey = process.env.EMAIL;
 const sesSecretKey = process.env.PASSWORD;
 
