@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
 import NotificationSystem from 'react-notification-system';
 import isEmail from 'validator/lib/isEmail';
 
@@ -13,15 +14,25 @@ class Newsletter extends Component {
     this.setState({ email: e.target.value });
   };
 
-  addPerson = () => {
+  addPerson = e => {
+    e.preventDefault();
+
     const { email } = this.state;
 
     if (isEmail(email)) {
-      axios.post('/api/newsletter', {
-        email,
+      addToMailchimp(email).then(data => {
+        if (data.result === 'error') {
+          this.notificationSystem.addNotification({
+            title: 'Error',
+            message: data.msg,
+            level: 'error',
+            position: 'bc',
+          });
+        } else {
+          this.showNotification(data);
+          this.setState({ email: '' });
+        }
       });
-
-      this.showNotification();
     } else {
       this.notificationSystem.addNotification({
         title: 'Error',
@@ -32,10 +43,10 @@ class Newsletter extends Component {
     }
   };
 
-  showNotification() {
+  showNotification(cb) {
     this.notificationSystem.addNotification({
-      title: 'Welcome',
-      message: 'Thanks, you have been added to our list!',
+      title: cb.result,
+      message: cb.msg,
       level: 'success',
       position: 'bc',
     });

@@ -59,5 +59,12 @@ module.exports = {
         exclude: `\/global\/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://shakhorsmith.us16.list-manage.com/subscribe/post?u=9a4bdf66bb80182ea32881a73&amp;id=ffe9fdc02f',
+      },
+    },
   ],
 };
