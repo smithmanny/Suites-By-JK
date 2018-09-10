@@ -506,12 +506,12 @@ module.exports = require("fs");
 "use strict";
 
 
-const http = __webpack_require__(15);
-const https = __webpack_require__(16);
+const http = __webpack_require__(16);
+const https = __webpack_require__(17);
 const urllib = __webpack_require__(5);
-const zlib = __webpack_require__(17);
+const zlib = __webpack_require__(18);
 const PassThrough = __webpack_require__(0).PassThrough;
-const Cookies = __webpack_require__(31);
+const Cookies = __webpack_require__(32);
 const packageData = __webpack_require__(2);
 
 const MAX_REDIRECTS = 5;
@@ -794,7 +794,7 @@ function fetch(url, options) {
 
 const base64 = __webpack_require__(22);
 const qp = __webpack_require__(23);
-const mimeTypes = __webpack_require__(18);
+const mimeTypes = __webpack_require__(19);
 
 module.exports = {
     /**
@@ -1428,16 +1428,22 @@ module.exports = require("net");
 /* 11 */
 /***/ (function(module, exports) {
 
-module.exports = require("os");
+module.exports = require("path");
 
 /***/ }),
 /* 12 */
 /***/ (function(module, exports) {
 
-module.exports = require("tls");
+module.exports = require("os");
 
 /***/ }),
 /* 13 */
+/***/ (function(module, exports) {
+
+module.exports = require("tls");
+
+/***/ }),
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1446,10 +1452,10 @@ module.exports = require("tls");
 const packageInfo = __webpack_require__(2);
 const EventEmitter = __webpack_require__(4).EventEmitter;
 const net = __webpack_require__(10);
-const tls = __webpack_require__(12);
-const os = __webpack_require__(11);
+const tls = __webpack_require__(13);
+const os = __webpack_require__(12);
 const crypto = __webpack_require__(3);
-const DataStream = __webpack_require__(44);
+const DataStream = __webpack_require__(45);
 const PassThrough = __webpack_require__(0).PassThrough;
 const shared = __webpack_require__(1);
 
@@ -3013,7 +3019,7 @@ module.exports = SMTPConnection;
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3072,25 +3078,25 @@ module.exports = LeWindows;
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("http");
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("https");
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("zlib");
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3098,7 +3104,7 @@ module.exports = require("zlib");
 
 
 
-const path = __webpack_require__(19);
+const path = __webpack_require__(11);
 
 const defaultMimeType = 'application/octet-stream';
 const defaultExtension = 'bin';
@@ -5206,12 +5212,6 @@ module.exports = {
 
 
 /***/ }),
-/* 19 */
-/***/ (function(module, exports) {
-
-module.exports = require("path");
-
-/***/ }),
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5221,7 +5221,7 @@ module.exports = require("path");
 
 
 const crypto = __webpack_require__(3);
-const os = __webpack_require__(11);
+const os = __webpack_require__(12);
 const fs = __webpack_require__(7);
 const punycode = __webpack_require__(21);
 const PassThrough = __webpack_require__(0).PassThrough;
@@ -5229,9 +5229,9 @@ const PassThrough = __webpack_require__(0).PassThrough;
 const mimeFuncs = __webpack_require__(9);
 const qp = __webpack_require__(23);
 const base64 = __webpack_require__(22);
-const addressparser = __webpack_require__(33);
+const addressparser = __webpack_require__(34);
 const fetch = __webpack_require__(8);
-const LastNewline = __webpack_require__(34);
+const LastNewline = __webpack_require__(35);
 
 /**
  * Creates a new mime tree node. Assumes 'multipart/*' as the content type
@@ -7167,7 +7167,7 @@ module.exports = XOAuth2;
 "use strict";
 
 
-const services = __webpack_require__(45);
+const services = __webpack_require__(46);
 const normalized = {};
 
 Object.keys(services).forEach(key => {
@@ -7274,7 +7274,7 @@ module.exports = LeWindows;
 var urllib = __webpack_require__(5);
 var util = __webpack_require__(6);
 var fs = __webpack_require__(7);
-var fetch = __webpack_require__(56);
+var fetch = __webpack_require__(57);
 
 /**
  * Parses connection url to a structured configuration object
@@ -7560,14 +7560,17 @@ function createDefaultLogger() {
 "use strict";
 
 
+__webpack_require__(29).config();
+
 const sesAccessKey = process.env.EMAIL;
 const sesSecretKey = process.env.PASSWORD;
 
 exports.handler = function (event, context, callback) {
-  const nodemailer = __webpack_require__(29);
-  const smtpTransport = __webpack_require__(52);
+  const nodemailer = __webpack_require__(30);
+  const smtpTransport = __webpack_require__(53);
+  const querystring = __webpack_require__(63);
 
-  const requestBody = JSON.parse(event.body);
+  const { email, number, message, packageName } = querystring.parse(event.body);
 
   const transporter = nodemailer.createTransport(smtpTransport({
     service: 'gmail',
@@ -7578,16 +7581,16 @@ exports.handler = function (event, context, callback) {
   }));
 
   const html = `
-  <h1>${requestBody.package}</h1>
-  <b>Phone: </b> ${requestBody.number} <br />
-  <b>Message: </b> ${requestBody.message} <br />
+  <h1>${packageName}</h1>
+  <b>Phone: </b> ${number} <br />
+  <b>Message: </b> ${message} <br />
   `;
 
   const mailOptions = {
-    from: requestBody.email,
+    from: email,
     to: 'shakhorsmith@gmail.com',
-    subject: requestBody.package,
-    text: requestBody.message,
+    subject: packageName,
+    text: message,
     html
   };
 
@@ -7615,17 +7618,100 @@ exports.handler = function (event, context, callback) {
 /* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
+const fs = __webpack_require__(7)
+const path = __webpack_require__(11)
+
+/*
+ * Parses a string or buffer into an object
+ * @param {(string|Buffer)} src - source to be parsed
+ * @returns {Object} keys and values from src
+*/
+function parse (src) {
+  const obj = {}
+
+  // convert Buffers before splitting into lines and processing
+  src.toString().split('\n').forEach(function (line) {
+    // matching "KEY' and 'VAL' in 'KEY=VAL'
+    const keyValueArr = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/)
+    // matched?
+    if (keyValueArr != null) {
+      const key = keyValueArr[1]
+
+      // default undefined or missing values to empty string
+      let value = keyValueArr[2] || ''
+
+      // expand newlines in quoted values
+      const len = value ? value.length : 0
+      if (len > 0 && value.charAt(0) === '"' && value.charAt(len - 1) === '"') {
+        value = value.replace(/\\n/gm, '\n')
+      }
+
+      // remove any surrounding quotes and extra spaces
+      value = value.replace(/(^['"]|['"]$)/g, '').trim()
+
+      obj[key] = value
+    }
+  })
+
+  return obj
+}
+
+/*
+ * Main entry point into dotenv. Allows configuration before loading .env
+ * @param {Object} options - options for parsing .env file
+ * @param {string} [options.path=.env] - path to .env file
+ * @param {string} [options.encoding=utf8] - encoding of .env file
+ * @returns {Object} parsed object or error
+*/
+function config (options) {
+  let dotenvPath = path.resolve(process.cwd(), '.env')
+  let encoding = 'utf8'
+
+  if (options) {
+    if (options.path) {
+      dotenvPath = options.path
+    }
+    if (options.encoding) {
+      encoding = options.encoding
+    }
+  }
+
+  try {
+    // specifying an encoding returns a string instead of a buffer
+    const parsed = parse(fs.readFileSync(dotenvPath, { encoding }))
+
+    Object.keys(parsed).forEach(function (key) {
+      if (!process.env.hasOwnProperty(key)) {
+        process.env[key] = parsed[key]
+      }
+    })
+
+    return { parsed }
+  } catch (e) {
+    return { error: e }
+  }
+}
+
+module.exports.config = config
+module.exports.load = config
+module.exports.parse = parse
+
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
-const Mailer = __webpack_require__(30);
+const Mailer = __webpack_require__(31);
 const shared = __webpack_require__(1);
-const SMTPPool = __webpack_require__(42);
-const SMTPTransport = __webpack_require__(46);
-const SendmailTransport = __webpack_require__(47);
-const StreamTransport = __webpack_require__(49);
-const JSONTransport = __webpack_require__(50);
-const SESTransport = __webpack_require__(51);
+const SMTPPool = __webpack_require__(43);
+const SMTPTransport = __webpack_require__(47);
+const SendmailTransport = __webpack_require__(48);
+const StreamTransport = __webpack_require__(50);
+const JSONTransport = __webpack_require__(51);
+const SESTransport = __webpack_require__(52);
 const fetch = __webpack_require__(8);
 const packageData = __webpack_require__(2);
 
@@ -7767,7 +7853,7 @@ module.exports.getTestMessageUrl = function(info) {
 
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7775,16 +7861,16 @@ module.exports.getTestMessageUrl = function(info) {
 
 const EventEmitter = __webpack_require__(4);
 const shared = __webpack_require__(1);
-const mimeTypes = __webpack_require__(18);
-const MailComposer = __webpack_require__(32);
-const DKIM = __webpack_require__(35);
-const httpProxyClient = __webpack_require__(39);
+const mimeTypes = __webpack_require__(19);
+const MailComposer = __webpack_require__(33);
+const DKIM = __webpack_require__(36);
+const httpProxyClient = __webpack_require__(40);
 const util = __webpack_require__(6);
 const urllib = __webpack_require__(5);
 const packageData = __webpack_require__(2);
-const MailMessage = __webpack_require__(40);
+const MailMessage = __webpack_require__(41);
 const net = __webpack_require__(10);
-const dns = __webpack_require__(41);
+const dns = __webpack_require__(42);
 const crypto = __webpack_require__(3);
 
 /**
@@ -8197,7 +8283,7 @@ module.exports = Mail;
 
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8488,7 +8574,7 @@ module.exports = Cookies;
 
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9040,7 +9126,7 @@ module.exports = MailComposer;
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9339,7 +9425,7 @@ module.exports = addressparser;
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9379,7 +9465,7 @@ module.exports = LastNewline;
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9388,12 +9474,12 @@ module.exports = LastNewline;
 // FIXME:
 // replace this Transform mess with a method that pipes input argument to output argument
 
-const MessageParser = __webpack_require__(36);
-const RelaxedBody = __webpack_require__(37);
-const sign = __webpack_require__(38);
+const MessageParser = __webpack_require__(37);
+const RelaxedBody = __webpack_require__(38);
+const sign = __webpack_require__(39);
 const PassThrough = __webpack_require__(0).PassThrough;
 const fs = __webpack_require__(7);
-const path = __webpack_require__(19);
+const path = __webpack_require__(11);
 const crypto = __webpack_require__(3);
 
 const DKIM_ALGO = 'sha256';
@@ -9637,7 +9723,7 @@ module.exports = DKIM;
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9800,7 +9886,7 @@ module.exports = MessageParser;
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9961,7 +10047,7 @@ module.exports = RelaxedBody;
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10085,7 +10171,7 @@ function relaxedHeaderLine(line) {
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10096,7 +10182,7 @@ function relaxedHeaderLine(line) {
  */
 
 const net = __webpack_require__(10);
-const tls = __webpack_require__(12);
+const tls = __webpack_require__(13);
 const urllib = __webpack_require__(5);
 
 /**
@@ -10223,7 +10309,7 @@ module.exports = httpProxyClient;
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10525,21 +10611,21 @@ module.exports = MailMessage;
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = require("dns");
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 const EventEmitter = __webpack_require__(4);
-const PoolResource = __webpack_require__(43);
-const SMTPConnection = __webpack_require__(13);
+const PoolResource = __webpack_require__(44);
+const SMTPConnection = __webpack_require__(14);
 const wellKnown = __webpack_require__(25);
 const shared = __webpack_require__(1);
 const packageData = __webpack_require__(2);
@@ -11138,13 +11224,13 @@ module.exports = SMTPPool;
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-const SMTPConnection = __webpack_require__(13);
+const SMTPConnection = __webpack_require__(14);
 const assign = __webpack_require__(1).assign;
 const XOAuth2 = __webpack_require__(24);
 const EventEmitter = __webpack_require__(4);
@@ -11397,7 +11483,7 @@ module.exports = PoolResource;
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11512,20 +11598,20 @@ module.exports = DataStream;
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = {"126":{"host":"smtp.126.com","port":465,"secure":true},"163":{"host":"smtp.163.com","port":465,"secure":true},"1und1":{"host":"smtp.1und1.de","port":465,"secure":true,"authMethod":"LOGIN"},"AOL":{"domains":["aol.com"],"host":"smtp.aol.com","port":587},"DebugMail":{"host":"debugmail.io","port":25},"DynectEmail":{"aliases":["Dynect"],"host":"smtp.dynect.net","port":25},"FastMail":{"domains":["fastmail.fm"],"host":"smtp.fastmail.com","port":465,"secure":true},"GandiMail":{"aliases":["Gandi","Gandi Mail"],"host":"mail.gandi.net","port":587},"Gmail":{"aliases":["Google Mail"],"domains":["gmail.com","googlemail.com"],"host":"smtp.gmail.com","port":465,"secure":true},"Godaddy":{"host":"smtpout.secureserver.net","port":25},"GodaddyAsia":{"host":"smtp.asia.secureserver.net","port":25},"GodaddyEurope":{"host":"smtp.europe.secureserver.net","port":25},"hot.ee":{"host":"mail.hot.ee"},"Hotmail":{"aliases":["Outlook","Outlook.com","Hotmail.com"],"domains":["hotmail.com","outlook.com"],"host":"smtp.live.com","port":587,"tls":{"ciphers":"SSLv3"}},"iCloud":{"aliases":["Me","Mac"],"domains":["me.com","mac.com"],"host":"smtp.mail.me.com","port":587},"mail.ee":{"host":"smtp.mail.ee"},"Mail.ru":{"host":"smtp.mail.ru","port":465,"secure":true},"Maildev":{"port":1025,"ignoreTLS":true},"Mailgun":{"host":"smtp.mailgun.org","port":465,"secure":true},"Mailjet":{"host":"in.mailjet.com","port":587},"Mailosaur":{"host":"mailosaur.io","port":25},"Mailtrap":{"host":"smtp.mailtrap.io","port":2525},"Mandrill":{"host":"smtp.mandrillapp.com","port":587},"Naver":{"host":"smtp.naver.com","port":587},"One":{"host":"send.one.com","port":465,"secure":true},"OpenMailBox":{"aliases":["OMB","openmailbox.org"],"host":"smtp.openmailbox.org","port":465,"secure":true},"Outlook365":{"host":"smtp.office365.com","port":587,"secure":false},"Postmark":{"aliases":["PostmarkApp"],"host":"smtp.postmarkapp.com","port":2525},"qiye.aliyun":{"host":"smtp.mxhichina.com","port":"465","secure":true},"QQ":{"domains":["qq.com"],"host":"smtp.qq.com","port":465,"secure":true},"QQex":{"aliases":["QQ Enterprise"],"domains":["exmail.qq.com"],"host":"smtp.exmail.qq.com","port":465,"secure":true},"SendCloud":{"host":"smtpcloud.sohu.com","port":25},"SendGrid":{"host":"smtp.sendgrid.net","port":587},"SendinBlue":{"host":"smtp-relay.sendinblue.com","port":587},"SendPulse":{"host":"smtp-pulse.com","port":465,"secure":true},"SES":{"host":"email-smtp.us-east-1.amazonaws.com","port":465,"secure":true},"SES-US-EAST-1":{"host":"email-smtp.us-east-1.amazonaws.com","port":465,"secure":true},"SES-US-WEST-2":{"host":"email-smtp.us-west-2.amazonaws.com","port":465,"secure":true},"SES-EU-WEST-1":{"host":"email-smtp.eu-west-1.amazonaws.com","port":465,"secure":true},"Sparkpost":{"aliases":["SparkPost","SparkPost Mail"],"domains":["sparkpost.com"],"host":"smtp.sparkpostmail.com","port":587,"secure":false},"Tipimail":{"host":"smtp.tipimail.com","port":587},"Yahoo":{"domains":["yahoo.com"],"host":"smtp.mail.yahoo.com","port":465,"secure":true},"Yandex":{"domains":["yandex.ru"],"host":"smtp.yandex.ru","port":465,"secure":true},"Zoho":{"host":"smtp.zoho.com","port":465,"secure":true,"authMethod":"LOGIN"}}
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 const EventEmitter = __webpack_require__(4);
-const SMTPConnection = __webpack_require__(13);
+const SMTPConnection = __webpack_require__(14);
 const wellKnown = __webpack_require__(25);
 const shared = __webpack_require__(1);
 const XOAuth2 = __webpack_require__(24);
@@ -11932,15 +12018,15 @@ module.exports = SMTPTransport;
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-const spawn = __webpack_require__(48).spawn;
+const spawn = __webpack_require__(49).spawn;
 const packageData = __webpack_require__(2);
-const LeWindows = __webpack_require__(14);
+const LeWindows = __webpack_require__(15);
 const LeUnix = __webpack_require__(26);
 const shared = __webpack_require__(1);
 
@@ -12147,13 +12233,13 @@ module.exports = SendmailTransport;
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports) {
 
 module.exports = require("child_process");
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12161,7 +12247,7 @@ module.exports = require("child_process");
 
 const packageData = __webpack_require__(2);
 const shared = __webpack_require__(1);
-const LeWindows = __webpack_require__(14);
+const LeWindows = __webpack_require__(15);
 const LeUnix = __webpack_require__(26);
 
 /**
@@ -12302,7 +12388,7 @@ module.exports = StreamTransport;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12391,7 +12477,7 @@ module.exports = JSONTransport;
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12400,7 +12486,7 @@ module.exports = JSONTransport;
 const EventEmitter = __webpack_require__(4);
 const packageData = __webpack_require__(2);
 const shared = __webpack_require__(1);
-const LeWindows = __webpack_require__(14);
+const LeWindows = __webpack_require__(15);
 
 /**
  * Generates a Transport object for AWS SES
@@ -12710,15 +12796,15 @@ module.exports = SESTransport;
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var SMTPConnection = __webpack_require__(53);
-var packageData = __webpack_require__(59);
-var wellknown = __webpack_require__(60);
+var SMTPConnection = __webpack_require__(54);
+var packageData = __webpack_require__(60);
+var wellknown = __webpack_require__(61);
 var shared = __webpack_require__(27);
 
 var EventEmitter = __webpack_require__(4).EventEmitter;
@@ -12998,23 +13084,23 @@ function assign( /* target, ... sources */ ) {
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var packageInfo = __webpack_require__(54);
+var packageInfo = __webpack_require__(55);
 var EventEmitter = __webpack_require__(4).EventEmitter;
 var util = __webpack_require__(6);
 var net = __webpack_require__(10);
-var tls = __webpack_require__(12);
-var os = __webpack_require__(11);
+var tls = __webpack_require__(13);
+var os = __webpack_require__(12);
 var crypto = __webpack_require__(3);
-var DataStream = __webpack_require__(55);
+var DataStream = __webpack_require__(56);
 var PassThrough = __webpack_require__(0).PassThrough;
 var shared = __webpack_require__(27);
-var ntlm = __webpack_require__(58);
+var ntlm = __webpack_require__(59);
 
 // default timeout values in ms
 var CONNECTION_TIMEOUT = 2 * 60 * 1000; // how much to wait for the connection to be established
@@ -14448,13 +14534,13 @@ SMTPConnection.prototype._getHostname = function () {
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = {"name":"smtp-connection","version":"2.12.0","description":"Connect to SMTP servers","main":"lib/smtp-connection.js","directories":{"test":"test"},"scripts":{"test":"grunt mochaTest"},"repository":{"type":"git","url":"git://github.com/andris9/smtp-connection.git"},"keywords":["SMTP"],"author":"Andris Reinman","license":"MIT","bugs":{"url":"https://github.com/andris9/smtp-connection/issues"},"homepage":"https://github.com/andris9/smtp-connection","devDependencies":{"chai":"^3.5.0","grunt":"^1.0.1","grunt-cli":"^1.2.0","grunt-eslint":"^19.0.0","grunt-mocha-test":"^0.12.7","mocha":"^3.0.2","proxy-test-server":"^1.0.0","sinon":"^1.17.5","smtp-server":"^1.14.2","xoauth2":"^1.2.0"},"dependencies":{"httpntlm":"1.6.1","nodemailer-shared":"1.1.0"}}
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14572,18 +14658,18 @@ DataStream.prototype._flush = function (done) {
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var http = __webpack_require__(15);
-var https = __webpack_require__(16);
+var http = __webpack_require__(16);
+var https = __webpack_require__(17);
 var urllib = __webpack_require__(5);
-var zlib = __webpack_require__(17);
+var zlib = __webpack_require__(18);
 var PassThrough = __webpack_require__(0).PassThrough;
-var Cookies = __webpack_require__(57);
+var Cookies = __webpack_require__(58);
 
 var MAX_REDIRECTS = 5;
 
@@ -14803,7 +14889,7 @@ function fetch(url, options) {
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15085,7 +15171,7 @@ Cookies.prototype.getPath = function (pathname) {
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var crypto = __webpack_require__(3);
@@ -15481,19 +15567,19 @@ exports.createType3Message = createType3Message;
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports) {
 
 module.exports = {"name":"nodemailer-smtp-transport","version":"2.7.4","description":"SMTP transport for Nodemailer","main":"lib/smtp-transport.js","scripts":{"test":"grunt mochaTest"},"repository":{"type":"git","url":"git://github.com/andris9/nodemailer-smtp-transport.git"},"keywords":["SMTP","Nodemailer"],"author":"Andris Reinman","license":"MIT","bugs":{"url":"https://github.com/andris9/nodemailer-smtp-transport/issues"},"homepage":"http://github.com/andris9/nodemailer-smtp-transport","dependencies":{"nodemailer-shared":"1.1.0","nodemailer-wellknown":"0.1.10","smtp-connection":"2.12.0"},"devDependencies":{"chai":"^3.5.0","grunt":"^1.0.1","grunt-cli":"^1.2.0","grunt-eslint":"^19.0.0","grunt-mocha-test":"^0.12.7","mocha":"^3.0.2","smtp-server":"^1.14.2"}}
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var services = __webpack_require__(61);
+var services = __webpack_require__(62);
 var normalized = {};
 
 Object.keys(services).forEach(function(key) {
@@ -15540,10 +15626,16 @@ module.exports = function(key) {
 };
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = {"126":{"host":"smtp.126.com","port":465,"secure":true},"163":{"host":"smtp.163.com","port":465,"secure":true},"1und1":{"host":"smtp.1und1.de","port":465,"secure":true,"authMethod":"LOGIN"},"AOL":{"domains":["aol.com"],"host":"smtp.aol.com","port":587},"DebugMail":{"host":"debugmail.io","port":25},"DynectEmail":{"aliases":["Dynect"],"host":"smtp.dynect.net","port":25},"FastMail":{"domains":["fastmail.fm"],"host":"mail.messagingengine.com","port":465,"secure":true},"GandiMail":{"aliases":["Gandi","Gandi Mail"],"host":"mail.gandi.net","port":587},"Gmail":{"aliases":["Google Mail"],"domains":["gmail.com","googlemail.com"],"host":"smtp.gmail.com","port":465,"secure":true},"Godaddy":{"host":"smtpout.secureserver.net","port":25},"GodaddyAsia":{"host":"smtp.asia.secureserver.net","port":25},"GodaddyEurope":{"host":"smtp.europe.secureserver.net","port":25},"hot.ee":{"host":"mail.hot.ee"},"Hotmail":{"aliases":["Outlook","Outlook.com","Hotmail.com"],"domains":["hotmail.com","outlook.com"],"host":"smtp.live.com","port":587,"tls":{"ciphers":"SSLv3"}},"iCloud":{"aliases":["Me","Mac"],"domains":["me.com","mac.com"],"host":"smtp.mail.me.com","port":587},"mail.ee":{"host":"smtp.mail.ee"},"Mail.ru":{"host":"smtp.mail.ru","port":465,"secure":true},"Maildev":{"port":1025,"ignoreTLS":true},"Mailgun":{"host":"smtp.mailgun.org","port":587},"Mailjet":{"host":"in.mailjet.com","port":587},"Mandrill":{"host":"smtp.mandrillapp.com","port":587},"Naver":{"host":"smtp.naver.com","port":587},"OpenMailBox":{"aliases":["OMB","openmailbox.org"],"host":"smtp.openmailbox.org","port":465,"secure":true},"Postmark":{"aliases":["PostmarkApp"],"host":"smtp.postmarkapp.com","port":2525},"QQ":{"domains":["qq.com"],"host":"smtp.qq.com","port":465,"secure":true},"QQex":{"aliases":["QQ Enterprise"],"domains":["exmail.qq.com"],"host":"smtp.exmail.qq.com","port":465,"secure":true},"SendCloud":{"host":"smtpcloud.sohu.com","port":25},"SendGrid":{"host":"smtp.sendgrid.net","port":587},"SES":{"host":"email-smtp.us-east-1.amazonaws.com","port":465,"secure":true},"SES-US-EAST-1":{"host":"email-smtp.us-east-1.amazonaws.com","port":465,"secure":true},"SES-US-WEST-2":{"host":"email-smtp.us-west-2.amazonaws.com","port":465,"secure":true},"SES-EU-WEST-1":{"host":"email-smtp.eu-west-1.amazonaws.com","port":465,"secure":true},"Sparkpost":{"aliases":["SparkPost","SparkPost Mail"],"domains":["sparkpost.com"],"host":"smtp.sparkpostmail.com","port":587,"secure":false},"Yahoo":{"domains":["yahoo.com"],"host":"smtp.mail.yahoo.com","port":465,"secure":true},"Yandex":{"domains":["yandex.ru"],"host":"smtp.yandex.ru","port":465,"secure":true},"Zoho":{"host":"smtp.zoho.com","port":465,"secure":true,"authMethod":"LOGIN"}}
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports) {
+
+module.exports = require("querystring");
 
 /***/ })
 /******/ ])));

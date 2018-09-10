@@ -6,8 +6,9 @@ const sesSecretKey = process.env.PASSWORD;
 exports.handler = function(event, context, callback) {
   const nodemailer = require('nodemailer');
   const smtpTransport = require('nodemailer-smtp-transport');
+  const querystring = require('querystring');
 
-  const requestBody = JSON.parse(event.body);
+  const { email, number, message, packageName } = querystring.parse(event.body);
 
   const transporter = nodemailer.createTransport(
     smtpTransport({
@@ -20,16 +21,16 @@ exports.handler = function(event, context, callback) {
   );
 
   const html = `
-  <h1>${requestBody.package}</h1>
-  <b>Phone: </b> ${requestBody.number} <br />
-  <b>Message: </b> ${requestBody.message} <br />
+  <h1>${packageName}</h1>
+  <b>Phone: </b> ${number} <br />
+  <b>Message: </b> ${message} <br />
   `;
 
   const mailOptions = {
-    from: requestBody.email,
+    from: email,
     to: 'shakhorsmith@gmail.com',
-    subject: requestBody.package,
-    text: requestBody.message,
+    subject: packageName,
+    text: message,
     html,
   };
 

@@ -28,7 +28,7 @@ class BookModal extends React.Component {
       email: this.state.email,
       number: this.state.number,
       message: this.state.message,
-      package: this.props.title,
+      packageName: this.props.title,
     });
 
     axios
