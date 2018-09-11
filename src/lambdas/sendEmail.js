@@ -1,14 +1,14 @@
+import nodemailer from 'nodemailer';
+import smtpTransport from 'nodemailer-smtp-transport';
+
 require('dotenv').config();
 
 const sesAccessKey = process.env.EMAIL;
 const sesSecretKey = process.env.PASSWORD;
 
 exports.handler = function(event, context, callback) {
-  const nodemailer = require('nodemailer');
-  const smtpTransport = require('nodemailer-smtp-transport');
-  const querystring = require('querystring');
-
-  const { email, number, message, packageName } = querystring.parse(event.body);
+  const params = JSON.parse(event.body);
+  const { email, packageName, number, message } = params;
 
   const transporter = nodemailer.createTransport(
     smtpTransport({
@@ -21,7 +21,7 @@ exports.handler = function(event, context, callback) {
   );
 
   const html = `
-  <h1>${packageName}</h1>
+  <b>Package: </b> ${packageName} <br />
   <b>Phone: </b> ${number} <br />
   <b>Message: </b> ${message} <br />
   `;
@@ -47,7 +47,7 @@ exports.handler = function(event, context, callback) {
     const response = {
       statusCode: 200,
       body: JSON.stringify({
-        message: `Email processed succesfully!`,
+        message: 'Email sent successfully!',
       }),
     };
     callback(null, response);

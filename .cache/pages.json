@@ -17,29 +17,8 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-grown-ish.json",
-        "path": "/packages/grown-ish"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "packages-pampered-princess.json",
         "path": "/packages/pampered-princess"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-so-you-think-you-can-sing.json",
-        "path": "/packages/so-you-think-you-can-sing"
-    },
-    {
-        "componentChunkName": "component---src-templates-package-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "packages-the-glow-up.json",
-        "path": "/packages/the-glow-up"
     },
     {
         "componentChunkName": "component---src-templates-package-js",
@@ -52,8 +31,29 @@
         "componentChunkName": "component---src-templates-package-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-so-you-think-you-can-sing.json",
+        "path": "/packages/so-you-think-you-can-sing"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-grown-ish.json",
+        "path": "/packages/grown-ish"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "packages-sip-and-dip.json",
         "path": "/packages/sip-and-dip"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "packages-the-glow-up.json",
+        "path": "/packages/the-glow-up"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
