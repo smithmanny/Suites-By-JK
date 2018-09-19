@@ -9,9 +9,9 @@ const About = () => (
     <section className="section">
       <h2 className="sectionTitle">Meet The Owners</h2>
       <p>
-        Meet the J and the K of Suites By JK! Jakkera Alan Ellison and Khadijah Cottle always knew ounces the time was
+        Meet the J and the K of Suites By JK! Jakkera Alan Ellison and Khadijah Cottle always knew once the time was
         right that destiny would lead them into the right direction. They always knew they wanted to create unique
-        events for all ages, they just didn’t think they would be so fantastic! Jakkera and Khadijah have know one
+        events for all ages, they just didn’t think they would be so fantastic! Jakkera and Khadijah have known one
         another all of their lives, so their bond makes for a fun environment it’s never a dull moment with the two of
         them! What one lacks the other brings to the table. We hope you enjoy them as much as they enjoy one another!
       </p>
