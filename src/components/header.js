@@ -13,7 +13,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link to="/packages" className={styles.purple}>
+        <Link to="/packages" className={styles.pink}>
           Packages
         </Link>
       </li>

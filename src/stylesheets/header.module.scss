@@ -10,6 +10,10 @@
       height: 500px;
       padding: 10px 0;
       margin-bottom: 30px;
+
+      @media (min-width: 690px) {
+        margin-left: 164px;
+      }
     }
   }
 
@@ -20,7 +24,8 @@
     display: flex;
 
     li {
-      margin: 0 auto;
+      // margin: 0 auto;
+      flex: 1;
       list-style: none;
       text-align: center;
       font-size: 25px;
@@ -31,8 +36,8 @@
   .blue {
     color: $blue;
   }
-  .purple {
-    color: $purple;
+  .pink {
+    color: $pink;
   }
   .green {
     color: $green;
