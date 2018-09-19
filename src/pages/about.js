@@ -8,7 +8,7 @@ const About = () => (
   <div className="wrapper">
     <section className="section">
       <h2 className="sectionTitle">Meet The Owners</h2>
-      <p>
+      <p className={styles.owners}>
         Meet the J and the K of Suites By JK! Jakkera Alan Ellison and Khadijah Cottle always knew once the time was
         right that destiny would lead them into the right direction. They always knew they wanted to create unique
         events for all ages, they just didn’t think they would be so fantastic! Jakkera and Khadijah have known one
