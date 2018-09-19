@@ -3,8 +3,8 @@ import React from 'react';
 import styles from '../stylesheets/footer.module.scss';
 import Newsletter from './newsletter';
 import Mail from '../imgs/mail.svg';
-import Facebook from '../imgs/facebook.png';
-import Instagram from '../imgs/instagram.png';
+import Facebook from '../imgs/facebook.svg';
+import Instagram from '../imgs/instagram.svg';
 
 const Footer = () => (
   <footer>
@@ -18,9 +18,9 @@ const Footer = () => (
           <h2>Social</h2>
           <ul>
             <li>
-              <div style={{ color: 'red' }}>
+              <a href="mailto:suitesbyjk@gmail.com">
                 <img src={Mail} alt="Twitter" />
-              </div>
+              </a>
             </li>
             <li>
               <a href="https://www.facebook.com/byJKllc/?ref=search" rel="noopener noreferrer" target="_blank">
