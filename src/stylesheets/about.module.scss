@@ -1,7 +1,7 @@
 p {
   text-align: center;
 
-  &:first {
+  &:first-of-type {
     font-family: serif;
   }
 }
