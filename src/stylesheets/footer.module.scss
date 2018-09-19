@@ -34,6 +34,12 @@
     }
   }
 
+  .newsletterContainer {
+    h2 {
+      font-weight: 400;
+    }
+  }
+
   .footerCopyright {
     justify-content: center;
   }
@@ -42,7 +48,7 @@
     margin: 5px 0;
 
     a {
-      color: $purple;
+      color: $blue;
     }
   }
 }
