@@ -6,11 +6,6 @@ import Logo from '../imgs/logo.png';
 
 const Header = () => (
   <nav className={styles.nav}>
-    <div className={styles.logo}>
-      <Link to="/">
-        <img src={Logo} alt="Logo" />
-      </Link>
-    </div>
     <ul>
       <li>
         <Link to="/about" className={styles.blue}>
@@ -28,6 +23,11 @@ const Header = () => (
         </Link>
       </li>
     </ul>
+    <div className={styles.logo}>
+      <Link to="/">
+        <img src={Logo} alt="Logo" />
+      </Link>
+    </div>
   </nav>
 );
 
