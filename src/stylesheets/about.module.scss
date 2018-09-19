@@ -1,3 +1,11 @@
+p {
+  text-align: center;
+
+  &:first {
+    font-family: serif;
+  }
+}
+
 .aboutImg {
   max-width: 500px;
   margin: auto;

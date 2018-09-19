@@ -20,7 +20,7 @@
 
     .footerSocial ul {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
 
       li {
         width: 40px;
@@ -32,11 +32,11 @@
         }
       }
     }
-  }
 
-  .newsletterContainer {
-    h2 {
-      font-weight: 400;
+    .newsletterContainer {
+      h2 {
+        font-weight: 400;
+      }
     }
   }
 
