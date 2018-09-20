@@ -11,7 +11,7 @@ const Footer = () => (
     <div className={styles.footer}>
       <section>
         <div>
-          <Newsletter text="Get Rewards" padding="0 30px" />
+          <Newsletter text="Get Rewards" footer />
         </div>
 
         <div className={styles.footerSocial}>

@@ -16,12 +16,6 @@
       flex: 1;
       min-width: 300px;
       margin-bottom: 20px;
-
-      .newsletterContainer {
-        h2 {
-          font-weight: 400;
-        }
-      }
     }
 
     .footerSocial ul {
@@ -37,6 +31,12 @@
           width: 100%;
         }
       }
+    }
+  }
+
+  .footerSocial {
+    h2 {
+      font-size: 20px;
     }
   }
 

@@ -55,8 +55,9 @@ class Newsletter extends Component {
   }
 
   render() {
+    const { footer } = this.props;
     return (
-      <div className="newsletterContainer" style={{ padding: this.props.padding }}>
+      <div className="newsletterContainer" style={{ padding: footer ? '0 30px' : '30px 0' }}>
         <h2>{this.props.text}</h2>
 
         <div className="newsletterWrapper">
@@ -77,12 +78,12 @@ class Newsletter extends Component {
 }
 
 Newsletter.defaultProps = {
-  padding: '30px',
+  footer: null,
   text: 'Subscribe To Our Newsletter',
 };
 
 Newsletter.propTypes = {
-  padding: PropTypes.string,
+  footer: PropTypes.bool,
   text: PropTypes.string,
 };
 
