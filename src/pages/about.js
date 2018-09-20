@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from '../stylesheets/about.module.scss';
 import Newsletter from '../components/newsletter';
-import Owners from '../imgs/pic2.jpg';
+import Owners from '../imgs/about.jpg';
 
 const About = () => (
   <div className="wrapper">

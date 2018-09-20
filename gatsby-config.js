@@ -63,7 +63,7 @@ module.exports = {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
         endpoint:
-          'https://shakhorsmith.us16.list-manage.com/subscribe/post?u=9a4bdf66bb80182ea32881a73&amp;id=ffe9fdc02f',
+          'https://suitesbyjk.us19.list-manage.com/subscribe/post?u=f7ff32b77deb0c6f332beb0e6&amp;id=6c0ef38743',
       },
     },
   ],
