@@ -7597,7 +7597,7 @@ exports.handler = function (event, context, callback) {
 
   const mailOptions = {
     from: email,
-    to: 'shakhorsmith@gmail.com',
+    to: 'suitesbyjk@gmail.com',
     subject: packageName,
     text: message,
     html
