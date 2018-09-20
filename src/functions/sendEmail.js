@@ -7577,7 +7577,7 @@ const sesSecretKey = process.env.PASSWORD;
 
 exports.handler = function (event, context, callback) {
   const params = JSON.parse(event.body);
-  const { email, packageName, number, message } = params;
+  const { email, packageName, name, number, message } = params;
 
   const transporter = _nodemailer2.default.createTransport((0, _nodemailerSmtpTransport2.default)({
     service: 'gmail',
@@ -7589,6 +7589,8 @@ exports.handler = function (event, context, callback) {
 
   const html = `
   <b>Package: </b> ${packageName} <br />
+  <b>Name: </b> ${name} <br />
+  <b>Email: </b> ${email} <br />
   <b>Phone: </b> ${number} <br />
   <b>Message: </b> ${message} <br />
   `;
