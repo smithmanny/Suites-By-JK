@@ -19,6 +19,7 @@ const Packages = ({ data }) => (
       <small className={styles.packagesTravelFee}>
         *There will be an extra $50 traveling fee 30 miles outside of the Greater Atlanta area.{' '}
       </small>
+      <small className={styles.packagesTravelFee}>There will be an $100 non refundable deposit for packages</small>
       <div className={styles.packagesWrapper}>
         {data.allFile.edges.map(image => (
           <div className={styles.packagesContent} key={image.node.name}>
