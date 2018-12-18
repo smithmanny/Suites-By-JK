@@ -26,7 +26,7 @@ export default class HTML extends React.Component {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-                      var lyra=window.lyra||[];lyra.push(['lyra_Id', '5bfaaa90b03a7']);
+                var lyra=window.lyra||[];lyra.push(['lyra_Id', '5c1867b6323c5'])
                   `,
             }}
           />
