@@ -8,7 +8,7 @@ import { theme } from '../theme/globalStyles'
 
 import Header from './Header/index'
 import Logo from './shared/Logo'
-import Footer from 'Footer'
+// import Footer from 'Footer'
 
 const Layout = ({ children }) => (
   <StaticQuery
