@@ -12,7 +12,7 @@ const Packages = () => (
 
     <StaticQuery
       query={graphql`
-          query PackagesQuery {
+          query PackageQuery {
             site {
               siteMetadata {
                 packages {
