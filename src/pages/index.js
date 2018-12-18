@@ -8,12 +8,6 @@ import Newsletter from '../components/shared/Newsletter'
 import Layout from '../components/layout'
 
 export default ({ data }) => {
-  const slideImages = [
-    '../images/all-access.jpg',
-    '../images/all-access.jpg',
-    '../images/all-access.jpg',
-  ]
-
   const properties = {
     duration: 5000,
     transitionDuration: 500,

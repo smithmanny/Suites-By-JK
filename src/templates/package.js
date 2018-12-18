@@ -1,27 +1,28 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 
-import Layout from '../components/PackageLayout'
-import { PageTitle } from '../components/shared/Text'
+import PackageLayout from '../components/PackageLayout'
 
 class JKPackage extends React.Component {
   launchForm = () => {
+    return (
     <script dangerouslySetInnerHTML={{
       __html: `
       (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
       `
     }} />
+    )
   }
 
-  render () {
+  render() {
     const post = this.props.data.markdownRemark
     const image = this.props.data.file.childImageSharp.fluid
 
     return (
-      <Layout>
+      <PackageLayout>
         <Helmet
           title={`Suites By JK | ${ post.frontmatter.title }`}
           meta={[
@@ -43,7 +44,7 @@ class JKPackage extends React.Component {
         >
           Schedule Now
         </Button>
-      </Layout>
+      </PackageLayout>
     )
   }
 }

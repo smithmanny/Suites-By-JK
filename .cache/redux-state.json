@@ -1,0 +1,4320 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7c98dd844f08815949ec74b5ad4feb25",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e44365554d3a1dcf5b3a2e0022ca9b1e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c16478bf1b1c8813b6bfbd2fa2b26a03",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8e61e66ad96d71d9ebfd1974acb2121a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "56496cb216a31758f926eeb3dbc37a90",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5d088028a4ad7874ef846e2c60503402",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8c86bdce87575053185e27444b5013d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b23efede74a38ef63f02f8857ed81cf3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f269ae6ef0881d8136e17df9581d66c3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e53d570649b67b1c1853a348b36c136f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.1",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1bacdb39c4b3f177f9b587b98dd6d30c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "24ad98bc-100f-58bb-a11d-c12f399cd5c3": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-source-filesystem",
+      "id": "24ad98bc-100f-58bb-a11d-c12f399cd5c3",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a4195033f9b4e9aac65ec6895e1e57c3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "911ed229-ed5f-5e95-a10f-6fd6b1fbff64": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-source-filesystem",
+      "id": "911ed229-ed5f-5e95-a10f-6fd6b1fbff64",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "packages",
+        "path": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a6d02ec8191571058f5a8fc5835e4cea",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4cc6e7eb-59cc-54f1-9121-5bd48c6c43ac": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-source-filesystem",
+      "id": "4cc6e7eb-59cc-54f1-9121-5bd48c6c43ac",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "slideshow",
+        "path": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3d32a15cd456dc1a25ac1b519683d7f6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d59e6cac-ce68-579b-bc40-928495f9b5a0": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-transformer-remark",
+      "id": "d59e6cac-ce68-579b-bc40-928495f9b5a0",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.12",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-remark-external-links",
+            "id": "17afaf8a-13bc-5014-ac56-39a797295ac6",
+            "name": "gatsby-remark-external-links",
+            "version": "0.0.4",
+            "pluginOptions": {
+              "plugins": [],
+              "target": "_target",
+              "rel": "nofollow"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-remark-external-links"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b2f98afd0fce31a195aad0d0fc6dd44b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "17afaf8a-13bc-5014-ac56-39a797295ac6": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-remark-external-links",
+      "id": "17afaf8a-13bc-5014-ac56-39a797295ac6",
+      "name": "gatsby-remark-external-links",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "target": "_target",
+        "rel": "nofollow"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-remark-external-links",
+      "packageJson": {
+        "name": "gatsby-remark-external-links",
+        "description": "Automatically adds the target and rel attributes to external links in markdown.",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Jimmy Longley <jimmylongley@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "dedent",
+            "version": "^0.7.0"
+          },
+          {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
+            "name": "remark",
+            "version": "^8.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ffdd0215ad406c58b49d7b1954072d16",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.7",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "74b1a0b1f89988b62e2fc1c4a1c98903",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ec0e826d5084e60ead0744b2010c9cf5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "dd1334ca-a40d-5adf-883a-d46644ec31ed": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-manifest",
+      "id": "dd1334ca-a40d-5adf-883a-d46644ec31ed",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Suites By JK",
+        "short_name": "Suites By JK",
+        "start_url": "/",
+        "background_color": "#ED6EAE",
+        "theme_color": "#F6BE5F",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ea0d0097529c18b2d490da093814eff7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPostPrefetchPathname",
+        "onServiceWorkerActive"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.20"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bbee4b50005679c4a4ca04ea8b6cbabb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9851e670-0de7-5f7f-8210-12ab2bf919e0": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-mailchimp",
+      "id": "9851e670-0de7-5f7f-8210-12ab2bf919e0",
+      "name": "gatsby-plugin-mailchimp",
+      "version": "3.3.0",
+      "pluginOptions": {
+        "plugins": [],
+        "endpoint": "https://suitesbyjk.us19.list-manage.com/subscribe/post?u=f7ff32b77deb0c6f332beb0e6&amp;id=6c0ef38743"
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-mailchimp",
+      "packageJson": {
+        "name": "gatsby-plugin-mailchimp",
+        "description": "A simple, lightweight Gatsby plugin to subscribe email addresses to your Mailchimp list",
+        "version": "3.3.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsbyjs",
+          "mailchimp",
+          "mailchimp api"
+        ],
+        "author": "Benjamin Hoffman <6520022+benjaminhoffman@users.noreply.github.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "email-validator",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "jsonp",
+            "version": "^0.2.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.15.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "95918347ef99cc527b3cbda6968dc047",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "2b4327d0a2b015fb8eb06fe6e00c22af",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@mdx-js/mdx",
+            "version": "^0.16.3"
+          },
+          {
+            "name": "@mdx-js/tag",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.8.0"
+          },
+          {
+            "name": "dotenv",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.8.0"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^12.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.11.1"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.62"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-mailchimp",
+            "version": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "gatsby-remark-external-links",
+            "version": "^0.0.4"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.12"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "moment",
+            "version": "^2.22.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.7.0-alpha.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.7.0-alpha.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-notification-system",
+            "version": "^0.2.17"
+          },
+          {
+            "name": "react-slideshow-image",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "snyk",
+            "version": "^1.116.2"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.0.3"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-twin-peaks",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "validator",
+            "version": "^10.9.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e8353164442ebcff39d26e23143334e8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700": {
+      "resolve": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-page-creator",
+      "id": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6e98d222c29d749b9d1ff331cdf44ce5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Suites By JK",
+        "siteUrl": "https://suitesbyjk.com",
+        "menuLinks": [
+          {
+            "name": "Meet The Owners",
+            "link": "/meet-the-owners",
+            "color": "#63ddfb"
+          },
+          {
+            "name": "Packages",
+            "link": "/packages",
+            "color": "#ed6eae"
+          },
+          {
+            "name": "Contact",
+            "link": "/contact",
+            "color": "#cbfc54"
+          }
+        ],
+        "packages": [
+          {
+            "name": "So you think you can sing",
+            "link": "so-you-think-you-can-sing",
+            "image": "so-you-think-you-can-sing.jpg"
+          },
+          {
+            "name": "Bridal Transportation",
+            "link": "bridal-transportation",
+            "image": "bridal-transportation.jpg"
+          },
+          {
+            "name": "All Access",
+            "link": "all-access",
+            "image": "all-access.jpg"
+          },
+          {
+            "name": "The Glow Up",
+            "link": "the-glow-up",
+            "image": "the-glow-up.jpg"
+          },
+          {
+            "name": "The Day Camp",
+            "link": "the-day-camp",
+            "image": "the-day-camp.jpg"
+          },
+          {
+            "name": "Sip and Dip",
+            "link": "sip-and-dip",
+            "image": "sip-and-dip.jpg"
+          },
+          {
+            "name": "Pampered Princess",
+            "link": "pampered-princess",
+            "image": "pampered-princess.jpg"
+          },
+          {
+            "name": "Grown-ish",
+            "link": "grown-ish",
+            "image": "grown-ish.jpg"
+          }
+        ]
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-12-18T02:12:32.066Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "566134d67a9fd781b029d4f931f38dfa",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "37473886-5abb-5cf7-9cfd-fe0e744aa05d": {
+      "id": "37473886-5abb-5cf7-9cfd-fe0e744aa05d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "df27b7ff5e9cf3f34dadf56b494401d5",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 576,
+      "prettySize": "576 B",
+      "modifiedTime": "2018-12-18T00:45:01.190Z",
+      "accessTime": "2018-12-18T02:12:35.506Z",
+      "changeTime": "2018-12-18T01:20:10.530Z",
+      "birthTime": "2018-11-25T14:40:06.742Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 18,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188081,
+      "blocks": 0,
+      "atimeMs": 1545099155505.8596,
+      "mtimeMs": 1545093901189.774,
+      "ctimeMs": 1545096010529.8728,
+      "birthtimeMs": 1543156806741.766,
+      "atime": "2018-12-18T02:12:35.506Z",
+      "mtime": "2018-12-18T00:45:01.190Z",
+      "ctime": "2018-12-18T01:20:10.530Z",
+      "birthtime": "2018-11-25T14:40:06.742Z"
+    },
+    "9936da9d-e8c9-5271-be4a-b2087d08f2ad": {
+      "id": "9936da9d-e8c9-5271-be4a-b2087d08f2ad",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "36c47fc97905af9bf85980bbfa2c74be",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/facebook.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/facebook.svg",
+      "relativePath": "facebook.svg",
+      "extension": "svg",
+      "size": 477,
+      "prettySize": "477 B",
+      "modifiedTime": "2018-12-15T22:30:56.227Z",
+      "accessTime": "2018-12-18T01:24:52.874Z",
+      "changeTime": "2018-12-18T01:20:10.526Z",
+      "birthTime": "2018-12-15T22:30:56.227Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "facebook.svg",
+      "ext": ".svg",
+      "name": "facebook",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188092,
+      "blocks": 8,
+      "atimeMs": 1545096292873.857,
+      "mtimeMs": 1544913056227.498,
+      "ctimeMs": 1545096010526.2495,
+      "birthtimeMs": 1544913056227.379,
+      "atime": "2018-12-18T01:24:52.874Z",
+      "mtime": "2018-12-15T22:30:56.227Z",
+      "ctime": "2018-12-18T01:20:10.526Z",
+      "birthtime": "2018-12-15T22:30:56.227Z"
+    },
+    "80150bdf-96fb-5d38-ad07-4dab81240cd8": {
+      "id": "80150bdf-96fb-5d38-ad07-4dab81240cd8",
+      "children": [
+        "1f0e40b1-bffb-5fe0-817d-0fe414812887"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2018-11-25T14:40:06.780Z",
+      "accessTime": "2018-12-18T01:24:52.879Z",
+      "changeTime": "2018-12-18T01:20:10.529Z",
+      "birthTime": "2018-11-25T14:40:06.780Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188095,
+      "blocks": 48,
+      "atimeMs": 1545096292878.977,
+      "mtimeMs": 1543156806780.3657,
+      "ctimeMs": 1545096010528.6702,
+      "birthtimeMs": 1543156806779.6545,
+      "atime": "2018-12-18T01:24:52.879Z",
+      "mtime": "2018-11-25T14:40:06.780Z",
+      "ctime": "2018-12-18T01:20:10.529Z",
+      "birthtime": "2018-11-25T14:40:06.780Z"
+    },
+    "d386671e-7be0-5cf1-a68c-b1a09577d413": {
+      "id": "d386671e-7be0-5cf1-a68c-b1a09577d413",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a0b169a6a79b79b4a8ede4ed3605a45a",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/instagram.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/instagram.svg",
+      "relativePath": "instagram.svg",
+      "extension": "svg",
+      "size": 1137,
+      "prettySize": "1.14 kB",
+      "modifiedTime": "2018-12-15T22:30:56.229Z",
+      "accessTime": "2018-12-18T01:24:52.812Z",
+      "changeTime": "2018-12-18T01:20:10.522Z",
+      "birthTime": "2018-12-15T22:30:56.229Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "instagram.svg",
+      "ext": ".svg",
+      "name": "instagram",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188085,
+      "blocks": 8,
+      "atimeMs": 1545096292812.1118,
+      "mtimeMs": 1544913056228.6218,
+      "ctimeMs": 1545096010521.7144,
+      "birthtimeMs": 1544913056228.552,
+      "atime": "2018-12-18T01:24:52.812Z",
+      "mtime": "2018-12-15T22:30:56.229Z",
+      "ctime": "2018-12-18T01:20:10.522Z",
+      "birthtime": "2018-12-15T22:30:56.229Z"
+    },
+    "7fcec65d-5b39-5712-b760-513fd26e5ce9": {
+      "id": "7fcec65d-5b39-5712-b760-513fd26e5ce9",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "429fa855928067953c95b01c7ececb6d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/mail.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/mail.svg",
+      "relativePath": "mail.svg",
+      "extension": "svg",
+      "size": 1014,
+      "prettySize": "1.01 kB",
+      "modifiedTime": "2018-12-15T22:30:56.230Z",
+      "accessTime": "2018-12-18T01:24:52.833Z",
+      "changeTime": "2018-12-18T01:20:10.523Z",
+      "birthTime": "2018-12-15T22:30:56.230Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "mail.svg",
+      "ext": ".svg",
+      "name": "mail",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188087,
+      "blocks": 8,
+      "atimeMs": 1545096292833.255,
+      "mtimeMs": 1544913056229.72,
+      "ctimeMs": 1545096010522.7715,
+      "birthtimeMs": 1544913056229.6426,
+      "atime": "2018-12-18T01:24:52.833Z",
+      "mtime": "2018-12-15T22:30:56.230Z",
+      "ctime": "2018-12-18T01:20:10.523Z",
+      "birthtime": "2018-12-15T22:30:56.230Z"
+    },
+    "90198bbe-d7b6-5c7d-a4ab-014163efeb00": {
+      "id": "90198bbe-d7b6-5c7d-a4ab-014163efeb00",
+      "children": [
+        "706e7cc8-0624-581d-8123-0fc9effa1825"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "91a39dc91c2316d067b95d71601e0dbc",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/bridal-transportation.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/bridal-transportation.jpg",
+      "relativePath": "bridal-transportation.jpg",
+      "extension": "jpg",
+      "size": 78406,
+      "prettySize": "78.4 kB",
+      "modifiedTime": "2018-12-15T22:30:56.231Z",
+      "accessTime": "2018-12-18T02:06:28.235Z",
+      "changeTime": "2018-12-18T01:20:10.526Z",
+      "birthTime": "2018-12-15T22:30:56.231Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "bridal-transportation.jpg",
+      "ext": ".jpg",
+      "name": "bridal-transportation",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188091,
+      "blocks": 160,
+      "atimeMs": 1545098788234.7656,
+      "mtimeMs": 1544913056230.9211,
+      "ctimeMs": 1545096010525.7292,
+      "birthtimeMs": 1544913056230.6304,
+      "atime": "2018-12-18T02:06:28.235Z",
+      "mtime": "2018-12-15T22:30:56.231Z",
+      "ctime": "2018-12-18T01:20:10.526Z",
+      "birthtime": "2018-12-15T22:30:56.231Z"
+    },
+    "f50030da-3bbf-5b8b-978f-06cd773addd1": {
+      "id": "f50030da-3bbf-5b8b-978f-06cd773addd1",
+      "children": [
+        "773bb61a-c90c-5182-9ad1-81df3fc2cb8c"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "86898a617a247ae02afe5e2151f82b7e",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/all-access.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/all-access.jpg",
+      "relativePath": "all-access.jpg",
+      "extension": "jpg",
+      "size": 85732,
+      "prettySize": "85.7 kB",
+      "modifiedTime": "2018-12-15T22:30:56.230Z",
+      "accessTime": "2018-12-18T01:24:52.812Z",
+      "changeTime": "2018-12-18T01:20:10.522Z",
+      "birthTime": "2018-12-15T22:30:56.230Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "all-access.jpg",
+      "ext": ".jpg",
+      "name": "all-access",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188086,
+      "blocks": 168,
+      "atimeMs": 1545096292812.0266,
+      "mtimeMs": 1544913056230.4531,
+      "ctimeMs": 1545096010522.235,
+      "birthtimeMs": 1544913056229.8687,
+      "atime": "2018-12-18T01:24:52.812Z",
+      "mtime": "2018-12-15T22:30:56.230Z",
+      "ctime": "2018-12-18T01:20:10.522Z",
+      "birthtime": "2018-12-15T22:30:56.230Z"
+    },
+    "1f0e40b1-bffb-5fe0-817d-0fe414812887": {
+      "id": "1f0e40b1-bffb-5fe0-817d-0fe414812887",
+      "children": [],
+      "parent": "80150bdf-96fb-5d38-ad07-4dab81240cd8",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "35f0ac3f-3edd-5d82-8389-84023972b4e3": {
+      "id": "35f0ac3f-3edd-5d82-8389-84023972b4e3",
+      "children": [
+        "84866e20-e8a0-584a-aa5a-25bfb9861ebd"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "847112772f5c8f325434c653b3f13a58",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/logo.png",
+      "relativePath": "logo.png",
+      "extension": "png",
+      "size": 112271,
+      "prettySize": "112 kB",
+      "modifiedTime": "2018-12-16T02:33:51.228Z",
+      "accessTime": "2018-12-18T02:06:28.235Z",
+      "changeTime": "2018-12-18T01:20:10.527Z",
+      "birthTime": "2018-12-16T02:33:51.189Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "logo.png",
+      "ext": ".png",
+      "name": "logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188093,
+      "blocks": 224,
+      "atimeMs": 1545098788234.8147,
+      "mtimeMs": 1544927631228.4832,
+      "ctimeMs": 1545096010527.269,
+      "birthtimeMs": 1544927631189.4954,
+      "atime": "2018-12-18T02:06:28.235Z",
+      "mtime": "2018-12-16T02:33:51.228Z",
+      "ctime": "2018-12-18T01:20:10.527Z",
+      "birthtime": "2018-12-16T02:33:51.189Z"
+    },
+    "a8c7c0e7-f7e4-541f-a5b3-015737bc1bbd": {
+      "id": "a8c7c0e7-f7e4-541f-a5b3-015737bc1bbd",
+      "children": [
+        "d9c153ad-b856-57f6-af1a-483497493b05"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2be32be2ac96cd3b1fd5d048dc3bfc26",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/grown-ish.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/grown-ish.jpg",
+      "relativePath": "grown-ish.jpg",
+      "extension": "jpg",
+      "size": 120242,
+      "prettySize": "120 kB",
+      "modifiedTime": "2018-12-15T22:30:56.232Z",
+      "accessTime": "2018-12-18T02:06:28.235Z",
+      "changeTime": "2018-12-18T01:20:10.525Z",
+      "birthTime": "2018-12-15T22:30:56.231Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "grown-ish.jpg",
+      "ext": ".jpg",
+      "name": "grown-ish",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188090,
+      "blocks": 240,
+      "atimeMs": 1545098788234.7976,
+      "mtimeMs": 1544913056231.7935,
+      "ctimeMs": 1545096010525.0706,
+      "birthtimeMs": 1544913056231.124,
+      "atime": "2018-12-18T02:06:28.235Z",
+      "mtime": "2018-12-15T22:30:56.232Z",
+      "ctime": "2018-12-18T01:20:10.525Z",
+      "birthtime": "2018-12-15T22:30:56.231Z"
+    },
+    "1f4471af-c55c-57f6-bbde-02bfb1d69b1d": {
+      "id": "1f4471af-c55c-57f6-bbde-02bfb1d69b1d",
+      "children": [
+        "1b7b3ea5-1779-5050-96bd-0101512ca5a4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "258d44d9af7cb6e097282793e83a83fa",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/sip-and-dip.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/sip-and-dip.jpg",
+      "relativePath": "sip-and-dip.jpg",
+      "extension": "jpg",
+      "size": 98075,
+      "prettySize": "98.1 kB",
+      "modifiedTime": "2018-12-15T22:30:56.234Z",
+      "accessTime": "2018-12-18T01:24:52.804Z",
+      "changeTime": "2018-12-18T01:20:10.519Z",
+      "birthTime": "2018-12-15T22:30:56.233Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "sip-and-dip.jpg",
+      "ext": ".jpg",
+      "name": "sip-and-dip",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188082,
+      "blocks": 192,
+      "atimeMs": 1545096292803.544,
+      "mtimeMs": 1544913056234.4438,
+      "ctimeMs": 1545096010519.136,
+      "birthtimeMs": 1544913056233.3738,
+      "atime": "2018-12-18T01:24:52.804Z",
+      "mtime": "2018-12-15T22:30:56.234Z",
+      "ctime": "2018-12-18T01:20:10.519Z",
+      "birthtime": "2018-12-15T22:30:56.233Z"
+    },
+    "a7de4961-9da3-53ce-af63-2b284f11b516": {
+      "id": "a7de4961-9da3-53ce-af63-2b284f11b516",
+      "children": [
+        "d74ccdf7-c7c6-5887-8a93-5ad127987527"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "00c2582c0f61d8589f47024091770308",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/pampered-princess.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/pampered-princess.jpg",
+      "relativePath": "pampered-princess.jpg",
+      "extension": "jpg",
+      "size": 114794,
+      "prettySize": "115 kB",
+      "modifiedTime": "2018-12-15T22:30:56.233Z",
+      "accessTime": "2018-12-18T01:24:52.805Z",
+      "changeTime": "2018-12-18T01:20:10.521Z",
+      "birthTime": "2018-12-15T22:30:56.232Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "pampered-princess.jpg",
+      "ext": ".jpg",
+      "name": "pampered-princess",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188084,
+      "blocks": 232,
+      "atimeMs": 1545096292804.8901,
+      "mtimeMs": 1544913056232.9421,
+      "ctimeMs": 1545096010520.894,
+      "birthtimeMs": 1544913056232.045,
+      "atime": "2018-12-18T01:24:52.805Z",
+      "mtime": "2018-12-15T22:30:56.233Z",
+      "ctime": "2018-12-18T01:20:10.521Z",
+      "birthtime": "2018-12-15T22:30:56.232Z"
+    },
+    "bee3b879-400e-550a-9cc9-a8c525b2c15c": {
+      "id": "bee3b879-400e-550a-9cc9-a8c525b2c15c",
+      "children": [
+        "a28f8b57-2c8a-56af-aac8-09024954f770"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6235f726ab4d7cf8045cd2eab64aecd1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/so-you-think-you-can-sing.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/so-you-think-you-can-sing.jpg",
+      "relativePath": "so-you-think-you-can-sing.jpg",
+      "extension": "jpg",
+      "size": 123813,
+      "prettySize": "124 kB",
+      "modifiedTime": "2018-12-15T22:30:56.236Z",
+      "accessTime": "2018-12-18T02:06:28.235Z",
+      "changeTime": "2018-12-18T01:20:10.528Z",
+      "birthTime": "2018-12-15T22:30:56.235Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "so-you-think-you-can-sing.jpg",
+      "ext": ".jpg",
+      "name": "so-you-think-you-can-sing",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188094,
+      "blocks": 248,
+      "atimeMs": 1545098788234.8662,
+      "mtimeMs": 1544913056236.312,
+      "ctimeMs": 1545096010527.82,
+      "birthtimeMs": 1544913056234.9258,
+      "atime": "2018-12-18T02:06:28.235Z",
+      "mtime": "2018-12-15T22:30:56.236Z",
+      "ctime": "2018-12-18T01:20:10.528Z",
+      "birthtime": "2018-12-15T22:30:56.235Z"
+    },
+    "c8b8f536-c65d-5c44-8f45-5247a5aae0c2": {
+      "id": "c8b8f536-c65d-5c44-8f45-5247a5aae0c2",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9af93e473ec03108e0c336ba17796504",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/waves-pattern.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/waves-pattern.svg",
+      "relativePath": "waves-pattern.svg",
+      "extension": "svg",
+      "size": 104460,
+      "prettySize": "104 kB",
+      "modifiedTime": "2018-12-15T22:30:56.241Z",
+      "accessTime": "2018-12-18T01:24:52.838Z",
+      "changeTime": "2018-12-18T01:20:10.524Z",
+      "birthTime": "2018-12-15T22:30:56.241Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "waves-pattern.svg",
+      "ext": ".svg",
+      "name": "waves-pattern",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188089,
+      "blocks": 208,
+      "atimeMs": 1545096292837.6223,
+      "mtimeMs": 1544913056241.2478,
+      "ctimeMs": 1545096010524.4907,
+      "birthtimeMs": 1544913056240.8813,
+      "atime": "2018-12-18T01:24:52.838Z",
+      "mtime": "2018-12-15T22:30:56.241Z",
+      "ctime": "2018-12-18T01:20:10.524Z",
+      "birthtime": "2018-12-15T22:30:56.241Z"
+    },
+    "44b5a06a-a584-5497-8422-125a7bb5e56f": {
+      "id": "44b5a06a-a584-5497-8422-125a7bb5e56f",
+      "children": [
+        "060981ee-7910-5c9a-88cc-4fdfe1f12c35"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f800ab487f6ce2a50c11444e4b570790",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/the-day-camp.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/the-day-camp.jpg",
+      "relativePath": "the-day-camp.jpg",
+      "extension": "jpg",
+      "size": 119278,
+      "prettySize": "119 kB",
+      "modifiedTime": "2018-12-15T22:30:56.238Z",
+      "accessTime": "2018-12-18T02:06:28.235Z",
+      "changeTime": "2018-12-18T01:20:10.530Z",
+      "birthTime": "2018-12-15T22:30:56.237Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "the-day-camp.jpg",
+      "ext": ".jpg",
+      "name": "the-day-camp",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188097,
+      "blocks": 240,
+      "atimeMs": 1545098788234.8767,
+      "mtimeMs": 1544913056238.3003,
+      "ctimeMs": 1545096010529.7822,
+      "birthtimeMs": 1544913056236.666,
+      "atime": "2018-12-18T02:06:28.235Z",
+      "mtime": "2018-12-15T22:30:56.238Z",
+      "ctime": "2018-12-18T01:20:10.530Z",
+      "birthtime": "2018-12-15T22:30:56.237Z"
+    },
+    "2db1cecd-456d-58aa-a0f1-0a598c85352c": {
+      "id": "2db1cecd-456d-58aa-a0f1-0a598c85352c",
+      "children": [
+        "7e0ba4e3-0d1f-5d18-a802-5f34d47a93d4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2704ba789d276b813487cc627e79402f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/the-glow-up.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/the-glow-up.jpg",
+      "relativePath": "the-glow-up.jpg",
+      "extension": "jpg",
+      "size": 115674,
+      "prettySize": "116 kB",
+      "modifiedTime": "2018-12-15T22:30:56.240Z",
+      "accessTime": "2018-12-18T01:24:52.877Z",
+      "changeTime": "2018-12-18T01:20:10.529Z",
+      "birthTime": "2018-12-15T22:30:56.239Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "the-glow-up.jpg",
+      "ext": ".jpg",
+      "name": "the-glow-up",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188096,
+      "blocks": 232,
+      "atimeMs": 1545096292876.7307,
+      "mtimeMs": 1544913056239.7488,
+      "ctimeMs": 1545096010529.25,
+      "birthtimeMs": 1544913056238.7556,
+      "atime": "2018-12-18T01:24:52.877Z",
+      "mtime": "2018-12-15T22:30:56.240Z",
+      "ctime": "2018-12-18T01:20:10.529Z",
+      "birthtime": "2018-12-15T22:30:56.239Z"
+    },
+    "706e7cc8-0624-581d-8123-0fc9effa1825": {
+      "id": "706e7cc8-0624-581d-8123-0fc9effa1825",
+      "children": [],
+      "parent": "90198bbe-d7b6-5c7d-a4ab-014163efeb00",
+      "internal": {
+        "contentDigest": "91a39dc91c2316d067b95d71601e0dbc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "773bb61a-c90c-5182-9ad1-81df3fc2cb8c": {
+      "id": "773bb61a-c90c-5182-9ad1-81df3fc2cb8c",
+      "children": [],
+      "parent": "f50030da-3bbf-5b8b-978f-06cd773addd1",
+      "internal": {
+        "contentDigest": "86898a617a247ae02afe5e2151f82b7e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "84866e20-e8a0-584a-aa5a-25bfb9861ebd": {
+      "id": "84866e20-e8a0-584a-aa5a-25bfb9861ebd",
+      "children": [],
+      "parent": "35f0ac3f-3edd-5d82-8389-84023972b4e3",
+      "internal": {
+        "contentDigest": "847112772f5c8f325434c653b3f13a58",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d9c153ad-b856-57f6-af1a-483497493b05": {
+      "id": "d9c153ad-b856-57f6-af1a-483497493b05",
+      "children": [],
+      "parent": "a8c7c0e7-f7e4-541f-a5b3-015737bc1bbd",
+      "internal": {
+        "contentDigest": "2be32be2ac96cd3b1fd5d048dc3bfc26",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1b7b3ea5-1779-5050-96bd-0101512ca5a4": {
+      "id": "1b7b3ea5-1779-5050-96bd-0101512ca5a4",
+      "children": [],
+      "parent": "1f4471af-c55c-57f6-bbde-02bfb1d69b1d",
+      "internal": {
+        "contentDigest": "258d44d9af7cb6e097282793e83a83fa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d74ccdf7-c7c6-5887-8a93-5ad127987527": {
+      "id": "d74ccdf7-c7c6-5887-8a93-5ad127987527",
+      "children": [],
+      "parent": "a7de4961-9da3-53ce-af63-2b284f11b516",
+      "internal": {
+        "contentDigest": "00c2582c0f61d8589f47024091770308",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a28f8b57-2c8a-56af-aac8-09024954f770": {
+      "id": "a28f8b57-2c8a-56af-aac8-09024954f770",
+      "children": [],
+      "parent": "bee3b879-400e-550a-9cc9-a8c525b2c15c",
+      "internal": {
+        "contentDigest": "6235f726ab4d7cf8045cd2eab64aecd1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "060981ee-7910-5c9a-88cc-4fdfe1f12c35": {
+      "id": "060981ee-7910-5c9a-88cc-4fdfe1f12c35",
+      "children": [],
+      "parent": "44b5a06a-a584-5497-8422-125a7bb5e56f",
+      "internal": {
+        "contentDigest": "f800ab487f6ce2a50c11444e4b570790",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "7e0ba4e3-0d1f-5d18-a802-5f34d47a93d4": {
+      "id": "7e0ba4e3-0d1f-5d18-a802-5f34d47a93d4",
+      "children": [],
+      "parent": "2db1cecd-456d-58aa-a0f1-0a598c85352c",
+      "internal": {
+        "contentDigest": "2704ba789d276b813487cc627e79402f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "359693ca-5418-55c3-852a-8f1000a60228": {
+      "id": "359693ca-5418-55c3-852a-8f1000a60228",
+      "children": [
+        "f7a77f9a-dcb9-5ce6-a281-e38a663ee4f1"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "71c9c38ef27b353d56e61139db32bf2f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/meet-the-owners.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images/meet-the-owners.jpg",
+      "relativePath": "meet-the-owners.jpg",
+      "extension": "jpg",
+      "size": 337850,
+      "prettySize": "338 kB",
+      "modifiedTime": "2018-12-15T22:30:56.225Z",
+      "accessTime": "2018-12-18T01:24:52.835Z",
+      "changeTime": "2018-12-18T01:20:10.524Z",
+      "birthTime": "2018-12-15T22:30:56.222Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/images",
+      "base": "meet-the-owners.jpg",
+      "ext": ".jpg",
+      "name": "meet-the-owners",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188088,
+      "blocks": 664,
+      "atimeMs": 1545096292835.2742,
+      "mtimeMs": 1544913056225.037,
+      "ctimeMs": 1545096010523.6428,
+      "birthtimeMs": 1544913056222.4011,
+      "atime": "2018-12-18T01:24:52.835Z",
+      "mtime": "2018-12-15T22:30:56.225Z",
+      "ctime": "2018-12-18T01:20:10.524Z",
+      "birthtime": "2018-12-15T22:30:56.222Z"
+    },
+    "f7a77f9a-dcb9-5ce6-a281-e38a663ee4f1": {
+      "id": "f7a77f9a-dcb9-5ce6-a281-e38a663ee4f1",
+      "children": [],
+      "parent": "359693ca-5418-55c3-852a-8f1000a60228",
+      "internal": {
+        "contentDigest": "71c9c38ef27b353d56e61139db32bf2f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "50311daa-19bf-5b5e-ad61-4324df470921": {
+      "id": "50311daa-19bf-5b5e-ad61-4324df470921",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "224997ed1e076ed4160a37274393bf77",
+        "type": "Directory",
+        "description": "Directory \"src/packages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "relativePath": "",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-12-16T14:51:07.306Z",
+      "accessTime": "2018-12-18T02:12:35.530Z",
+      "changeTime": "2018-12-18T01:20:10.549Z",
+      "birthTime": "2018-12-15T22:30:56.246Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src",
+      "base": "packages",
+      "ext": "",
+      "name": "packages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188115,
+      "blocks": 0,
+      "atimeMs": 1545099155530.3792,
+      "mtimeMs": 1544971867305.613,
+      "ctimeMs": 1545096010548.7917,
+      "birthtimeMs": 1544913056246.0457,
+      "atime": "2018-12-18T02:12:35.530Z",
+      "mtime": "2018-12-16T14:51:07.306Z",
+      "ctime": "2018-12-18T01:20:10.549Z",
+      "birthtime": "2018-12-15T22:30:56.246Z"
+    },
+    "3e1af456-5803-5ba3-842d-c66ab6a84ee5": {
+      "id": "3e1af456-5803-5ba3-842d-c66ab6a84ee5",
+      "children": [
+        "98088b60-d502-588b-81cf-62cc0ff94896"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "33e83770feb57ed90f1846f456c1ae2c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/pampered-princess.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/pampered-princess.md",
+      "relativePath": "pampered-princess.md",
+      "extension": "md",
+      "size": 398,
+      "prettySize": "398 B",
+      "modifiedTime": "2018-12-17T00:55:42.380Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.548Z",
+      "birthTime": "2018-12-15T22:30:56.251Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "pampered-princess.md",
+      "ext": ".md",
+      "name": "pampered-princess",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188122,
+      "blocks": 8,
+      "atimeMs": 1545098781768.6995,
+      "mtimeMs": 1545008142380.4546,
+      "ctimeMs": 1545096010547.8293,
+      "birthtimeMs": 1544913056250.6968,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:55:42.380Z",
+      "ctime": "2018-12-18T01:20:10.548Z",
+      "birthtime": "2018-12-15T22:30:56.251Z"
+    },
+    "ec99ed65-26d0-5ad3-96c9-60501a5f447f": {
+      "id": "ec99ed65-26d0-5ad3-96c9-60501a5f447f",
+      "children": [
+        "c8ed978f-868b-58d3-81fc-761d7188f33d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "34c98918a10511865956902966c2dce3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/all-access.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/all-access.md",
+      "relativePath": "all-access.md",
+      "extension": "md",
+      "size": 528,
+      "prettySize": "528 B",
+      "modifiedTime": "2018-12-17T00:47:04.973Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.547Z",
+      "birthTime": "2018-12-15T22:30:56.246Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "all-access.md",
+      "ext": ".md",
+      "name": "all-access",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188121,
+      "blocks": 8,
+      "atimeMs": 1545098781768.6,
+      "mtimeMs": 1545007624973.075,
+      "ctimeMs": 1545096010547.2195,
+      "birthtimeMs": 1544913056246.35,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:47:04.973Z",
+      "ctime": "2018-12-18T01:20:10.547Z",
+      "birthtime": "2018-12-15T22:30:56.246Z"
+    },
+    "407e6cc7-cfb4-5086-8737-a6521e0d06bb": {
+      "id": "407e6cc7-cfb4-5086-8737-a6521e0d06bb",
+      "children": [
+        "cc9141fe-4cff-5918-86bf-6d8f9718ac26"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b6089d398b23a765e92a96ef663ae87",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/grown-ish.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/grown-ish.md",
+      "relativePath": "grown-ish.md",
+      "extension": "md",
+      "size": 280,
+      "prettySize": "280 B",
+      "modifiedTime": "2018-12-17T00:55:36.172Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.544Z",
+      "birthTime": "2018-12-15T22:30:56.250Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "grown-ish.md",
+      "ext": ".md",
+      "name": "grown-ish",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188116,
+      "blocks": 8,
+      "atimeMs": 1545098781768.6672,
+      "mtimeMs": 1545008136171.9392,
+      "ctimeMs": 1545096010543.8215,
+      "birthtimeMs": 1544913056250.4324,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:55:36.172Z",
+      "ctime": "2018-12-18T01:20:10.544Z",
+      "birthtime": "2018-12-15T22:30:56.250Z"
+    },
+    "970852d9-1cd8-5e3a-8421-6d0e32ed3cb7": {
+      "id": "970852d9-1cd8-5e3a-8421-6d0e32ed3cb7",
+      "children": [
+        "76bec0ad-afb2-52cb-869e-f2796699bf37"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "afd49d0f1ca439d85f2f34575851bb86",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/sip-and-dip.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/sip-and-dip.md",
+      "relativePath": "sip-and-dip.md",
+      "extension": "md",
+      "size": 280,
+      "prettySize": "280 B",
+      "modifiedTime": "2018-12-17T00:55:48.306Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.546Z",
+      "birthTime": "2018-12-15T22:30:56.251Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "sip-and-dip.md",
+      "ext": ".md",
+      "name": "sip-and-dip",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188119,
+      "blocks": 8,
+      "atimeMs": 1545098781768.7898,
+      "mtimeMs": 1545008148306.3208,
+      "ctimeMs": 1545096010545.8374,
+      "birthtimeMs": 1544913056251.0808,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:55:48.306Z",
+      "ctime": "2018-12-18T01:20:10.546Z",
+      "birthtime": "2018-12-15T22:30:56.251Z"
+    },
+    "156ea314-5b89-57d1-ac6b-bf11522b2860": {
+      "id": "156ea314-5b89-57d1-ac6b-bf11522b2860",
+      "children": [
+        "de96180c-bb8c-56c7-9788-ad6bf7a40795"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e7b1e4dcde94126fdf79e69c4fa8c3de",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/the-day-camp.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/the-day-camp.md",
+      "relativePath": "the-day-camp.md",
+      "extension": "md",
+      "size": 313,
+      "prettySize": "313 B",
+      "modifiedTime": "2018-12-17T00:55:59.881Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.544Z",
+      "birthTime": "2018-12-15T22:30:56.249Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "the-day-camp.md",
+      "ext": ".md",
+      "name": "the-day-camp",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188117,
+      "blocks": 8,
+      "atimeMs": 1545098781768.893,
+      "mtimeMs": 1545008159880.712,
+      "ctimeMs": 1545096010544.4292,
+      "birthtimeMs": 1544913056248.8806,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:55:59.881Z",
+      "ctime": "2018-12-18T01:20:10.544Z",
+      "birthtime": "2018-12-15T22:30:56.249Z"
+    },
+    "c546d8fd-dc71-561a-ba45-8c0f3376c6a3": {
+      "id": "c546d8fd-dc71-561a-ba45-8c0f3376c6a3",
+      "children": [
+        "b5fc9233-704b-535f-84b8-0fa1fa146f70"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f3b428c30976ba147ef6e17000747611",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/the-glow-up.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/the-glow-up.md",
+      "relativePath": "the-glow-up.md",
+      "extension": "md",
+      "size": 302,
+      "prettySize": "302 B",
+      "modifiedTime": "2018-12-17T00:56:05.505Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.549Z",
+      "birthTime": "2018-12-15T22:30:56.252Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "the-glow-up.md",
+      "ext": ".md",
+      "name": "the-glow-up",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188123,
+      "blocks": 8,
+      "atimeMs": 1545098781768.9333,
+      "mtimeMs": 1545008165505.4795,
+      "ctimeMs": 1545096010548.6975,
+      "birthtimeMs": 1544913056252.3896,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:56:05.505Z",
+      "ctime": "2018-12-18T01:20:10.549Z",
+      "birthtime": "2018-12-15T22:30:56.252Z"
+    },
+    "46b2d5f7-84f9-53f9-a256-9b9a278bfbe5": {
+      "id": "46b2d5f7-84f9-53f9-a256-9b9a278bfbe5",
+      "children": [
+        "ff6f0b78-5e81-50e1-b3a9-81829473e0f1"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1a92c662297690ebf4404041058889a9",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/so-you-think-you-can-sing.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/so-you-think-you-can-sing.md",
+      "relativePath": "so-you-think-you-can-sing.md",
+      "extension": "md",
+      "size": 287,
+      "prettySize": "287 B",
+      "modifiedTime": "2018-12-17T00:55:53.881Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.547Z",
+      "birthTime": "2018-12-15T22:30:56.252Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "so-you-think-you-can-sing.md",
+      "ext": ".md",
+      "name": "so-you-think-you-can-sing",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188120,
+      "blocks": 8,
+      "atimeMs": 1545098781768.85,
+      "mtimeMs": 1545008153881.2058,
+      "ctimeMs": 1545096010546.6086,
+      "birthtimeMs": 1544913056251.606,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:55:53.881Z",
+      "ctime": "2018-12-18T01:20:10.547Z",
+      "birthtime": "2018-12-15T22:30:56.252Z"
+    },
+    "64c56fb0-4120-557a-be32-89d6458826cd": {
+      "id": "64c56fb0-4120-557a-be32-89d6458826cd",
+      "children": [
+        "557d57d5-d919-510d-b32d-463759d6fbc0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "354aad51e495178115194b88dd9fee28",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/packages/bridal-transportation.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "packages",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/bridal-transportation.md",
+      "relativePath": "bridal-transportation.md",
+      "extension": "md",
+      "size": 200,
+      "prettySize": "200 B",
+      "modifiedTime": "2018-12-17T00:55:29.967Z",
+      "accessTime": "2018-12-18T02:06:21.769Z",
+      "changeTime": "2018-12-18T01:20:10.545Z",
+      "birthTime": "2018-12-15T22:30:56.247Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages",
+      "base": "bridal-transportation.md",
+      "ext": ".md",
+      "name": "bridal-transportation",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188118,
+      "blocks": 8,
+      "atimeMs": 1545098781768.6343,
+      "mtimeMs": 1545008129967.149,
+      "ctimeMs": 1545096010545.279,
+      "birthtimeMs": 1544913056247.322,
+      "atime": "2018-12-18T02:06:21.769Z",
+      "mtime": "2018-12-17T00:55:29.967Z",
+      "ctime": "2018-12-18T01:20:10.545Z",
+      "birthtime": "2018-12-15T22:30:56.247Z"
+    },
+    "98088b60-d502-588b-81cf-62cc0ff94896": {
+      "id": "98088b60-d502-588b-81cf-62cc0ff94896",
+      "children": [],
+      "parent": "3e1af456-5803-5ba3-842d-c66ab6a84ee5",
+      "internal": {
+        "content": "\n* 2 hour time limit\n* Tranquil Spa Music\n* Runway Show\n* Back Drop\n* Dress up clothes\n* Robes\n* Mini Manis\n* All natural facials including cucumbers for the eyes\n* Mini face beats including eye shadow and lip gloss\n* A sash for the birthday girl\n* Complete setup and breakdown\n  \n### $525 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "c3fbf4743666152cd0d912cd74db392c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Pampered Princess",
+        "slug": "pampered-princess",
+        "image": "pampered-princess.jpg",
+        "_PARENT": "3e1af456-5803-5ba3-842d-c66ab6a84ee5"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Tranquil Spa Music\n* Runway Show\n* Back Drop\n* Dress up clothes\n* Robes\n* Mini Manis\n* All natural facials including cucumbers for the eyes\n* Mini face beats including eye shadow and lip gloss\n* A sash for the birthday girl\n* Complete setup and breakdown\n  \n### $525 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/pampered-princess.md",
+      "fields": {
+        "slug": "/pampered-princess/"
+      }
+    },
+    "76bec0ad-afb2-52cb-869e-f2796699bf37": {
+      "id": "76bec0ad-afb2-52cb-869e-f2796699bf37",
+      "children": [],
+      "parent": "970852d9-1cd8-5e3a-8421-6d0e32ed3cb7",
+      "internal": {
+        "content": "\n* 2 hour time limit\n* Milk\n* Juice\n* Cookies\n* Music\n* Aprons\n* You have a choice between decorating cookies or painting a canvas\n* Party bag for the guest of honor\n* Back Drop\n  \n### $455 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "70cb213d340d5ad4e46efc43fc098710",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Sip and Dip",
+        "slug": "sip-and-dip",
+        "image": "sip-and-dip.jpg",
+        "_PARENT": "970852d9-1cd8-5e3a-8421-6d0e32ed3cb7"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Milk\n* Juice\n* Cookies\n* Music\n* Aprons\n* You have a choice between decorating cookies or painting a canvas\n* Party bag for the guest of honor\n* Back Drop\n  \n### $455 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/sip-and-dip.md",
+      "fields": {
+        "slug": "/sip-and-dip/"
+      }
+    },
+    "cc9141fe-4cff-5918-86bf-6d8f9718ac26": {
+      "id": "cc9141fe-4cff-5918-86bf-6d8f9718ac26",
+      "children": [],
+      "parent": "407e6cc7-cfb4-5086-8737-a6521e0d06bb",
+      "internal": {
+        "content": "\n* 2 hour min\n* 1 case of Adult-ish drink\n* Karoake\n* BYOB (will supply to cups, ice and cooler)\n* Lite snacks\n* Party picture\n* Strobe Lights\n* Complete setup and breakdown\n  \n### $350 for first 2 hours - Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "8dbc4c5728f4231076f2dac61d60140b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Grown-ish",
+        "slug": "grown-ish",
+        "image": "grown-ish.jpg",
+        "_PARENT": "407e6cc7-cfb4-5086-8737-a6521e0d06bb"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour min\n* 1 case of Adult-ish drink\n* Karoake\n* BYOB (will supply to cups, ice and cooler)\n* Lite snacks\n* Party picture\n* Strobe Lights\n* Complete setup and breakdown\n  \n### $350 for first 2 hours - Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/grown-ish.md",
+      "fields": {
+        "slug": "/grown-ish/"
+      }
+    },
+    "c8ed978f-868b-58d3-81fc-761d7188f33d": {
+      "id": "c8ed978f-868b-58d3-81fc-761d7188f33d",
+      "children": [],
+      "parent": "ec99ed65-26d0-5ad3-96c9-60501a5f447f",
+      "internal": {
+        "content": "\n* 3-hour time limit\n* $75.00 in décor of your choice\n* Velvet Ropes\n* VIP passes for party guest\n* Mini Waters and coke products\n* Back Drop\n* You have a choice between Kids BOP or Karaoke\n* All natural facials including cucumbers for the eyes\n* Mini Mani's and Mini Pedi's\n* Mini face beat including eye shadow, lip gloss and blush\n* Robes\n* Birthday Girl Sash\n* Party bag for the birthday girl\n* Complete setup and breakdown\n  \n### $575 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "53241dd4fea56050c9d44265dfbbc44a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "All Access",
+        "slug": "all-access",
+        "image": "all-access.jpg",
+        "_PARENT": "ec99ed65-26d0-5ad3-96c9-60501a5f447f"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 3-hour time limit\n* $75.00 in décor of your choice\n* Velvet Ropes\n* VIP passes for party guest\n* Mini Waters and coke products\n* Back Drop\n* You have a choice between Kids BOP or Karaoke\n* All natural facials including cucumbers for the eyes\n* Mini Mani's and Mini Pedi's\n* Mini face beat including eye shadow, lip gloss and blush\n* Robes\n* Birthday Girl Sash\n* Party bag for the birthday girl\n* Complete setup and breakdown\n  \n### $575 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/all-access.md",
+      "fields": {
+        "slug": "/all-access/"
+      }
+    },
+    "de96180c-bb8c-56c7-9788-ad6bf7a40795": {
+      "id": "de96180c-bb8c-56c7-9788-ad6bf7a40795",
+      "children": [],
+      "parent": "156ea314-5b89-57d1-ac6b-bf11522b2860",
+      "internal": {
+        "content": "\n* 1 hour daycare party\n* Cupcakes and Ice cream\n* Games\n* Ballons\n* Kids Bop or music of your choice\n* Water tattoos\n* Sash or Crown for the birthday girl/boy\n* Party picture\n* Complete setup and breakdown\n  \n### $175 - Up to 12 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "851f2548ea2599fc3b4cc35392536510",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Day Camp",
+        "slug": "the-day-camp",
+        "image": "the-day-camp.jpg",
+        "_PARENT": "156ea314-5b89-57d1-ac6b-bf11522b2860"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 1 hour daycare party\n* Cupcakes and Ice cream\n* Games\n* Ballons\n* Kids Bop or music of your choice\n* Water tattoos\n* Sash or Crown for the birthday girl/boy\n* Party picture\n* Complete setup and breakdown\n  \n### $175 - Up to 12 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/the-day-camp.md",
+      "fields": {
+        "slug": "/the-day-camp/"
+      }
+    },
+    "b5fc9233-704b-535f-84b8-0fa1fa146f70": {
+      "id": "b5fc9233-704b-535f-84b8-0fa1fa146f70",
+      "children": [],
+      "parent": "c546d8fd-dc71-561a-ba45-8c0f3376c6a3",
+      "internal": {
+        "content": "\n* 2 hour time limit\n* Karaoke\n* Music\n* Spotlights\n* Glow Cups\n* Glow Sticks\n* Glow Necklaces\n* Back Drop\n* Velvet Ropes\n* Mini waters and Coke products\n* Party picture\n* Complete setup and breakdown\n  \n### $475 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "3c56917645fdd58d8f16c61f34f6c277",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The Glow Up",
+        "slug": "he-glow-up",
+        "image": "the-glow-up.jpg",
+        "_PARENT": "c546d8fd-dc71-561a-ba45-8c0f3376c6a3"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Music\n* Spotlights\n* Glow Cups\n* Glow Sticks\n* Glow Necklaces\n* Back Drop\n* Velvet Ropes\n* Mini waters and Coke products\n* Party picture\n* Complete setup and breakdown\n  \n### $475 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/the-glow-up.md",
+      "fields": {
+        "slug": "/the-glow-up/"
+      }
+    },
+    "ff6f0b78-5e81-50e1-b3a9-81829473e0f1": {
+      "id": "ff6f0b78-5e81-50e1-b3a9-81829473e0f1",
+      "children": [],
+      "parent": "46b2d5f7-84f9-53f9-a256-9b9a278bfbe5",
+      "internal": {
+        "content": "\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water)\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n  \n### $550 - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "b75a9ae1e1ce95e6b60797723609d340",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "So You Think You Can Sing?",
+        "slug": "so-you-think-you-can-sing",
+        "image": "so-you-think-you-can-sing.jpg",
+        "_PARENT": "46b2d5f7-84f9-53f9-a256-9b9a278bfbe5"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* 2 hour time limit\n* Karaoke\n* Drinks (Coke products and water)\n* Lite snacks\n* Party pictures\n* Strobe lights\n* Complete setup and cleanup\n  \n### $550 - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/so-you-think-you-can-sing.md",
+      "fields": {
+        "slug": "/so-you-think-you-can-sing/"
+      }
+    },
+    "557d57d5-d919-510d-b32d-463759d6fbc0": {
+      "id": "557d57d5-d919-510d-b32d-463759d6fbc0",
+      "children": [],
+      "parent": "64c56fb0-4120-557a-be32-89d6458826cd",
+      "internal": {
+        "content": "\n* Bagels / Lite Appetizers\n* Fruit\n* Mimosas\n* Water\n* BYOB\n  xs\n### $150/hour - Up to 8 Guests",
+        "type": "MarkdownRemark",
+        "contentDigest": "686866a519b014b491028458c9a34a6c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Bridal Transportation",
+        "slug": "bridal-transportation",
+        "image": "bridal-transportation.jpg",
+        "_PARENT": "64c56fb0-4120-557a-be32-89d6458826cd"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n* Bagels / Lite Appetizers\n* Fruit\n* Mimosas\n* Water\n* BYOB\n  xs\n### $150/hour - Up to 8 Guests",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/packages/bridal-transportation.md",
+      "fields": {
+        "slug": "/bridal-transportation/"
+      }
+    },
+    "fc18cc50-135e-59aa-8ab1-5c71ce680285": {
+      "id": "fc18cc50-135e-59aa-8ab1-5c71ce680285",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1630a5da0d18aa7cd4bcdf26bddc18bf",
+        "type": "Directory",
+        "description": "Directory \"src/slideshow\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "relativePath": "",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-12-18T00:57:57.116Z",
+      "accessTime": "2018-12-18T02:12:35.540Z",
+      "changeTime": "2018-12-18T01:20:10.573Z",
+      "birthTime": "2018-12-18T00:45:39.150Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src",
+      "base": "slideshow",
+      "ext": "",
+      "name": "slideshow",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188132,
+      "blocks": 0,
+      "atimeMs": 1545099155539.7263,
+      "mtimeMs": 1545094677116.122,
+      "ctimeMs": 1545096010572.6143,
+      "birthtimeMs": 1545093939150.2908,
+      "atime": "2018-12-18T02:12:35.540Z",
+      "mtime": "2018-12-18T00:57:57.116Z",
+      "ctime": "2018-12-18T01:20:10.573Z",
+      "birthtime": "2018-12-18T00:45:39.150Z"
+    },
+    "f054a4e4-e8f7-56fd-8e33-59dcf56a9f73": {
+      "id": "f054a4e4-e8f7-56fd-8e33-59dcf56a9f73",
+      "children": [
+        "cc7f5e19-3667-5027-b624-17a2a3909e8a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "102aa650c1036c1f59798c1f1d0826f3",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/slideshow/slideshow-1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow/slideshow-1.jpg",
+      "relativePath": "slideshow-1.jpg",
+      "extension": "jpg",
+      "size": 86350,
+      "prettySize": "86.3 kB",
+      "modifiedTime": "2018-12-18T00:57:57.000Z",
+      "accessTime": "2018-12-18T01:24:52.913Z",
+      "changeTime": "2018-12-18T01:20:10.573Z",
+      "birthTime": "2018-12-18T00:57:56.997Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "base": "slideshow-1.jpg",
+      "ext": ".jpg",
+      "name": "slideshow-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188138,
+      "blocks": 176,
+      "atimeMs": 1545096292913.4915,
+      "mtimeMs": 1545094677000.0684,
+      "ctimeMs": 1545096010572.5269,
+      "birthtimeMs": 1545094676997.4314,
+      "atime": "2018-12-18T01:24:52.913Z",
+      "mtime": "2018-12-18T00:57:57.000Z",
+      "ctime": "2018-12-18T01:20:10.573Z",
+      "birthtime": "2018-12-18T00:57:56.997Z"
+    },
+    "9303164f-7e7f-561e-801e-549d79860762": {
+      "id": "9303164f-7e7f-561e-801e-549d79860762",
+      "children": [
+        "1436e274-627e-57eb-891d-d910fd3249c8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cf968cdfdbd3726351231df27facc9b0",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/slideshow/slideshow-6.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow/slideshow-6.jpg",
+      "relativePath": "slideshow-6.jpg",
+      "extension": "jpg",
+      "size": 107621,
+      "prettySize": "108 kB",
+      "modifiedTime": "2018-12-18T00:57:57.117Z",
+      "accessTime": "2018-12-18T01:24:52.901Z",
+      "changeTime": "2018-12-18T01:20:10.564Z",
+      "birthTime": "2018-12-18T00:57:57.116Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "base": "slideshow-6.jpg",
+      "ext": ".jpg",
+      "name": "slideshow-6",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188135,
+      "blocks": 216,
+      "atimeMs": 1545096292900.6848,
+      "mtimeMs": 1545094677117.202,
+      "ctimeMs": 1545096010564.0017,
+      "birthtimeMs": 1545094677116.108,
+      "atime": "2018-12-18T01:24:52.901Z",
+      "mtime": "2018-12-18T00:57:57.117Z",
+      "ctime": "2018-12-18T01:20:10.564Z",
+      "birthtime": "2018-12-18T00:57:57.116Z"
+    },
+    "cc7f5e19-3667-5027-b624-17a2a3909e8a": {
+      "id": "cc7f5e19-3667-5027-b624-17a2a3909e8a",
+      "children": [],
+      "parent": "f054a4e4-e8f7-56fd-8e33-59dcf56a9f73",
+      "internal": {
+        "contentDigest": "102aa650c1036c1f59798c1f1d0826f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9827a111-9ddc-51c3-9678-a1b68e8a1028": {
+      "id": "9827a111-9ddc-51c3-9678-a1b68e8a1028",
+      "children": [
+        "117bce73-4b0f-5a9b-a44e-9ae909346389"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c06c17018d98407c174cadea72ea422f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/slideshow/slideshow-2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow/slideshow-2.jpg",
+      "relativePath": "slideshow-2.jpg",
+      "extension": "jpg",
+      "size": 254787,
+      "prettySize": "255 kB",
+      "modifiedTime": "2018-12-18T00:57:57.038Z",
+      "accessTime": "2018-12-18T01:24:52.910Z",
+      "changeTime": "2018-12-18T01:20:10.572Z",
+      "birthTime": "2018-12-18T00:57:57.034Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "base": "slideshow-2.jpg",
+      "ext": ".jpg",
+      "name": "slideshow-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188137,
+      "blocks": 504,
+      "atimeMs": 1545096292909.6582,
+      "mtimeMs": 1545094677038.1716,
+      "ctimeMs": 1545096010571.6692,
+      "birthtimeMs": 1545094677033.509,
+      "atime": "2018-12-18T01:24:52.910Z",
+      "mtime": "2018-12-18T00:57:57.038Z",
+      "ctime": "2018-12-18T01:20:10.572Z",
+      "birthtime": "2018-12-18T00:57:57.034Z"
+    },
+    "1436e274-627e-57eb-891d-d910fd3249c8": {
+      "id": "1436e274-627e-57eb-891d-d910fd3249c8",
+      "children": [],
+      "parent": "9303164f-7e7f-561e-801e-549d79860762",
+      "internal": {
+        "contentDigest": "cf968cdfdbd3726351231df27facc9b0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4b2c70ee-7c2d-55d3-ae3c-374ff1956996": {
+      "id": "4b2c70ee-7c2d-55d3-ae3c-374ff1956996",
+      "children": [
+        "24ea0517-f2eb-5cf5-8d97-f4fba7fd6dc9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b21cb74ab9d2a9e9c21c7884e7b0149d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/slideshow/slideshow-4.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow/slideshow-4.jpg",
+      "relativePath": "slideshow-4.jpg",
+      "extension": "jpg",
+      "size": 238509,
+      "prettySize": "239 kB",
+      "modifiedTime": "2018-12-18T00:57:57.090Z",
+      "accessTime": "2018-12-18T02:06:22.152Z",
+      "changeTime": "2018-12-18T01:20:10.563Z",
+      "birthTime": "2018-12-18T00:57:57.085Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "base": "slideshow-4.jpg",
+      "ext": ".jpg",
+      "name": "slideshow-4",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188134,
+      "blocks": 472,
+      "atimeMs": 1545098782152.2412,
+      "mtimeMs": 1545094677090.451,
+      "ctimeMs": 1545096010563.213,
+      "birthtimeMs": 1545094677085.283,
+      "atime": "2018-12-18T02:06:22.152Z",
+      "mtime": "2018-12-18T00:57:57.090Z",
+      "ctime": "2018-12-18T01:20:10.563Z",
+      "birthtime": "2018-12-18T00:57:57.085Z"
+    },
+    "117bce73-4b0f-5a9b-a44e-9ae909346389": {
+      "id": "117bce73-4b0f-5a9b-a44e-9ae909346389",
+      "children": [],
+      "parent": "9827a111-9ddc-51c3-9678-a1b68e8a1028",
+      "internal": {
+        "contentDigest": "c06c17018d98407c174cadea72ea422f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6136abb9-d910-5afd-98ba-d95f969b5994": {
+      "id": "6136abb9-d910-5afd-98ba-d95f969b5994",
+      "children": [
+        "6bf8ab97-b8a3-5653-aa19-4a6af07fda82"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "458fef2f7f4d90ad3819f7edd2b9a4c7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/slideshow/slideshow-3.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow/slideshow-3.jpg",
+      "relativePath": "slideshow-3.jpg",
+      "extension": "jpg",
+      "size": 336681,
+      "prettySize": "337 kB",
+      "modifiedTime": "2018-12-18T00:57:57.053Z",
+      "accessTime": "2018-12-18T02:06:22.152Z",
+      "changeTime": "2018-12-18T01:20:10.565Z",
+      "birthTime": "2018-12-18T00:57:57.050Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "base": "slideshow-3.jpg",
+      "ext": ".jpg",
+      "name": "slideshow-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188136,
+      "blocks": 664,
+      "atimeMs": 1545098782152.2368,
+      "mtimeMs": 1545094677052.9285,
+      "ctimeMs": 1545096010564.8804,
+      "birthtimeMs": 1545094677049.7952,
+      "atime": "2018-12-18T02:06:22.152Z",
+      "mtime": "2018-12-18T00:57:57.053Z",
+      "ctime": "2018-12-18T01:20:10.565Z",
+      "birthtime": "2018-12-18T00:57:57.050Z"
+    },
+    "24ea0517-f2eb-5cf5-8d97-f4fba7fd6dc9": {
+      "id": "24ea0517-f2eb-5cf5-8d97-f4fba7fd6dc9",
+      "children": [],
+      "parent": "4b2c70ee-7c2d-55d3-ae3c-374ff1956996",
+      "internal": {
+        "contentDigest": "b21cb74ab9d2a9e9c21c7884e7b0149d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6bf8ab97-b8a3-5653-aa19-4a6af07fda82": {
+      "id": "6bf8ab97-b8a3-5653-aa19-4a6af07fda82",
+      "children": [],
+      "parent": "6136abb9-d910-5afd-98ba-d95f969b5994",
+      "internal": {
+        "contentDigest": "458fef2f7f4d90ad3819f7edd2b9a4c7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f60b2b0b-5ba1-50e8-aeed-544e6bc2244a": {
+      "id": "f60b2b0b-5ba1-50e8-aeed-544e6bc2244a",
+      "children": [
+        "39b60573-35f1-5d50-b581-fbe7f59182d9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50d196c1096d1f83320409fd40cf5fc3",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/slideshow/slideshow-5.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "slideshow",
+      "absolutePath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow/slideshow-5.jpg",
+      "relativePath": "slideshow-5.jpg",
+      "extension": "jpg",
+      "size": 800980,
+      "prettySize": "801 kB",
+      "modifiedTime": "2018-12-18T00:57:57.100Z",
+      "accessTime": "2018-12-18T02:06:22.152Z",
+      "changeTime": "2018-12-18T01:20:10.563Z",
+      "birthTime": "2018-12-18T00:57:57.096Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Suites-By-JK/src/slideshow",
+      "base": "slideshow-5.jpg",
+      "ext": ".jpg",
+      "name": "slideshow-5",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26188133,
+      "blocks": 1568,
+      "atimeMs": 1545098782152.2537,
+      "mtimeMs": 1545094677099.9548,
+      "ctimeMs": 1545096010562.6274,
+      "birthtimeMs": 1545094677095.6016,
+      "atime": "2018-12-18T02:06:22.152Z",
+      "mtime": "2018-12-18T00:57:57.100Z",
+      "ctime": "2018-12-18T01:20:10.563Z",
+      "birthtime": "2018-12-18T00:57:57.096Z"
+    },
+    "39b60573-35f1-5d50-b581-fbe7f59182d9": {
+      "id": "39b60573-35f1-5d50-b581-fbe7f59182d9",
+      "children": [],
+      "parent": "f60b2b0b-5ba1-50e8-aeed-544e6bc2244a",
+      "internal": {
+        "contentDigest": "50d196c1096d1f83320409fd40cf5fc3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /packages/pampered-princess": {
+      "jsonName": "packages-pampered-princess-93c",
+      "internalComponentName": "ComponentPackagesPamperedPrincess",
+      "path": "/packages/pampered-princess",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "pampered-princess",
+        "image": "pampered-princess.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/pampered-princess",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4be65f56e1d4f4eb682b1818735bc30f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/sip-and-dip": {
+      "jsonName": "packages-sip-and-dip-568",
+      "internalComponentName": "ComponentPackagesSipAndDip",
+      "path": "/packages/sip-and-dip",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "sip-and-dip",
+        "image": "sip-and-dip.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/sip-and-dip",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "96fdf54acab52b0718474555fdf130c9",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/grown-ish": {
+      "jsonName": "packages-grown-ish-096",
+      "internalComponentName": "ComponentPackagesGrownIsh",
+      "path": "/packages/grown-ish",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "grown-ish",
+        "image": "grown-ish.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/grown-ish",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a2c1dc89287940968a1e899ff7d80990",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/all-access": {
+      "jsonName": "packages-all-access-820",
+      "internalComponentName": "ComponentPackagesAllAccess",
+      "path": "/packages/all-access",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "all-access",
+        "image": "all-access.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/all-access",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3d4a8215dbd15a622783dba9d590c07d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/the-day-camp": {
+      "jsonName": "packages-the-day-camp-b83",
+      "internalComponentName": "ComponentPackagesTheDayCamp",
+      "path": "/packages/the-day-camp",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "the-day-camp",
+        "image": "the-day-camp.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/the-day-camp",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "20e6fe829783d4c29057e7fd8106d3c8",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/he-glow-up": {
+      "jsonName": "packages-he-glow-up-91e",
+      "internalComponentName": "ComponentPackagesHeGlowUp",
+      "path": "/packages/he-glow-up",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "he-glow-up",
+        "image": "the-glow-up.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/he-glow-up",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d7d0ef392907b739cb3853a882baa81b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/so-you-think-you-can-sing": {
+      "jsonName": "packages-so-you-think-you-can-sing-72f",
+      "internalComponentName": "ComponentPackagesSoYouThinkYouCanSing",
+      "path": "/packages/so-you-think-you-can-sing",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "so-you-think-you-can-sing",
+        "image": "so-you-think-you-can-sing.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/so-you-think-you-can-sing",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8c1b6e484ad5e9bab6f628d54d31475a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/bridal-transportation": {
+      "jsonName": "packages-bridal-transportation-888",
+      "internalComponentName": "ComponentPackagesBridalTransportation",
+      "path": "/packages/bridal-transportation",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "componentChunkName": "component---src-templates-package-js",
+      "context": {
+        "slug": "bridal-transportation",
+        "image": "bridal-transportation.jpg"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js",
+      "id": "SitePage /packages/bridal-transportation",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cce20ef7b530299bf2e07563f1ef6331",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "pluginCreatorId": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4f7676014edb875f612dbc5cbd2f5082",
+        "description": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "pluginCreatorId": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b33f7ae97403b449d164b37d20d1b348",
+        "description": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "pluginCreatorId": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "21c425e9bc7ba40ddc94deb5e4f13edc",
+        "description": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /meet-the-owners/": {
+      "jsonName": "meet-the-owners-da2",
+      "internalComponentName": "ComponentMeetTheOwners",
+      "path": "/meet-the-owners/",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/meet-the-owners.js",
+      "componentChunkName": "component---src-pages-meet-the-owners-js",
+      "context": {},
+      "pluginCreator___NODE": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "pluginCreatorId": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/meet-the-owners.js",
+      "id": "SitePage /meet-the-owners/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8b1b8f6995505b4811d575851d0384f1",
+        "description": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /packages/": {
+      "jsonName": "packages-8c3",
+      "internalComponentName": "ComponentPackages",
+      "path": "/packages/",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages.js",
+      "componentChunkName": "component---src-pages-packages-js",
+      "context": {},
+      "pluginCreator___NODE": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "pluginCreatorId": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages.js",
+      "id": "SitePage /packages/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "74408c57cd14c9489215e9888eabec17",
+        "description": "1b8ea869-b2ad-5e20-b94e-afcaf9fc4700",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "38fd60a2dab8bb2ccbefa122228a590e",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "79d8ca5cc8c3fd0e6afc12f2f09b9d4a"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/",
+        "/packages/",
+        "sq--src-components-layout-js",
+        "sq--src-components-package-layout-js"
+      ],
+      "cc7f5e19-3667-5027-b624-17a2a3909e8a": [
+        "/"
+      ],
+      "1436e274-627e-57eb-891d-d910fd3249c8": [
+        "/"
+      ],
+      "117bce73-4b0f-5a9b-a44e-9ae909346389": [
+        "/"
+      ],
+      "24ea0517-f2eb-5cf5-8d97-f4fba7fd6dc9": [
+        "/"
+      ],
+      "6bf8ab97-b8a3-5653-aa19-4a6af07fda82": [
+        "/"
+      ],
+      "39b60573-35f1-5d50-b581-fbe7f59182d9": [
+        "/"
+      ],
+      "f054a4e4-e8f7-56fd-8e33-59dcf56a9f73": [
+        "/"
+      ],
+      "9303164f-7e7f-561e-801e-549d79860762": [
+        "/"
+      ],
+      "9827a111-9ddc-51c3-9678-a1b68e8a1028": [
+        "/"
+      ],
+      "4b2c70ee-7c2d-55d3-ae3c-374ff1956996": [
+        "/"
+      ],
+      "6136abb9-d910-5afd-98ba-d95f969b5994": [
+        "/"
+      ],
+      "f60b2b0b-5ba1-50e8-aeed-544e6bc2244a": [
+        "/"
+      ],
+      "359693ca-5418-55c3-852a-8f1000a60228": [
+        "/meet-the-owners/"
+      ],
+      "a7de4961-9da3-53ce-af63-2b284f11b516": [
+        "/packages/pampered-princess"
+      ],
+      "1f4471af-c55c-57f6-bbde-02bfb1d69b1d": [
+        "/packages/sip-and-dip"
+      ],
+      "98088b60-d502-588b-81cf-62cc0ff94896": [
+        "/packages/pampered-princess"
+      ],
+      "76bec0ad-afb2-52cb-869e-f2796699bf37": [
+        "/packages/sip-and-dip"
+      ],
+      "f7a77f9a-dcb9-5ce6-a281-e38a663ee4f1": [
+        "/meet-the-owners/"
+      ],
+      "d74ccdf7-c7c6-5887-8a93-5ad127987527": [
+        "/packages/pampered-princess"
+      ],
+      "1b7b3ea5-1779-5050-96bd-0101512ca5a4": [
+        "/packages/sip-and-dip"
+      ],
+      "cc9141fe-4cff-5918-86bf-6d8f9718ac26": [
+        "/packages/grown-ish"
+      ],
+      "a8c7c0e7-f7e4-541f-a5b3-015737bc1bbd": [
+        "/packages/grown-ish"
+      ],
+      "d9c153ad-b856-57f6-af1a-483497493b05": [
+        "/packages/grown-ish"
+      ],
+      "c8ed978f-868b-58d3-81fc-761d7188f33d": [
+        "/packages/all-access"
+      ],
+      "f50030da-3bbf-5b8b-978f-06cd773addd1": [
+        "/packages/all-access"
+      ],
+      "773bb61a-c90c-5182-9ad1-81df3fc2cb8c": [
+        "/packages/all-access"
+      ],
+      "de96180c-bb8c-56c7-9788-ad6bf7a40795": [
+        "/packages/the-day-camp"
+      ],
+      "44b5a06a-a584-5497-8422-125a7bb5e56f": [
+        "/packages/the-day-camp"
+      ],
+      "b5fc9233-704b-535f-84b8-0fa1fa146f70": [
+        "/packages/he-glow-up"
+      ],
+      "2db1cecd-456d-58aa-a0f1-0a598c85352c": [
+        "/packages/he-glow-up"
+      ],
+      "060981ee-7910-5c9a-88cc-4fdfe1f12c35": [
+        "/packages/the-day-camp"
+      ],
+      "7e0ba4e3-0d1f-5d18-a802-5f34d47a93d4": [
+        "/packages/he-glow-up"
+      ],
+      "ff6f0b78-5e81-50e1-b3a9-81829473e0f1": [
+        "/packages/so-you-think-you-can-sing"
+      ],
+      "bee3b879-400e-550a-9cc9-a8c525b2c15c": [
+        "/packages/so-you-think-you-can-sing"
+      ],
+      "a28f8b57-2c8a-56af-aac8-09024954f770": [
+        "/packages/so-you-think-you-can-sing"
+      ],
+      "557d57d5-d919-510d-b32d-463759d6fbc0": [
+        "/packages/bridal-transportation"
+      ],
+      "90198bbe-d7b6-5c7d-a4ab-014163efeb00": [
+        "/packages/bridal-transportation"
+      ],
+      "706e7cc8-0624-581d-8123-0fc9effa1825": [
+        "/packages/bridal-transportation"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        null
+      ],
+      "File": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-package-layout-js": 751191782,
+    "sq--src-components-layout-js": 4058261110,
+    "packages-8c3": "945/path---packages-8-c-3-1d2-p5lVGPR7stz0o0gKQe8fEp4rM",
+    "index": "849/path---index-6a9-m4HAdbIFGoVXpWTNxP6mKGuHH0",
+    "meet-the-owners-da2": "65/path---meet-the-owners-da-2-389-4zNNZqUR6nPHXHPKtiqFeRFfOA",
+    "packages-pampered-princess-93c": "498/path---packages-pampered-princess-93-c-0e9-wZJoxPhfzHxVcQnVoJUild1zxY",
+    "packages-sip-and-dip-568": "907/path---packages-sip-and-dip-568-2f8-E2RlfbRHYAUJPDNxs2UFuxx4",
+    "packages-grown-ish-096": "570/path---packages-grown-ish-096-3e5-RGEHCqLOit8KXg0GMLdwm07sMAQ",
+    "packages-all-access-820": "433/path---packages-all-access-820-f13-ZlPe8rRUK3VvpSeCSk6hdqHwRg",
+    "packages-the-day-camp-b83": "139/path---packages-the-day-camp-b-83-496-LTovBfv6ruLWSUeZe9m59dc",
+    "packages-he-glow-up-91e": "550/path---packages-he-glow-up-91-e-32e-mAZx3JXhwmGgxnr2abDUIjRNtM",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "packages-so-you-think-you-can-sing-72f": "525/path---packages-so-you-think-you-can-sing-72-f-fa7-x3UjMQU28WlD9hw3uGf0So9ONU",
+    "packages-bridal-transportation-888": "835/path---packages-bridal-transportation-888-727-rxGLSpNyzknEYn3DH2UcLAZBzBU"
+  },
+  "components": {
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js": {
+      "query": "query usersShakhorProjectsWebSuitesByJkSrcTemplatesPackageJs2228088725(\n  $slug: String!\n  $image: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      slug\n      image\n    }\n  }\n  file(relativePath: {eq: $image}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/.cache/dev-404-page.js"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/contact.js"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/index.js": {
+      "query": "query usersShakhorProjectsWebSuitesByJkSrcPagesIndexJs4206898415 {\n  site {\n    siteMetadata {\n      title\n      packages {\n        name\n        link\n        image\n      }\n    }\n  }\n  allFile(filter: {sourceInstanceName: {eq: \"slideshow\"}}) {\n    edges {\n      node {\n        childImageSharp {\n          fluid(maxHeight: 400) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/index.js"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/meet-the-owners.js": {
+      "query": "query usersShakhorProjectsWebSuitesByJkSrcPagesMeetTheOwnersJs1958515245 {\n  file(relativePath: {eq: \"meet-the-owners.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/meet-the-owners.js"
+    },
+    "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages.js": {
+      "query": "query usersShakhorProjectsWebSuitesByJkSrcPagesPackagesJs2040805950 {\n  site {\n    siteMetadata {\n      packages {\n        name\n        link\n        image\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n        color\n      }\n    }\n  }\n}\n",
+      "hash": 4058261110
+    },
+    "sq--src-components-package-layout-js": {
+      "name": "SiteTitleQueryPkg",
+      "componentPath": "/Users/shakhor/Projects/Web/Suites-By-JK/src/components/PackageLayout.js",
+      "id": "sq--src-components-package-layout-js",
+      "jsonName": "sq--src-components-package-layout-js",
+      "query": "query SiteTitleQueryPkg {\n  site {\n    siteMetadata {\n      title\n      menuLinks {\n        name\n        link\n        color\n      }\n    }\n  }\n}\n",
+      "hash": 751191782
+    }
+  }
+}
