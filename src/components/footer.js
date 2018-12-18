@@ -4,7 +4,7 @@ import Instagram from '../images/instagram.svg'
 import Facebook from '../images/facebook.svg'
 import Mail from '../images/mail.svg'
 
-export default () => {
+const Footer = () => {
   const style = {
     margin: 0,
     height: 50,
@@ -71,3 +71,5 @@ export default () => {
     </React.Fragment>
   )
 }
+
+export default Footer

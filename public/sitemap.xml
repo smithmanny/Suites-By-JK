@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://shakhorsmith.com/blog/deploy-your-react-app-to-heroku</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/blog/how-i-became-a-web-developer-in-4-months</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/blog/website-redesign-v2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/blog/how-to-make-a-blog-with-react-and-graphql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/blog/launch-of-dev-collab</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/blog/my-workflow-software-engineer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shakhorsmith.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/sip-and-dip</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/bridal-transportation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/pampered-princess</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/so-you-think-you-can-sing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/grown-ish</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/all-access</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/he-glow-up</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/the-day-camp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/meet-the-owners/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://suitesbyjk.com/packages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
