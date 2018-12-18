@@ -43,7 +43,6 @@ const Layout = ({ children }) => (
         </Helmet>
 
           <ThemeProvider theme={theme}>
-            <React.Fragment>
               <Wrapper>
                 <GlobalStyle />
                 <Header
@@ -54,9 +53,8 @@ const Layout = ({ children }) => (
 
                 {children}
               </Wrapper>
-              <Footer />
-            </React.Fragment>
           </ThemeProvider>
+          <Footer />
       </>
     )}
   />
