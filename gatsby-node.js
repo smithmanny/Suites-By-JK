@@ -1,39 +1,49 @@
-const path = require('path');
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `packages` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+}
 
-  const packageTemplate = path.resolve('src/templates/package.js');
-
-  return graphql(`
-    {
-      allMarkdownRemark {
-        edges {
-          node {
-            html
-            id
-            frontmatter {
-              path
-              title
-              image
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+  return new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark {
+          edges {
+            node {
+              frontmatter {
+                slug
+                title
+                image
+              }
             }
           }
         }
       }
-    }
-  `).then(res => {
-    if (res.errors) {
-      return Promise.reject(res.errors);
-    }
-
-    res.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: packageTemplate,
-        context: {
-          image: node.frontmatter.image,
-        },
-      });
-    });
-  });
-};
+    `).then(result => {
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: `/packages/${ node.frontmatter.slug }`,
+          component: path.resolve(`./src/templates/package.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.frontmatter.slug,
+            image: node.frontmatter.image,
+          },
+        })
+      })
+      resolve()
+    })
+  })
+}

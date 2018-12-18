@@ -1,111 +1,105 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
-import Link from 'gatsby-link';
-import Slider from 'react-slick';
+import React from 'react'
+import styled from 'styled-components'
+import { graphql, Link } from 'gatsby'
+import { Slide } from 'react-slideshow-image'
+import Img from 'gatsby-image'
 
-import styles from '../stylesheets/index.module.scss';
-import Newsletter from '../components/newsletter';
+import Newsletter from '../components/shared/Newsletter'
+import Layout from '../components/layout'
 
-const IndexPage = ({ data }) => {
-  const images = data.allFile.edges.map(image => image.node.childImageSharp.sizes.src);
-  const settings = {
-    dots: false,
+export default ({ data }) => {
+  const slideImages = [
+    '../images/all-access.jpg',
+    '../images/all-access.jpg',
+    '../images/all-access.jpg',
+  ]
+
+  const properties = {
+    duration: 5000,
+    transitionDuration: 500,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+    indicators: true,
+    arrows: true
+  }
 
   return (
-    <div className="wrapper">
-      <section className={styles.quoteWrapper}>
-        <p>Enjoy the ultimate experience at your front door</p>
-      </section>
+    <Layout>
+      <Quote>
+        <QuoteTitle>Enjoy The Ultimate Experience At Your Front Door</QuoteTitle>
+      </Quote>
 
-      <section className="section">
-        <h2 className="sectionTitle">Services</h2>
+      <Title>Services</Title>
+      <ServiceWrapper>
+        {data.site.siteMetadata.packages.map(jkPackage => (
+          <Link key={jkPackage.name} to={`/packages/${ jkPackage.link }`}>
+            <img src={require(`../images/${ jkPackage.image }`)} alt={jkPackage.name} />
+          </Link>
+        ))}
+      </ServiceWrapper>
 
-        <div className={styles.servicesWrapper}>
-          <div className={styles.leftService}>
-            <ul>
-              <li>
-                <Link to="/packages/so-you-think-you-can-sing">
-                  So You Think You Can Sing <span className={styles.divider}>|</span>
-                  <span className={styles.packageType}> Karaoke</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/packages/all-access">
-                  All Access <span className={styles.divider}>|</span>
-                  <span className={styles.packageType}> VIP Kids</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/packages/the-day-camp">The Day Camp</Link>
-              </li>
-              <li>
-                <Link to="/packages/pampered-princess">Pampered Princess</Link>
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.rightService}>
-            <ul>
-              <li>
-                <Link to="/packages/bridal-transportation">Bridal Transportation</Link>
-              </li>
-              <li>
-                <Link to="/packages/the-glow-up">
-                  The Glow Up <span className={styles.divider}>|</span>
-                  <span className={styles.packageType}> Kids Glow Party</span>{' '}
-                </Link>
-              </li>
-              <li>
-                <Link to="/packages/sip-and-dip">
-                  Sip and Dip <span className={styles.divider}>|</span>
-                  <span className={styles.packageType}> Paint Party</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/packages/grown-ish">
-                  Grown-ish<span className={styles.divider}>|</span>
-                  <span className={styles.packageType}> 21 and older</span>{' '}
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
       <Newsletter />
-    </div>
-  );
-};
 
-IndexPage.defaultProps = {
-  data: null,
-};
-
-IndexPage.propTypes = {
-  data: PropTypes.shape(),
-};
+      <Slide {...properties}>
+        {data.allFile.edges.map(slideshow => (
+          <div className="each-slide" style={{ maxHeight: 600, marginTop: 20 }}>
+            <Img fluid={slideshow.node.childImageSharp.fluid} />
+          </div>
+        ))}
+      </Slide>
+    </Layout>
+  )
+}
 
 export const query = graphql`
-  query HomePageQuery {
-    allFile(filter: { sourceInstanceName: { eq: "home images" } }) {
+  query {
+    site {
+      siteMetadata {
+        title
+        packages {
+          name 
+          link
+          image
+        }
+      }
+    }
+
+    allFile(filter: {sourceInstanceName: {eq: "slideshow"}}) {
       edges {
         node {
-          name
-          relativePath
           childImageSharp {
-            sizes(maxWidth: 400, maxHeight: 275) {
-              ...GatsbyImageSharpSizes
+            # Specify the image processing specifications right in the query.
+            # Makes it trivial to update as your page's design changes.
+            fluid(maxHeight: 400) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
       }
     }
   }
-`;
+`
+const Title = styled.h2`
+  text-align: center;
+  margin: 50px 0;
+`
 
-export default IndexPage;
+const Quote = styled.div`
+  padding: 40px 0;
+  background-color: black;
+`
+
+const QuoteTitle = styled.h5`
+  color: ${ props => props.theme.secondary };
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: Oleo Script;
+`
+
+const ServiceWrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px 5px;
+`

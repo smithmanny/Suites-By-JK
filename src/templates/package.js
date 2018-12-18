@@ -1,44 +1,62 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import React from 'react'
+import Helmet from 'react-helmet'
+import { graphql, Link } from 'gatsby'
+import Img from 'gatsby-image'
+import styled from 'styled-components'
 
-import styles from '../stylesheets/packages.module.scss';
-import BookModal from '../components/bookModal';
+import Layout from '../components/PackageLayout'
+import { PageTitle } from '../components/shared/Text'
 
-const Package = ({ data }) => {
-  const { markdownRemark: post } = data;
+class JKPackage extends React.Component {
+  launchForm = () => {
+    <script dangerouslySetInnerHTML={{
+      __html: `
+      (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+      `
+    }} />
+  }
 
-  return (
-    <div className="wrapper">
-      <section className="section">
-        <h1 className={styles.packageTitle}>{post.frontmatter.title}</h1>
-        <div className={styles.packageLogo}>
-          <Img sizes={data.file.childImageSharp.sizes} />
-        </div>
-        <div className={styles.packageContent} dangerouslySetInnerHTML={{ __html: post.html }} />
-        <BookModal title={post.frontmatter.title} />
-      </section>
-    </div>
-  );
-};
+  render () {
+    const post = this.props.data.markdownRemark
+    const image = this.props.data.file.childImageSharp.fluid
 
-export default Package;
+    return (
+      <Layout>
+        <Helmet
+          title={`Suites By JK | ${ post.frontmatter.title }`}
+          meta={[
+            { name: 'description', content: post.frontmatter.title },
+            { property: 'og:title', content: `${ post.frontmatter.title } | Suites By JK` },
+            { property: 'og:url', content: `https://suitesbyjk/packages/${ post.frontmatter.slug }` },
+          ]}
+        />
+        <PackageTitle blogPost>{post.frontmatter.title}</PackageTitle>
 
-Package.defaultProps = {
-  data: null,
-};
+        <Img fluid={image} alt={post.title} style={{ maxWidth: 700, margin: 'auto', marginBottom: 30 }} />
 
-Package.propTypes = {
-  data: PropTypes.shape(),
-};
+        <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Button
+          target="_blank"
+          href="https://shakhorsmith.typeform.com/to/kcOBu0"
+          data-mode="popup"
+          data-submit-close-delay="5"
+        >
+          Schedule Now
+        </Button>
+      </Layout>
+    )
+  }
+}
+
+export default JKPackage
 
 export const query = graphql`
-  query PackageBySlug($path: String!, $image: String) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($slug: String!, $image: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        path
         title
+        slug
         image
       }
     }
@@ -47,10 +65,42 @@ export const query = graphql`
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        sizes(maxWidth: 350, maxHeight: 350) {
-          ...GatsbyImageSharpSizes
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
   }
-`;
+`
+
+const Button = styled.a`
+  background-color: ${ props => props.theme.primary };
+  background-image: none;
+  border: none;
+  color: #FFF;
+  width: 150px;
+  height: 45px;
+  border-radius: 75px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: none;
+
+  :hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+`
+
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+const PackageTitle = styled.h2`
+  text-align: center;
+  color: ${ props => props.theme.title };
+  margin: 50px 0;
+`

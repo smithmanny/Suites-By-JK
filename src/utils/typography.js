@@ -1,4 +1,7 @@
-import Typography from 'typography';
+import Typography from 'typography'
+import { theme } from '../theme/globalStyles'
+
+import BG from '../images/waves-pattern.svg'
 
 const typography = new Typography({
   baseFontSize: '18px',
@@ -16,10 +19,24 @@ const typography = new Typography({
     },
   ],
   overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    'body': {
+      backgroundImage: `url(${ BG })`,
+    },
+    'a': {
+      color: theme.primary,
+      textShadow: 'none',
+      textDecoration: 'none',
+      backgroundImage: 'none',
+    },
     p: {
       lineHeight: '45px',
     },
   }),
-});
+})
 
-export default typography;
+// Hot reload typography in development.
+if (process.env.NODE_ENV !== 'production') {
+  typography.injectStyles()
+}
+
+export default typography
