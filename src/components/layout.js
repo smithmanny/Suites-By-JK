@@ -31,8 +31,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Suites By JK' },
-            { name: 'keywords', content: 'suites by jk' },
+            { name: 'description', content: 'Suites By JK is party bus for all your needs. Book our bus for all your events in Atlanta, GA.' },
+            { name: 'keywords', content: 'Suites By JK, private parties, bus' },
             { property: 'og:type', content: 'profile' },
             { property: 'og:title', content: 'Suites By JK' },
             { property: 'og:site_name', content: 'Suite By JK' },
@@ -54,7 +54,6 @@ const Layout = ({ children }) => (
                 {children}
               </Wrapper>
           </ThemeProvider>
-          {/* <Footer /> */}
       </>
     )}
   />

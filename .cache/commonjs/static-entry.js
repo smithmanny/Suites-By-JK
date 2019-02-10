@@ -78,7 +78,8 @@ var _default = (pagePath, callback) => {
   let bodyHtml = ``;
   let headComponents = [React.createElement("meta", {
     name: "generator",
-    content: `Gatsby ${gatsbyVersion}`
+    content: `Gatsby ${gatsbyVersion}`,
+    key: `generator-${gatsbyVersion}`
   })];
   let htmlAttributes = {};
   let bodyAttributes = {};
@@ -276,10 +277,10 @@ var _default = (pagePath, callback) => {
   if (page.jsonName in dataPaths) {
     const dataPath = `${__PATH_PREFIX__}/static/d/${dataPaths[page.jsonName]}.json`;
     headComponents.push(React.createElement("link", {
+      as: "fetch",
       rel: "preload",
       key: dataPath,
       href: dataPath,
-      as: "fetch",
       crossOrigin: "use-credentials"
     }));
   }

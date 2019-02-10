@@ -1,5 +1,5 @@
 ---
-slug: 'he-glow-up'
+slug: 'the-glow-up'
 title: 'The Glow Up'
 image: 'the-glow-up.jpg'
 ---
@@ -17,4 +17,4 @@ image: 'the-glow-up.jpg'
 * Party picture
 * Complete setup and breakdown
   
-### $475 - Up to 8 Guests
+### $500 - Up to 8 Guests

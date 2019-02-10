@@ -2,8 +2,8 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/node_modules/gatsby-plugin-offline/app-shell.js" /* webpackChunkName: "component---node-modules-gatsby-plugin-offline-app-shell-js" */),
   "component---src-templates-package-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/src/templates/package.js" /* webpackChunkName: "component---src-templates-package-js" */),
+  "component---cache-dev-404-page-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-contact-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-index-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
@@ -11,5 +11,5 @@ exports.components = {
   "component---src-pages-packages-js": () => import("/Users/shakhor/Projects/Web/Suites-By-JK/src/pages/packages.js" /* webpackChunkName: "component---src-pages-packages-js" */)
 }
 
-exports.data = () => import("/Users/shakhor/Projects/Web/Suites-By-JK/.cache/data.json")
+exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/shakhor/Projects/Web/Suites-By-JK/.cache/data.json")
 

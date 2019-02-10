@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 import styled from 'styled-components'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import NotificationSystem from 'react-notification-system'
@@ -72,6 +71,7 @@ export default class Newsletter extends Component {
 
 const Title = styled.h3`
   text-align: center;
+  margin-top: 50px;
 `
 
 const NewsletterInput = styled.input`
@@ -87,6 +87,7 @@ const NewsletterWrapper = styled.div`
   flex-wrap: wrap;
   width: 70%;
   margin: auto;
+  margin-bottom: 50px;
   text-align: center;
   align-items: center;
 `

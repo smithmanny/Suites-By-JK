@@ -26,7 +26,7 @@ export default ({ data }) => {
       <ServiceWrapper>
         {data.site.siteMetadata.packages.map(jkPackage => (
           <Link key={jkPackage.name} to={`/packages/${ jkPackage.link }`}>
-            <img src={require(`../images/${ jkPackage.image }`)} alt={jkPackage.name} />
+            <h3>{jkPackage.name}</h3>
           </Link>
         ))}
       </ServiceWrapper>
@@ -83,7 +83,7 @@ const Quote = styled.div`
 `
 
 const QuoteTitle = styled.h5`
-  color: ${ props => props.theme.secondary };
+  color: #ed6eae;
   text-align: center;
   margin: 0;
   font-size: 25px;
@@ -96,4 +96,5 @@ const ServiceWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px 5px;
+  text-align: center;
 `
