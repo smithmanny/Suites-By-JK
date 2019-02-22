@@ -8,7 +8,7 @@ import { PageTitle, PageSubTitle } from '../components/shared/Text'
 export default ({ data }) => (
   <Layout>
     <PageTitle>Our Packages</PageTitle>
-    <PageSubTitle>*There will be an extra $50 traveling fee 30 miles outside of the Greater Atlanta area.</PageSubTitle>
+    <PageSubTitle>*There will be an extra $50 traveling fee every 30 miles outside of the Greater Atlanta area.</PageSubTitle>
 
     <ServiceWrapper>
       {data.site.siteMetadata.packages.map(jkPackage => (

@@ -50,6 +50,8 @@ const PackageLayout = ({ children }) => (
               />
 
               {children}
+              <Small>*50% non-refundable deposit required*</Small>
+              <Small>*There will be an extra $50 traveling fee every 30 miles outside of the Greater Atlanta area.*</Small>
             </Wrapper>
           </ThemeProvider>
       </>
@@ -71,6 +73,12 @@ const Wrapper = styled.div`
   max-width: 1000px;
   padding: 1.45rem 1.0875rem;
   background-color: #FFF;
+`
+
+const Small = styled.small`
+  display: flex;
+  justify-content: center;
+  text-align: center;
 `
 
 PackageLayout.propTypes = {
