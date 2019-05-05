@@ -39,7 +39,7 @@
     "react-notification-system": "^0.2.17",
     "react-slideshow-image": "^1.0.9",
     "react-typography": "^0.16.13",
-    "snyk": "^1.124.1",
+    "snyk": "^1.161.1",
     "styled-components": "^4.0.3",
     "typography": "^0.16.18",
     "typography-theme-twin-peaks": "^0.16.18",
@@ -56,7 +56,8 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "snyk test",
     "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect; npm run snyk-protect"
+    "prepare": "yarn run snyk-protect; npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {},
   "repository": {
