@@ -36,6 +36,11 @@
     },
     {
         "componentChunkName": "component---src-templates-package-js",
+        "jsonName": "packages-adult-transportation-506",
+        "path": "/packages/adult-transportation"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
         "jsonName": "packages-all-access-820",
         "path": "/packages/all-access"
     },
@@ -63,6 +68,11 @@
         "componentChunkName": "component---src-templates-package-js",
         "jsonName": "packages-so-you-think-you-can-sing-72f",
         "path": "/packages/so-you-think-you-can-sing"
+    },
+    {
+        "componentChunkName": "component---src-templates-package-js",
+        "jsonName": "packages-teen-party-985",
+        "path": "/packages/teen-party"
     },
     {
         "componentChunkName": "component---src-templates-package-js",

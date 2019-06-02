@@ -13,4 +13,4 @@ image: 'grown-ish.jpg'
 * Strobe Lights
 * Complete setup and breakdown
   
-### $350 for first 2 hours - Guests
+### $350 for first 2 hours

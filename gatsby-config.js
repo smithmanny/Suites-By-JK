@@ -64,6 +64,16 @@ module.exports = {
         link: 'grown-ish',
         image: 'grown-ish.jpg'
       },
+      {
+        name: 'Adult Transportation',
+        link: 'adult-transportation',
+        image: 'adult-transportation.jpg'
+      },
+      {
+        name: 'Teen Party',
+        link: 'teen-party',
+        image: 'teen-party.jpg'
+      },
     ]
   },
   plugins: [
