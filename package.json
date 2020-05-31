@@ -37,7 +37,7 @@
     "react-dom": "^16.7.0-alpha.0",
     "react-helmet": "^5.2.0",
     "react-notification-system": "^0.2.17",
-    "react-slideshow-image": "^1.0.9",
+    "react-slideshow-image": "^1.5.3",
     "react-typography": "^0.16.13",
     "snyk": "^1.124.1",
     "styled-components": "^4.0.3",
