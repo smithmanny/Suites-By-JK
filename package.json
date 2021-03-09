@@ -17,7 +17,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
-    "gatsby": "^2.0.64",
+    "gatsby": "^3.0.0",
     "gatsby-image": "^2.0.25",
     "gatsby-plugin-mailchimp": "4.1.0",
     "gatsby-plugin-manifest": "^2.0.5",
